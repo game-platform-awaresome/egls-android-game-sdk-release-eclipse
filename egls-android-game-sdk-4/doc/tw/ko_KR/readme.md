@@ -13,14 +13,14 @@ Google API 관리자 페이지 “OAuth 2.0 클라이인트 ID”리스트중，
 Facebook앱 아이디입니다.
 ### 3. 개발환경
 #### 3.1 관계도
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3TW/blob/master/res/S4TW000.png)<br/>
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/tw/S4TW000.png)<br/>
 Demo 가 SDK 연동을 완료한 프로젝트라면,Demo를egls-agp-sdk-release로 복사합니다（이하AGP）.AGP를egls-ags-sdk-release에복사합니다（이하AGS）.而AGS要引入“google-android-gms-sdk-release-11.0.1”.
 #### 3.2 AGP lib 선택
 대만/홍콩 에서 퍼블리싱 하는 게임은,아래 빨간색 표식한Lib파일만 필요합니다.<br/>
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3TW/blob/master/res/S4TW001.png)
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/tw/S4TW001.png)
 #### 3.3 AGS lib 선택
 대만/홍콩 에서 퍼블리싱 하는 게임은,아래 빨간색 표식한Lib파일만 필요합니다.<br/>
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3TW/blob/master/res/S4TW002.png)<br/>
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/tw/S4TW002.png)<br/>
 MyCardPaySDK.jar ->Mycard결제용<br/>
 clientsdk_product_v2.jar -> Gash결제용<br/>
 #### 3.4 UnitySDK연동
