@@ -15,14 +15,14 @@
 在OneStore后台生成的应用id。
 ### 3. 环境搭建
 #### 3.1 依赖关系
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3KR/blob/master/res/S4KR000.png)<br/>
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/kr/S4KR000.png)<br/>
 如上图所示：假设Demo为SDK对接完毕的安卓游戏工程，那么Demo引入“egls-agp-sdk-release”（以下简称AGP）；而AGP引入“egls-ags-sdk-release”（以下简称为AGS）；而AGS要引入“google-android-gms-sdk-release-11.0.1”和“naver-android-cafe-sdk-2.4.3”。
 #### 3.2 AGP lib 选择
 针对于在韩国地区发行的游戏，我们只需要如下图红框所示的lib文件：<br/>
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3KR/blob/master/res/S4KR001.png)
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/kr/S4KR001.png)
 #### 3.3 AGS lib 选择
 针对于在韩国地区发行的游戏，我们只需要如下图红框所示的lib文件：<br/>
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3KR/blob/master/res/S4KR002.png)<br/>
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/kr/S4KR002.png)<br/>
 iap_plugin_v16.03.00_20161123.jar -> 用于OneStore支付。<br/>
 #### 3.4 关于Unity的SDK接入
 a. 首先使用Android IDE工具自建一个安卓项目工程后并完成SDK的接入工作；<br/><br/>
