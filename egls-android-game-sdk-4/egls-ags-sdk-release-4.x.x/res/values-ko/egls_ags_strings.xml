@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010-2013 The SINA WEIBO Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+    <!-- google begin -->
+    <string name="egls_agg_confirm">"확인"</string>
+    <string name="egls_agg_cancel">"취소"</string>
+    <string name="egls_agg_authorization_timeout">"로그인 시간 초과. 다시 시도해주세요!"</string>
+    <string name="egls_agg_submitting_data">"데이터 전송중. 잠시만 기다려주세요…"</string>
+    <string name="egls_agg_login">"Sign in with Google"</string>
+    <string name="egls_agg_logout">"Log out"</string>
+    <string name="egls_agg_will_auto_login_start">""</string>
+    <string name="egls_agg_will_auto_login_end">" 초후 자동 로그인…"</string>
+    <string name="egls_agg_try_login">"로그인 재시도"</string>
+    <!-- google end -->
+
+
+    <!-- 微信 begin -->
+    <string name="egls_share_wx_init_ok">"WeChat 데이터 초기화 성공"</string>
+    <string name="egls_share_wx_init_fail">"WeChat 데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_wx_installed">"WeChat을 설치 했습니다."</string>
+    <string name="egls_share_wx_uninstalled">"휴대폰에 WeChat이 설치되지 않아 공유할 수 없습니다."</string>
+    <!-- 微信 end -->
+
+
+    <!-- QQ begin -->
+    <string name="egls_share_qq_init_ok">"QQ 데이터 초기화 성공"</string>
+    <string name="egls_share_qq_init_fail">"QQ 데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_qq_installed">"QQ을 설치 했습니다."</string>
+    <string name="egls_share_qq_uninstalled">"휴대폰에 QQ이 설치되지 않아 공유할 수 없습니다."</string>
+    <!-- QQ end -->
+
+
+    <!-- 微博 begin -->
+    <string name="egls_share_wb_init_ok">"Weibo 데이터 초기화 성공"</string>
+    <string name="egls_share_wb_init_fail">"Weibo 데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_wb_installed">"Weibo를 설치하였습니다"</string>
+    <string name="egls_share_wb_uninstalled">"휴대폰에 Weibo가 설치되지 않아 공유할 수 없습니다."</string>
+    <!-- 微博 end -->
+
+
+    <!-- Facebook begin -->
+    <string name="egls_share_fb_init_ok">"Facebook데이터 초기화 성공"</string>
+    <string name="egls_share_fb_init_fail">"Facebook데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_fb_installed">"Facebook데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_fb_uninstalled">"휴대폰에 Facebook가 설치되지 않아 공유할 수 없습니다."</string>
+    <!-- Facebook end -->
+
+
+    <!-- LINE begin -->
+    <string name="egls_share_ln_init_ok">"LINE데이터 초기화 성공"</string>
+    <string name="egls_share_ln_init_fail">"LINE데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_ln_installed">"휴대폰에 LINE을 설치 했습니다."</string>
+    <string name="egls_share_ln_uninstalled">"휴대폰에 LINE이 설치되지 않아 공유할 수 없습니다."</string>
+    <!-- LINE end -->
+
+
+    <!-- Twitter begin -->
+    <string name="egls_share_tw_init_ok">"Twitter데이터 초기화 성공"</string>
+    <string name="egls_share_tw_init_fail">"Twitter데이터 초기화 실패. 공유할 수 없습니다."</string>
+    <string name="egls_share_tw_installed">"Twitter를 설치 했습니다."</string>
+    <string name="egls_share_tw_uninstalled">"휴대폰에 Twitter가 설치되지 않아 공유할 수 없습니다."</string>
+    <!-- Twitter end -->
+
+
+    <!-- payment -->
+    <string name="egls_ags_payment_finish">"결제를 완료하였습니다. "</string>
+    <string name="egls_ags_payment_resend">"결제 중 오류가 발생하여 재시도 중입니다."</string>
+
+    <!-- share -->
+    <string name="egls_ags_share_title">"공유하기"</string>
+    <string name="egls_ags_share_save_image_success">"이미지 저장 성공"</string>
+    <string name="egls_ags_share_save_image_done">"이미지 저장 완료"</string>
+    <string name="egls_ags_share_save_image_fail">"이미지 저장 실패"</string>
+
+</resources>

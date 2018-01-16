@@ -1,0 +1,332 @@
+<resources>
+
+    <!-- AccountLogin begin -->
+    <string name="egls_agp_accountLogin_hint_1">"계정을 입력하세요"</string>
+    <string name="egls_agp_accountLogin_hint_2">"비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_accountLogin_text_1">"확인"</string>
+    <string name="egls_agp_accountLogin_text_2">"비밀번호 분실"</string>
+    <!-- AccountLogin end -->
+
+
+    <!-- Agreement begin -->
+    <string name="egls_agp_agreement_text_1">"EGLS사용자서비스동의"</string>
+    <string name="egls_agp_agreement_text_2">""</string>
+    <!-- Agreement end -->
+
+
+    <!-- AlreadyLogin begin -->
+    <string name="egls_agp_alreadylogin_text_1">"게임 입장"</string>
+    <string name="egls_agp_alreadylogin_text_2">"기타 계정"</string>
+    <string name="egls_agp_alreadylogin_text_3">"계정등록"</string>
+    <string name="egls_agp_alreadylogin_text_4">"로그인 방식을 선택하세요"</string>
+    <!-- AlreadyLogin end -->
+
+
+    <!-- BindAccount begin -->
+    <string name="egls_agp_bindaccount_text_1">"계정 연동"</string>
+    <string name="egls_agp_bindaccount_text_2">"계정을 연동 후 충전 및 사용자 센터의 기능을 사용할 수 있습니다. 계정을 안전하게 지키기 위해 연동해주세요!"</string>
+    <!-- BindAccount end -->
+
+
+    <!-- BindEmail begin -->
+    <string name="egls_agp_bindemail_text_1">"메일 주소 연동"</string>
+    <string name="egls_agp_bindemail_text_2">"메일 주소 입력"</string>
+    <string name="egls_agp_bindemail_text_3">"인증 번호 입력"</string>
+    <string name="egls_agp_bindemail_text_4">"연동 성공"</string>
+    <string name="egls_agp_bindemail_text_5">"다음&gt;&gt;"</string>
+    <string name="egls_agp_bindemail_text_6">"&lt;&lt;뒤로 가기"</string>
+    <string name="egls_agp_bindemail_text_7">"인증번호 확인"</string>
+    <string name="egls_agp_bindemail_text_8">"해당 메일 주소로 계정을 연동했습니다!"</string>
+    <string name="egls_agp_bindemail_hint_1">"연동할 메일 주소를 입력하세요"</string>
+    <string name="egls_agp_bindemail_hint_2">"인증 번호를 입력해주세요"</string>
+    <!-- BindEmail end -->
+
+
+    <!-- BindMobile begin -->
+    <string name="egls_agp_bindemobile_text_1">"스마트폰 연동"</string>
+    <string name="egls_agp_bindemobile_text_2">"번호 입력"</string>
+    <string name="egls_agp_bindemobile_text_3">"인증 번호 입력"</string>
+    <string name="egls_agp_bindemobile_text_4">"연동 성공"</string>
+    <string name="egls_agp_bindemobile_text_5">"다음&gt;&gt;"</string>
+    <string name="egls_agp_bindemobile_text_6">"&lt;&lt;뒤로 가기"</string>
+    <string name="egls_agp_bindemobile_text_7">"인증번호 확인"</string>
+    <string name="egls_agp_bindemobile_text_8">"해당 스마트폰으로 계정을 연동했습니다!"</string>
+    <string name="egls_agp_bindemobile_hint_1">"번호를 입력하세요"</string>
+    <string name="egls_agp_bindemobile_hint_2">"인증 번호를 입력해주세요"</string>
+    <!-- BindMobile end -->
+
+
+    <!-- Dialog begin -->
+    <string name="egls_agp_dialog_text_1">"권한설정"</string>
+    <string name="egls_agp_dialog_text_2">"확인"</string>
+    <string name="egls_agp_dialog_text_3">"취소"</string>
+    <!-- Dialog end -->
+
+
+    <!-- Floate begin -->
+    <string name="egls_agp_floate_text_1">"고객센터"</string>
+    <string name="egls_agp_floate_text_2">"개인정보"</string>
+    <string name="egls_agp_floate_text_3">"이용약관"</string>
+    <string name="egls_agp_floate_text_4">"Naver Cafe"</string>
+    <!-- Floate end -->
+
+
+    <!-- Find begin -->
+    <string name="egls_agp_find_text_1">"비밀번호 찾기"</string>
+    <string name="egls_agp_find_text_2">"인증번호 확인"</string>
+    <string name="egls_agp_find_text_3">"확인"</string>
+    <string name="egls_agp_find_hint_1">"비밀번호를 찾을 계정을 입력하세요"</string>
+    <string name="egls_agp_find_hint_2">"인증 번호를 입력해주세요"</string>
+    <!-- Find end -->
+
+
+    <!-- Forget begin -->
+    <string name="egls_agp_forget_text_1">"비밀번호 찾기"</string>
+    <string name="egls_agp_forget_text_2">"연동 완료 후,연동된 메일 주소 및 기기로 비밀번호를 찾을수 있습니다. 혹은 고객센터를 통해 도움을 받을 수 있습니다."</string>
+    <string name="egls_agp_forget_text_3">"메일 주소"</string>
+    <string name="egls_agp_forget_text_4">"고객센터"</string>
+    <string name="egls_agp_forget_text_5">"스마트폰 통과"</string>
+    <!-- Forget end -->
+
+
+    <!-- Forget Customer begin -->
+    <string name="egls_agp_forgetcustomer_text_1">"비밀번호 찾기"</string>
+    <string name="egls_agp_forgetcustomer_text_2">"콜센터"</string>
+    <string name="egls_agp_forgetcustomer_text_3">"고객센터 메일 주소"</string>
+    <string name="egls_agp_forgetcustomer_text_4">"4009952288"</string>
+    <string name="egls_agp_forgetcustomer_text_5">"zh@egls.cn"</string>
+    <string name="egls_agp_forgetcustomer_text_6">"비밀번호를 찾을 계정을 입력해주세요"</string>
+    <!-- Forget Customer end -->
+
+
+    <!-- Forget Email begin -->
+    <string name="egls_agp_forgetemail_text_1">"비밀번호 찾기"</string>
+    <string name="egls_agp_forgetemail_text_2">"계정 입력"</string>
+    <string name="egls_agp_forgetemail_text_3">"인증 번호 입력"</string>
+    <string name="egls_agp_forgetemail_text_4">"찾기 완료"</string>
+    <string name="egls_agp_forgetemail_text_5">"다음&gt;&gt;"</string>
+    <string name="egls_agp_forgetemail_text_6">"&lt;&lt;뒤로 가기"</string>
+    <string name="egls_agp_forgetemail_text_7">"인증번호 확인"</string>
+    <string name="egls_agp_forgetemail_text_8">"비밀번호 수정 성공! 새로운 비밀번호는 메일에서 확인해 주세요."</string>
+    <string name="egls_agp_forgetemail_hint_1">"비밀번호를 찾을 계정을 입력하세요"</string>
+    <string name="egls_agp_forgetemail_hint_2">"인증 번호를 입력해주세요"</string>
+    <!-- Forget Email end -->
+
+
+    <!-- Forget Mobile begin -->
+    <string name="egls_agp_forgetmobile_text_1">"비밀번호 찾기"</string>
+    <string name="egls_agp_forgetmobile_text_2">"계정 입력"</string>
+    <string name="egls_agp_forgetmobile_text_3">"인증 번호 입력"</string>
+    <string name="egls_agp_forgetmobile_text_4">"찾기 완료"</string>
+    <string name="egls_agp_forgetmobile_text_5">"다음&gt;&gt;"</string>
+    <string name="egls_agp_forgetmobile_text_6">"&lt;&lt;뒤로 가기"</string>
+    <string name="egls_agp_forgetmobile_text_7">"인증번호 확인"</string>
+    <string name="egls_agp_forgetmobile_text_8">"비밀번호 수정 성공! 새로운 비밀번호는 메시지에서 확인해 주세요."</string>
+    <string name="egls_agp_forgetmobile_hint_1">"비밀번호를 찾을 계정을 입력하세요"</string>
+    <string name="egls_agp_forgetmobile_hint_2">"인증 번호를 입력해주세요"</string>
+    <!-- Forget Mobile end -->
+
+
+    <!-- Index begin -->
+    <string name="egls_agp_index_text_1">"게스트 로그인"</string>
+    <string name="egls_agp_index_text_2">"계정로그인"</string>
+    <string name="egls_agp_index_text_3">"계정등록"</string>
+    <string name="egls_agp_index_text_4">"로그인 방식을 선택하세요"</string>
+    <string name="egls_agp_index_text_5">"OR"</string>
+    <!-- Index end -->
+
+
+    <!-- Modify begin -->
+    <string name="egls_agp_modify_text_1">"비밀번호 수정"</string>
+    <string name="egls_agp_modify_text_2">"비밀 번호 형식은 6자 이상 16자 이하의 문자, 숫자, 영어 대소문자를 사용하여 생성해주세요."</string>
+    <string name="egls_agp_modify_text_3">"확인"</string>
+    <string name="egls_agp_modify_hint_1">"기존 비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_modify_hint_2">"새로운 비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_modify_hint_3">"새로운 비밀 번호를 확인해주세요"</string>
+    <!-- Modify end -->
+
+
+    <!-- New Account begin -->
+    <string name="egls_agp_newaccount_text_1">"스마트폰 연동"</string>
+    <string name="egls_agp_newaccount_text_2">"메일주소 연동"</string>
+    <string name="egls_agp_newaccount_text_3">"인증번호 확인"</string>
+    <string name="egls_agp_newaccount_text_4">"읽음 및 동의“"</string>
+    <string name="egls_agp_newaccount_text_5">"EGLS사용자서비스동의"</string>
+    <string name="egls_agp_newaccount_text_6">"”"</string>
+    <string name="egls_agp_newaccount_text_7">"확인"</string>
+    <string name="egls_agp_newaccount_text_8">"선택 :"</string>
+    <string name="egls_agp_newaccount_text_9">"스마트폰 등록"</string>
+    <string name="egls_agp_newaccount_text_10">"메일주소 등록"</string>
+    <string name="egls_agp_newaccount_hint_1">"번호를 입력하세요"</string>
+    <string name="egls_agp_newaccount_hint_2">"인증 번호를 입력해주세요"</string>
+    <string name="egls_agp_newaccount_hint_3">"비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_newaccount_hint_4">"메일 주소를 입력하세요"</string>
+    <!-- New Account end -->
+
+
+    <!-- Payment begin -->
+    <string name="egls_agp_payment_text_1">"충전"</string>
+    <string name="egls_agp_payment_text_2">"현재 충전금액:"</string>
+    <string name="egls_agp_payment_text_3">"충전방식을 선택하세요"</string>
+    <!-- Payment end -->
+
+
+    <!-- Payment Card begin -->
+    <string name="egls_agp_paymentcard_text_1">"충전"</string>
+    <string name="egls_agp_paymentcard_text_2">"충전 카드의 금액을 선택하세요. 만약 충전카드금액과 충전 금액이 일치하지 않으면 충전에 실패하며 충전카드를 사용할 수 없을수도 있습니다."</string>
+    <string name="egls_agp_paymentcard_text_3">"지불"</string>
+    <string name="egls_agp_paymentcard_hint_1">"충전 카드 번호를 입력해주세요"</string>
+    <string name="egls_agp_paymentcard_hint_2">"충전 카드 비밀 번호를 입력해주세요"</string>
+    <!-- Payment Card end -->
+
+
+    <!-- Register begin -->
+    <string name="egls_agp_register_text_1">"계정등록"</string>
+    <string name="egls_agp_register_text_2">"비밀 번호 형식은 6자 이상 16자 이하의 문자, 숫자, 영어 대소문자를 사용하여 생성해주세요"</string>
+    <string name="egls_agp_register_text_3">"《EGLS사용자서비스동의》에 동의합니다"</string>
+    <string name="egls_agp_register_text_4">"등록"</string>
+    <string name="egls_agp_register_hint_1">"메일 주소를 입력하세요"</string>
+    <string name="egls_agp_register_hint_2">"비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_register_hint_3">"비밀 번호를 확인해주세요"</string>
+    <!-- Register end -->
+
+
+    <!-- Usercenter begin -->
+    <string name="egls_agp_usercenter_text_1">"홈페이지"</string>
+    <string name="egls_agp_usercenter_text_2">"보안센터"</string>
+    <string name="egls_agp_usercenter_text_3">"충전"</string>
+    <string name="egls_agp_usercenter_text_4">"소셜"</string>
+    <string name="egls_agp_usercenter_text_5">"휴대폰 연동"</string>
+    <string name="egls_agp_usercenter_text_6">"메일 연동"</string>
+    <string name="egls_agp_usercenter_text_7">"기타"</string>
+    <string name="egls_agp_usercenter_text_8">"고객센터"</string>
+    <string name="egls_agp_usercenter_text_9">"임무시작"</string>
+    <!-- Usercenter end -->
+
+
+    <!-- Authentication begin -->
+    <string name="egls_agp_authentication_text_1">"实名认证"</string>
+    <string name="egls_agp_authentication_text_2">"确认"</string>
+    <string name="egls_agp_authentication_hint_1">"请输入您的姓名"</string>
+    <string name="egls_agp_authentication_hint_2">"请输入您的身份证号"</string>
+    <!-- Authentication end -->
+
+
+    <!-- Mission begin -->
+    <string name="egls_agp_mission_name_bindmobile">"绑定手机"</string>
+    <string name="egls_agp_mission_info_bindmobile">"绑定手机可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindemail">"绑定邮箱"</string>
+    <string name="egls_agp_mission_info_bindemail">"绑定邮箱可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindaccount">"绑定账号"</string>
+    <string name="egls_agp_mission_info_bindaccount">"绑定账号可以提高你的账号安全性，降低盗号风险"</string>
+    <!-- Mission end -->
+
+
+    <!-- Permission begin -->
+    <string name="egls_agp_permission_warning">"필요한 권한을 획득하지 못했습니다. 필요 권한을 허가해야 실행할 수 있습니다. 권한을 허가하지 않는 것을 확인합니까?"</string>
+    <string name="egls_agp_permission_closed">"해당 권한이 승인되지 않았습니다."</string>
+    <string name="egls_agp_permission_active">"해당 권한이 허가되었습니다!"</string>
+    <string name="egls_agp_permission_nolonger">"해당 기능을 사용하려면 권한설정에서 관련 권한을 허용 해주세요."</string>
+    <string name="egls_agp_permission_nolonger_exit">"필수 권한을 동의해야 게임을 실행할 수 있습니다."</string>
+    <string name="egls_agp_permission_warning_getaccounts">"권한을 허용하지 않아 구글계정으로 등록할 수 없습니다. 권한을 허용하지 않으시겠습니까? ("취소"터치시 설치,"확인"터치시 설치포기)"</string>
+    <string name="egls_agp_permission_request_getaccounts">""</string>
+    <string name="egls_agp_permission_warning_systemalertwindow">"권한을 허용하지 않았습니다.“플로팅 윈도우”기능을 실행할 수 없으나 해당 기능은 게임 진행을 방해하지 않습니다"</string>
+    <string name="egls_agp_permission_request_systemalertwindow">"플로팅 윈도우 기능을 사용하기 위해서는 권한을 허용해 주세요."</string>
+    <string name="egls_agp_permission_warning_writeexternalstorage">"필수 권한이 설정되지 않아 게임을 실행할 수 없습니다. (권한을 설정해야 실행할 수 있습니다.)"</string>
+    <string name="egls_agp_permission_request_writeexternalstorage">""</string>
+    <string name="egls_agp_permission_warning_nec_perms">"필수 권한이 설정되지 않아 게임을 실행할 수 없습니다. (권한을 설정해야 실행할 수 있습니다.)"</string>
+    <string name="egls_agp_permission_request_nec_perms">""</string>
+    <string name="egls_agp_permission_dialog_tip">"권한설정"</string>
+    <string name="egls_agp_permission_dialog_ok">"확인"</string>
+    <string name="egls_agp_permission_dialog_cancel">"취소"</string>
+    <string name="egls_agp_permission_dialog_close">"게임종료"</string>
+    <string name="egls_agp_permission_dialog_request">"권한설정"</string>
+    <string name="egls_agp_permission_dialog_default_message">"\n• 접근 권한을 허용해 주세요.원활한 게임 플레이를 위해 아래 권한이 필요로 합니다.\n\n• [사진, 미디어, 파일] 앱을 설치하고 게임 데이터를 저장하기 위해필요한 권한입니다."</string>
+    <!-- Permission end -->
+
+
+    <!-- tip begin -->
+    <string name="egls_agp_sys_tip_1">"계정을 입력하세요"</string>
+    <string name="egls_agp_sys_tip_2">"비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_3">"현재 사용자의"</string>
+    <string name="egls_agp_sys_tip_4">"계정 인증시간이 초과되었습니다. 다시 로그인해주세요"</string>
+    <string name="egls_agp_sys_tip_5">"네트워크 연결 실패. 잠시 후 다시 시도해주세요…"</string>
+    <string name="egls_agp_sys_tip_6">"계정 로그인 성공"</string>
+    <string name="egls_agp_sys_tip_7">"계정토큰만료"</string>
+    <string name="egls_agp_sys_tip_8">"계정 메세지 획득 성공"</string>
+    <string name="egls_agp_sys_tip_9">"계정 비밀번호가 만료되었습니다. 다시 로그인해주세요"</string>
+    <string name="egls_agp_sys_tip_10">"비밀번호를 찾을 계정을 입력하세요"</string>
+    <string name="egls_agp_sys_tip_11">"인증 번호를 입력해주세요"</string>
+    <string name="egls_agp_sys_tip_12">"메일 인증 번호 확인 성공"</string>
+    <string name="egls_agp_sys_tip_13">"비밀번호 초기화 성공"</string>
+    <string name="egls_agp_sys_tip_14">"인증 번호가 이미 발송되었습니다"</string>
+    <string name="egls_agp_sys_tip_15">"초후 다시 발송 가능"</string>
+    <string name="egls_agp_sys_tip_16">"인증번호 수신 성공"</string>
+    <string name="egls_agp_sys_tip_17">"등록할 휴대폰번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_18">"등록할 메일 주소를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_19">"연동할 휴대폰 번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_20">"연동할 메일 주소를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_21">"휴대폰 번호가 올바르지 않습니다. 다시 입력해주세요"</string>
+    <string name="egls_agp_sys_tip_22">"메일 형식이 잘못되었습니다. 다시 입력해주세요"</string>
+    <string name="egls_agp_sys_tip_23">"등록할 휴대폰번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_24">"등록할 메일 주소를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_25">"연동할 휴대폰 번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_26">"연동할 메일 주소를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_27">"《EGLS사용자서비스동의》에 동의해주세요"</string>
+    <string name="egls_agp_sys_tip_28">"계정 등록 성공"</string>
+    <string name="egls_agp_sys_tip_29">"연동 성공"</string>
+    <string name="egls_agp_sys_tip_30">"EGLS 계정으로 이미 연동했습니다. 바로 로그인하거나 기타 계정으로 로그인을 시도해주세요."</string>
+    <string name="egls_agp_sys_tip_31">"Google 계정으로 이미 연동했습니다. 바로 로그인하거나 기타 계정으로 로그인을 시도해주세요."</string>
+    <string name="egls_agp_sys_tip_32">"Facebook 계정으로 이미 연동했습니다. 바로 로그인하거나 기타 계정으로 로그인을 시도해주세요."</string>
+    <string name="egls_agp_sys_tip_33">"이미 가입된 메일입니다. 이 메일로 로그인하거나 다른 계정으로 가입하시길 바랍니다."</string>
+    <string name="egls_agp_sys_tip_34">"로딩("</string>
+    <string name="egls_agp_sys_tip_35">"s)"</string>
+    <string name="egls_agp_sys_tip_36">"계정을 연동 후 충전 및 사용자 센터의 기능을 사용할 수 있습니다. 계정을 안전하게 지키기 위해 연동해주세요!"</string>
+    <string name="egls_agp_sys_tip_37">""</string>
+    <string name="egls_agp_sys_tip_38">"초기화 중. 잠시만 기다려주세요…"</string>
+    <string name="egls_agp_sys_tip_39">"초기화 성공"</string>
+    <string name="egls_agp_sys_tip_40">"초기화 실패"</string>
+    <string name="egls_agp_sys_tip_41">"서비스 시작"</string>
+    <string name="egls_agp_sys_tip_42">"데이터가 이미 발송되었습니다"</string>
+    <string name="egls_agp_sys_tip_43">"데이터 전송 중. 잠시만 기다려주세요…"</string>
+    <string name="egls_agp_sys_tip_44">"현재 선택한 충전 카드로 해당 충전 금액을 충전할 수 없습니다."</string>
+    <string name="egls_agp_sys_tip_45">"지불 데이터 오류"</string>
+    <string name="egls_agp_sys_tip_46">"충전 카드 번호를 입력해주세요"</string>
+    <string name="egls_agp_sys_tip_47">"충전 카드 비밀 번호를 입력해주세요"</string>
+    <string name="egls_agp_sys_tip_48">"현재 충전금액:"</string>
+    <string name="egls_agp_sys_tip_49">"기존 비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_50">"새로운 비밀 번호를 입력하세요"</string>
+    <string name="egls_agp_sys_tip_51">"비밀 번호를 확인해주세요"</string>
+    <string name="egls_agp_sys_tip_52">"새로운 비밀 번호를 확인해주세요"</string>
+    <string name="egls_agp_sys_tip_53">"비밀 번호 수정 성공! 다시 로그인해주세요"</string>
+    <string name="egls_agp_sys_tip_54">"비밀번호가 일치하지 않습니다. 다시 입력해주세요."</string>
+    <string name="egls_agp_sys_tip_55">"비밀번호가 틀립니다. 다시 입력해주세요."</string>
+    <string name="egls_agp_sys_tip_56">"새로운 비밀번호가 일치하지 않습니다. 다시 입력해주세요."</string>
+    <string name="egls_agp_sys_tip_57">"비밀번호 수정성공"</string>
+    <string name="egls_agp_sys_tip_58">"명세서 메세지 획득 성공"</string>
+    <string name="egls_agp_sys_tip_59">"충전 기록이 없습니다"</string>
+    <string name="egls_agp_sys_tip_60">"WeChat 계정으로 이미 연동했습니다. 바로 로그인하거나 기타 계정으로 로그인을 시도해주세요."</string>
+    <!-- tip end -->
+
+
+    <!-- Public begin -->
+    <string name="egls_agp_line">" - "</string>
+    <string name="egls_agp_text_guest">"게스트"</string>
+    <string name="egls_agp_text_egls">"EGLS"</string>
+    <string name="egls_agp_text_wechat">"WeChat"</string>
+    <string name="egls_agp_text_google">"Google"</string>
+    <string name="egls_agp_text_facebook">"Facebook"</string>
+    <string name="egls_agp_text_alipay">"Alipay"</string>
+    <string name="egls_agp_text_chinamobile">"China Mobile"</string>
+    <string name="egls_agp_text_chinaunicom">"China Unicom"</string>
+    <string name="egls_agp_text_chinatelecom">"China Telecom"</string>
+    <string name="egls_agp_text_jcard">"JCard"</string>
+    <string name="egls_agp_text_finish">"완료"</string>
+    <string name="egls_agp_text_end">"종료"</string>
+    <string name="egls_agp_text_operation_finish">"완료"</string>
+    <string name="egls_agp_text_mission">"임무"</string>
+    <string name="egls_agp_text_recommend">"추천"</string>
+    <string name="egls_agp_text_unbind">"미연동"</string>
+    <!-- Public end -->
+
+</resources>

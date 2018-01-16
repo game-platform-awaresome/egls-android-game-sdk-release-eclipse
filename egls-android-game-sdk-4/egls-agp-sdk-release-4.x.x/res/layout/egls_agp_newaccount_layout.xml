@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_240"
+        android:background="@drawable/kr_116_1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include layout="@layout/egls_agp_login_head_merge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/egls_agp_dp_32"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_newaccount_input_first"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_32"
+                android:background="@drawable/kr_115_1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_newaccount_input_first"
+                    android:layout_width="@dimen/egls_agp_dp_180"
+                    android:layout_height="@dimen/egls_agp_dp_24"
+                    android:layout_marginTop="@dimen/egls_agp_dp_3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/egls_agp_newaccount_hint_1"
+                    android:inputType="textMultiLine"
+                    android:singleLine="true"
+                    android:textColor="#666666"
+                    android:textColorHint="#999999"
+                    android:textSize="@dimen/egls_agp_sp_10" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_32"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_newaccount_input_second"
+                    android:layout_width="@dimen/egls_agp_dp_160"
+                    android:layout_height="@dimen/egls_agp_dp_32"
+                    android:background="@drawable/kr_112_1"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_newaccount_input_second"
+                        android:layout_width="@dimen/egls_agp_dp_100"
+                        android:layout_height="@dimen/egls_agp_dp_24"
+                        android:layout_marginTop="@dimen/egls_agp_dp_3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/egls_agp_newaccount_hint_2"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#666666"
+                        android:textColorHint="#999999"
+                        android:textSize="@dimen/egls_agp_sp_10" />
+                </LinearLayout>
+
+                <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                    android:id="@+id/asstv_newaccount_get_verifycode"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/egls_agp_dp_24"
+                    android:layout_marginLeft="@dimen/egls_agp_dp_3"
+                    android:layout_marginTop="@dimen/egls_agp_dp_3"
+                    android:background="@drawable/kr_103_3"
+                    android:contentDescription="egls_agp_sp_8"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_newaccount_text_3"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_agp_sp_10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_32"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:background="@drawable/kr_109_1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_newaccount_input_third"
+                    android:layout_width="@dimen/egls_agp_dp_180"
+                    android:layout_height="@dimen/egls_agp_dp_24"
+                    android:layout_marginTop="@dimen/egls_agp_dp_3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/egls_agp_newaccount_hint_3"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="#666666"
+                    android:textColorHint="#999999"
+                    android:textSize="@dimen/egls_agp_sp_10" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_newaccount_agreement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/egls_agp_dp_4"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/ib_newaccount_agreement"
+                android:layout_width="@dimen/egls_agp_dp_12"
+                android:layout_height="@dimen/egls_agp_dp_12"
+                android:background="@android:color/transparent"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/kr_40" />
+
+            <TextView
+                style="@style/egls_agp_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/egls_agp_newaccount_text_4"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <TextView
+                android:id="@+id/tv_newaccount_agreement"
+                style="@style/egls_agp_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/egls_agp_newaccount_text_5"
+                android:textColor="#3399ff"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <TextView
+                style="@style/egls_agp_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/egls_agp_newaccount_text_6"
+                android:textSize="@dimen/egls_agp_sp_10" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_newaccount_confirm"
+            style="@style/egls_agp_button_common"
+            android:layout_width="@dimen/egls_agp_dp_240"
+            android:layout_height="@dimen/egls_agp_dp_28"
+            android:layout_marginTop="@dimen/egls_agp_dp_4"
+            android:background="@drawable/egls_agp_kr_103_2_selector"
+            android:text="@string/egls_agp_newaccount_text_7"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/egls_agp_sp_12" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/btn_newaccount_otherway"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:text="@string/egls_agp_newaccount_text_8"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_10" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

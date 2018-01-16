@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_24"
+        android:background="@android:color/transparent" >
+
+        <ImageButton
+            android:id="@+id/ib_head_close"
+            android:layout_width="@dimen/egls_agp_dp_16"
+            android:layout_height="@dimen/egls_agp_dp_16"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/egls_agp_dp_8"
+            android:layout_marginRight="@dimen/egls_agp_dp_8"
+            android:background="@android:color/transparent"
+            android:contentDescription="@null"
+            android:padding="@dimen/egls_agp_dp_2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/kr_48" />
+    </RelativeLayout>
+
+</merge>

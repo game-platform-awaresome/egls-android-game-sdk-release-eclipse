@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010-2013 The SINA WEIBO Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+    <!-- google begin -->
+    <string name="egls_agg_confirm">"確定"</string>
+    <string name="egls_agg_cancel">"取消"</string>
+    <string name="egls_agg_authorization_timeout">"登入逾時，是否重新嘗試登入？"</string>
+    <string name="egls_agg_submitting_data">正在提交数据，请稍後…</string>
+    <string name="egls_agg_login">"Sign in with Google"</string>
+    <string name="egls_agg_logout">"Log out"</string>
+    <string name="egls_agg_will_auto_login_start">"在 "</string>
+    <string name="egls_agg_will_auto_login_end">" 秒後自動登入…"</string>
+    <string name="egls_agg_try_login">"重試登入"</string>
+    <!-- google end -->
+
+
+    <!-- 微信 begin -->
+    <string name="egls_share_wx_init_ok">微信數據初始化成功</string>
+    <string name="egls_share_wx_init_fail">微信數據初始化失敗，無法進行分享</string>
+    <string name="egls_share_wx_installed">您的設備已安裝微信應用</string>
+    <string name="egls_share_wx_uninstalled">您的設備沒有安裝微信應用，無法進行分享</string>
+    <!-- 微信 end -->
+    
+    
+    <!-- QQ begin -->
+    <string name="egls_share_qq_init_ok">QQ數據初始化成功</string>
+    <string name="egls_share_qq_init_fail">QQ數據初始化失敗，無法進行分享</string>
+    <string name="egls_share_qq_installed">您的設備已安裝QQ應用</string>
+    <string name="egls_share_qq_uninstalled">您的設備沒有安裝QQ應用，無法進行分享</string>
+    <!-- QQ end -->
+
+
+    <!-- 微博 begin -->
+    <string name="egls_share_wb_init_ok">微博數據初始化成功</string>
+    <string name="egls_share_wb_init_fail">微博數據初始化失敗，無法進行分享</string>
+    <string name="egls_share_wb_installed">您的設備已安裝微博應用</string>
+    <string name="egls_share_wb_uninstalled">您的設備沒有安裝微博應用，無法進行分享</string>
+    <!-- 微博 end -->
+
+
+    <!-- Facebook begin -->
+    <string name="egls_share_fb_init_ok">Facebook數據初始化成功</string>
+    <string name="egls_share_fb_init_fail">Facebook數據初始化失敗，無法進行分享</string>
+    <string name="egls_share_fb_installed">您的設備已安裝Facebook應用</string>
+    <string name="egls_share_fb_uninstalled">您的設備沒有安裝Facebook應用，無法進行分享</string>
+    <!-- Facebook end -->
+
+
+    <!-- LINE begin -->
+    <string name="egls_share_ln_init_ok">LINE數據初始化成功</string>
+    <string name="egls_share_ln_init_fail">LINE數據初始化失敗，無法進行分享</string>
+    <string name="egls_share_ln_installed">您的設備已安裝LINE應用</string>
+    <string name="egls_share_ln_uninstalled">您的設備沒有安裝LINE應用，無法進行分享</string>
+    <!-- LINE end -->
+
+
+    <!-- Twitter begin -->
+    <string name="egls_share_tw_init_ok">Twitter數據初始化成功</string>
+    <string name="egls_share_tw_init_fail">Twitter數據初始化失敗，無法進行分享</string>
+    <string name="egls_share_tw_installed">您的設備已安裝Twitter應用</string>
+    <string name="egls_share_tw_uninstalled">您的設備沒有安裝Twitter應用，無法進行分享</string>
+    <!-- Twitter end -->
+
+
+    <!-- payment -->
+    <string name="egls_ags_payment_finish">"儲值數據已提交"</string>
+    <string name="egls_ags_payment_resend">"儲值數據提交異常，正在嘗試重新發送…"</string>
+
+    <!-- share -->
+    <string name="egls_ags_share_title">"分享"</string>
+    <string name="egls_ags_share_save_image_success">"圖像保存成功"</string>
+    <string name="egls_ags_share_save_image_done">"圖像已保存"</string>
+    <string name="egls_ags_share_save_image_fail">"圖像保存失敗"</string>
+
+</resources>

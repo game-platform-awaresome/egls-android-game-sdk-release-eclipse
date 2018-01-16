@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010-2013 The SINA WEIBO Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+    <!-- google begin -->
+    <string name="egls_agg_confirm">"OK"</string>
+    <string name="egls_agg_cancel">"Cancel"</string>
+    <string name="egls_agg_authorization_timeout">"Login timeout, do you want to retry login?"</string>
+    <string name="egls_agg_submitting_data">"Updating, please wait…"</string>
+    <string name="egls_agg_login">"Sign in with Google"</string>
+    <string name="egls_agg_logout">"Log out"</string>
+    <string name="egls_agg_will_auto_login_start">"Login automatically in"</string>
+    <string name="egls_agg_will_auto_login_end">" seconds"</string>
+    <string name="egls_agg_try_login">"Retry login"</string>
+    <!-- google end -->
+
+
+    <!-- 微信 begin -->
+    <string name="egls_share_wx_init_ok">"Initialize data for Wechat succeeded"</string>
+    <string name="egls_share_wx_init_fail">"Faild to initialize data for Wechat, can't procceed sharing"</string>
+    <string name="egls_share_wx_installed">"Wechat has been installed in your device"</string>
+    <string name="egls_share_wx_uninstalled">"You don't have Wechat in your device"</string>
+    <!-- 微信 end -->
+
+
+    <!-- QQ begin -->
+    <string name="egls_share_qq_init_ok">"Initialize data for QQ succeeded"</string>
+    <string name="egls_share_qq_init_fail">"Faild to initialize data for QQ, can't procceed sharing"</string>
+    <string name="egls_share_qq_installed">"QQ has been installed in your device"</string>
+    <string name="egls_share_qq_uninstalled">"You don't have QQ in your device"</string>
+    <!-- QQ end -->
+
+
+    <!-- 微博 begin -->
+    <string name="egls_share_wb_init_ok">"Initialize data for WeiBo succeeded"</string>
+    <string name="egls_share_wb_init_fail">"Faild to initialize data for WeiBo, can't procceed sharing"</string>
+    <string name="egls_share_wb_installed">"WeiBo has been installed in your device"</string>
+    <string name="egls_share_wb_uninstalled">"You don't have WeiBo in your device"</string>
+    <!-- 微博 end -->
+
+
+    <!-- Facebook begin -->
+    <string name="egls_share_fb_init_ok">"Initialize data for Facebook succeeded"</string>
+    <string name="egls_share_fb_init_fail">"Faild to initialize data for Facebook, can't procceed sharing"</string>
+    <string name="egls_share_fb_installed">"Facebook has been installed in your device"</string>
+    <string name="egls_share_fb_uninstalled">"You don't have Facebook in your device"</string>
+    <!-- Facebook end -->
+
+
+    <!-- LINE begin -->
+    <string name="egls_share_ln_init_ok">"Initialize data for LINE succeeded"</string>
+    <string name="egls_share_ln_init_fail">"Faild to initialize data for LINE, can't procceed sharing"</string>
+    <string name="egls_share_ln_installed">"LINE has been installed in your device"</string>
+    <string name="egls_share_ln_uninstalled">"You don't have LINE in your device"</string>
+    <!-- LINE end -->
+
+
+    <!-- Twitter begin -->
+    <string name="egls_share_tw_init_ok">"Initialize data for Twitter succeeded"</string>
+    <string name="egls_share_tw_init_fail">"Faild to initialize data for Twitter, can't procceed sharing"</string>
+    <string name="egls_share_tw_installed">"Twitter has been installed in your device"</string>
+    <string name="egls_share_tw_uninstalled">"You don't have Twitter in your device"</string>
+    <!-- Twitter end -->
+
+
+    <!-- payment -->
+    <string name="egls_ags_payment_finish">"The payment has been submitted"</string>
+    <string name="egls_ags_payment_resend">"The payment is abnormal to submit, retrying…"</string>
+
+    <!-- share -->
+    <string name="egls_ags_share_title">"Share"</string>
+    <string name="egls_ags_share_save_image_success">"Image saving succeeded"</string>
+    <string name="egls_ags_share_save_image_done">"Image saved"</string>
+    <string name="egls_ags_share_save_image_fail">"Image saving faild"</string>
+
+</resources>

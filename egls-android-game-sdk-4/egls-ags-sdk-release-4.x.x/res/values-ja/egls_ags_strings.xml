@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2010-2013 The SINA WEIBO Open Source Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources>
+
+    <!-- google begin -->
+    <string name="egls_agg_confirm">"確定"</string>
+    <string name="egls_agg_cancel">"キャンセル"</string>
+    <string name="egls_agg_authorization_timeout">"ログインが時間切れ、再ログインしますか？"</string>
+    <string name="egls_agg_submitting_data">"データ送信中、少々お待ちください。"</string>
+    <string name="egls_agg_login">"Googleアカウントでログイン"</string>
+    <string name="egls_agg_logout">"ログアウト"</string>
+    <string name="egls_agg_will_auto_login_start">""</string>
+    <string name="egls_agg_will_auto_login_end">" 秒後にログイン"</string>
+    <string name="egls_agg_try_login">"再度ログイン"</string>
+    <!-- google end -->
+
+
+    <!-- 微信 begin -->
+    <string name="egls_share_wx_init_ok">"WeChatデータ初期化に成功しました。"</string>
+    <string name="egls_share_wx_init_fail">"WeChatデータ初期化に失敗しました。シェア機能を利用できません。"</string>
+    <string name="egls_share_wx_installed">"端末はWeChatアプリをインストールしました。"</string>
+    <string name="egls_share_wx_uninstalled">"端末はWeChatアプリをインストールしていません。シェア機能を利用できません。"</string>
+    <!-- 微信 end -->
+
+
+    <!-- QQ begin -->
+    <string name="egls_share_qq_init_ok">"QQデータ初期化に成功しました。"</string>
+    <string name="egls_share_qq_init_fail">"QQデータ初期化に失敗しました。シェア機能を利用できません。"</string>
+    <string name="egls_share_qq_installed">"端末はQQアプリをインストールしました。"</string>
+    <string name="egls_share_qq_uninstalled">"端末はQQアプリをインストールしていません。シェア機能を利用できません。"</string>
+    <!-- QQ end -->
+
+
+    <!-- 微博 begin -->
+    <string name="egls_share_wb_init_ok">"WeiBoデータ初期化に成功しました。"</string>
+    <string name="egls_share_wb_init_fail">"WeiBoデータ初期化に失敗しました。シェア機能を利用できません。"</string>
+    <string name="egls_share_wb_installed">"端末はWeiBoアプリをインストールしました。"</string>
+    <string name="egls_share_wb_uninstalled">"端末はWeiBoアプリをインストールしていません。シェア機能を利用できません。"</string>
+    <!-- 微博 end -->
+
+
+    <!-- Facebook begin -->
+    <string name="egls_share_fb_init_ok">"Facebookデータ初期化に成功しました。"</string>
+    <string name="egls_share_fb_init_fail">"Facebookデータ初期化に失敗しました。シェア機能を利用できません。"</string>
+    <string name="egls_share_fb_installed">"端末はFacebookアプリをインストールしました。"</string>
+    <string name="egls_share_fb_uninstalled">"端末はFacebookアプリをインストールしていません。シェア機能を利用できません。"</string>
+    <!-- Facebook end -->
+
+
+    <!-- LINE begin -->
+    <string name="egls_share_ln_init_ok">"LINEデータ初期化に成功しました。"</string>
+    <string name="egls_share_ln_init_fail">"LINEデータ初期化に失敗しました。シェア機能を利用できません。"</string>
+    <string name="egls_share_ln_installed">"端末はLINEアプリをインストールしました。"</string>
+    <string name="egls_share_ln_uninstalled">"端末はLINEアプリをインストールしていません。シェア機能を利用できません。"</string>
+    <!-- LINE end -->
+
+
+    <!-- Twitter begin -->
+    <string name="egls_share_tw_init_ok">"Twitterデータ初期化に成功しました。"</string>
+    <string name="egls_share_tw_init_fail">"Twitterデータ初期化に失敗しました。シェア機能を利用できません。"</string>
+    <string name="egls_share_tw_installed">"端末はTwitterアプリをインストールしました。"</string>
+    <string name="egls_share_tw_uninstalled">"端末はTwitterアプリをインストールしていません。シェア機能を利用できません。"</string>
+    <!-- Twitter end -->
+
+
+    <!-- payment -->
+    <string name="egls_ags_payment_finish">"支払データは送信しました"</string>
+    <string name="egls_ags_payment_resend">"支払データエラー、再送信中…"</string>
+
+    <!-- share -->
+    <string name="egls_ags_share_title">"シェア"</string>
+    <string name="egls_ags_share_save_image_success">"スクリーンショットの保存は成功しました"</string>
+    <string name="egls_ags_share_save_image_done">"スクリーンショットを保存しました"</string>
+    <string name="egls_ags_share_save_image_fail">"スクリーンショットの保存は失敗しました"</string>
+
+</resources>

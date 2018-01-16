@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/egls_agp_dp_100"
+    android:layout_height="@dimen/egls_agp_dp_160"
+    android:background="#e7e7e7"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="@dimen/egls_agp_dp_2"
+        android:layout_height="@dimen/egls_agp_dp_160"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_96"
+        android:layout_height="@dimen/egls_agp_dp_160"
+        android:background="#464646"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/iv_usercenter_index_missionimage"
+            android:layout_width="@dimen/egls_agp_dp_88"
+            android:layout_height="@dimen/egls_agp_dp_74"
+            android:layout_marginTop="@dimen/egls_agp_dp_4"
+            android:padding="@dimen/egls_agp_dp_4"
+            android:scaleType="fitXY"
+            android:src="@android:color/transparent" />
+        <!-- android:scaleType="fitXY" -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+
+            <TextView
+                android:id="@+id/tv_usercenter_index_missionname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_12" />
+
+            <Button
+                android:id="@+id/btn_usercenter_index_missionstart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/egls_agp_dp_20"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/egls_agp_dp_8"
+                android:layout_marginLeft="@dimen/egls_agp_dp_12"
+                android:layout_marginRight="@dimen/egls_agp_dp_12"
+                android:layout_marginTop="@dimen/egls_agp_dp_4"
+                android:background="#ff6600"
+                android:text="@string/egls_agp_usercenter_text_9"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <TextView
+                android:id="@+id/tv_usercenter_index_missioninfo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/btn_usercenter_index_missionstart"
+                android:layout_below="@+id/tv_usercenter_index_missionname"
+                android:ellipsize="end"
+                android:gravity="center_horizontal|top"
+                android:padding="@dimen/egls_agp_dp_2"
+                android:textColor="#9f9f9f"
+                android:textSize="@dimen/egls_agp_sp_8" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="@dimen/egls_agp_dp_2"
+        android:layout_height="@dimen/egls_agp_dp_150"
+        android:background="@android:color/transparent" />
+
+</LinearLayout>

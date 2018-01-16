@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/egls_agp_dialog_title_464646"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="@dimen/egls_agp_dp_200"
+                android:layout_height="@dimen/egls_agp_dp_200"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <!--
+                <ImageView
+                    android:id="@+id/imageProgress"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/egls_agp_progress_gear_001"
+                    android:contentDescription="@null" />                -->
+
+                <com.egls.platform.views.AGPRippleLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/rippleBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@null"
+                    app:rb_color="#ff6600"
+                    app:rb_duration="1500"
+                    app:rb_radius="@dimen/egls_agp_dp_24"
+                    app:rb_rippleAmount="2"
+                    app:rb_scale="4" >
+
+                    <ImageView
+                        android:id="@+id/centerImage"
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/egls_agp_progress_icon" />
+                </com.egls.platform.views.AGPRippleLayout>
+
+                <TextView
+                    android:id="@+id/textProgress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="#464646"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:lineSpacingMultiplier="1.2"
+                android:minHeight="40dip"
+                android:padding="8dp"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

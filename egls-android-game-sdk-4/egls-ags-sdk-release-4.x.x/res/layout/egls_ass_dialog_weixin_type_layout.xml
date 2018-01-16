@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_egls_wx_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/egls_ags_dp_48"
+        android:background="@drawable/egls_ass_dialog_weixin_type_title"
+        android:gravity="center"
+        android:text="选择分享方式"
+        android:textColor="#464646"
+        android:textSize="@dimen/egls_ags_sp_18" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/egls_ags_dp_2"
+        android:background="#464646"
+        android:contentDescription="@null" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/egls_ass_dialog_weixin_type_content"
+        android:padding="@dimen/egls_ags_dp_16" >
+
+        <Button
+            android:id="@+id/btn_egls_wx_pyq"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_ags_dp_48"
+            android:background="@drawable/egls_ass_btn_weixin_type_selector"
+            android:text="分享到朋友圈"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/egls_ags_sp_14" />
+
+        <Button
+            android:id="@+id/btn_egls_wx_txl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_ags_dp_48"
+            android:layout_below="@+id/btn_egls_wx_pyq"
+            android:layout_marginTop="@dimen/egls_ags_dp_8"
+            android:background="@drawable/egls_ass_btn_weixin_type_selector"
+            android:text="分享给微信好友"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/egls_ags_sp_14" />
+    </RelativeLayout>
+
+</LinearLayout>

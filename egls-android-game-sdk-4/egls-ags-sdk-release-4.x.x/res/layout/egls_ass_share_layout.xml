@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cc333333"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_ags_dp_440"
+        android:layout_height="@dimen/egls_ags_dp_240"
+        android:background="#464646"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/egls_ags_dp_40"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_ags_dp_40"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnWXShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="#339900"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <Button
+                    android:id="@+id/btnWBShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="#ff9900"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <Button
+                    android:id="@+id/btnFBShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="#3333ff"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <Button
+                    android:id="@+id/btnLNShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="#66cc00"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <Button
+                    android:id="@+id/btnTWShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="#3399ff"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <Button
+                    android:id="@+id/btnNVShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="#00c73c"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@null" >
+
+            <ImageView
+                android:id="@+id/imgOverView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:contentDescription="@null"
+                android:scaleType="fitXY" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/egls_ags_dp_64"
+                android:layout_height="@dimen/egls_ags_dp_64"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/egls_ags_dp_16"
+                android:background="@null" >
+
+                <Button
+                    android:id="@+id/btnDoShare"
+                    android:layout_width="@dimen/egls_ags_dp_64"
+                    android:layout_height="@dimen/egls_ags_dp_64"
+                    android:background="@drawable/egls_ass_circle_weixin_share"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:layout_width="@dimen/egls_ags_dp_32"
+                    android:layout_height="@dimen/egls_ags_dp_32"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/egls_ass_icon_share"
+                    android:contentDescription="@null" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

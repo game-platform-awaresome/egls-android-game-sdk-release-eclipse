@@ -1,0 +1,269 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eglssdk.agp.lib"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="false"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- EGLS Android Game Platform SDK begin -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- AppsFlyer begin -->
+    <!-- AppsFlyer为港台地区所使用的内嵌统计功能，其他地区发行的游戏请不要使用 -->
+    <!--
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    -->
+    <!-- 如果现在接入的安卓包是针对除Google Play以外的其他应用商店，那么此权限一定需要声明，否则要删除该权限声明 -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- AppsFlyer end -->
+
+
+    <!-- IGAW begin -->
+    <!-- IGAW为韩国地区所使用的统计功能，其他地区发行的游戏请不要使用 -->
+    <!-- 替换“MY_PACKAGE_NAME”字样为正式包名 -->
+    <!--
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <permission
+        android:name="MY_PACKAGE_NAME.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="MY_PACKAGE_NAME.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />    -->
+    <!-- IGAW end -->
+    <!-- EGLS Android Game Platform SDK end -->
+
+    <application
+        android:allowBackup="false"
+        android:label="EGLS Android Game Platform"
+        android:theme="@style/AppTheme" >
+
+        <!-- EGLS Android Game Platform SDK begin -->
+		<activity
+            android:name="com.egls.platform.account.AGPIndexActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPAlreadyLoginActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPAgreementActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPIntelligenceActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPNewAccountActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPAccountLoginActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPForgetActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.account.AGPFindActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.usercenter.AGPUserCenterActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.usercenter.AGPAuthenticationActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.usercenter.AGPModifyActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.usercenter.AGPBindAccountActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.usercenter.AGPBindMobileActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.usercenter.AGPBindEmailActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.payment.AGPPaymentActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="com.egls.platform.payment.AGPPaymentCardActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 4.1.1 新增 end -->
+        <activity
+            android:name="com.egls.platform.account.AGPPermissionActivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/AGPTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <!-- 4.1.1 新增 end -->
+        <activity
+            android:name="com.egls.platform.net.AGPBrowserAcitivity"
+            android:configChanges="locale|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowBackground="@null"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+
+        <service android:name="com.egls.platform.backend.AGPNetworkCommunicationService" >
+        </service>
+
+        <!-- AppsFlyer begin -->
+        <!-- AppsFlyer为港台地区所使用的内嵌统计功能，其他地区发行的游戏请不要使用 -->
+        <!-- 为了确保所有Install Referrer监听器可以成功监听由系统播放的referrer参数，请一定在AndroidManifest.xml中将AppsFlyer的监听器置于所有同类监听器第一位，并保证receiver tag在application tag中 -->
+        <!--
+        <receiver
+            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>        -->
+        <!-- AppsFlyer end -->
+
+
+        <!-- IGAW begin -->
+        <!-- IGAW为韩国地区所使用的统计功能，其他地区发行的游戏请不要使用 -->
+        <!-- 替换“MY_PACKAGE_NAME”字样为正式包名 -->
+        <!-- 替换“MY_APP_KEY”字样为IGAW后台配置的appKey -->
+        <!-- 替换“MY_HASH_KEY”字样为IGAW后台配置的hashKey -->
+        <!--
+        <receiver
+            android:name="com.igaworks.IgawReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.igaworks.liveops.pushservice.LiveOpsGCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="MY_PACKAGE_NAME" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.igaworks.liveops.pushservice.GCMIntentService"
+            android:enabled="true" />
+        <receiver
+            android:name="com.igaworks.liveops.pushservice.LiveOpsReceiver"
+            android:permission="MY_PACKAGE_NAME.permission.C2D_MESSAGE" >
+            <intent-filter>
+                <action android:name="com.igaworks.liveops.pushservice.CLIENT_PUSH_RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <activity
+            android:name="com.igaworks.liveops.pushservice.IgawLiveOpsPushMessageLauncherActivity"
+            android:noHistory="true"
+            android:permission="MY_PACKAGE_NAME.permission.C2D_MESSAGE" />
+        <meta-data
+            android:name="igaworks_app_key"
+            android:value="MY_APP_KEY" />
+        <meta-data
+            android:name="igaworks_hash_key"
+            android:value="MY_HASH_KEY" />        -->
+        <!-- IGAW end -->
+        <!-- EGLS Android Game Platform SDK end -->
+    </application>
+
+</manifest>

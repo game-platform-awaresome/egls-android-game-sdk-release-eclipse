@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="com_twitter_app_name">TwitterDemo</string>
+    <string name="com_twitter_hello">Hello,</string>
+    <string name="com_twitter_action_settings">Settings</string>
+    <string name="com_twitter_login_label">Login to Twitter</string>
+    <string name="com_twitter_enter_label">Enter share message</string>
+    <string name="com_twitter_login_btn">Login to Twitter</string>
+    <string name="com_twitter_share_btn">Share</string>
+    <string name="com_twitter_oauth_verifier">oauth_verifier</string>
+    <string name="com_twitter_title_webview">Twitter</string>
+
+</resources>

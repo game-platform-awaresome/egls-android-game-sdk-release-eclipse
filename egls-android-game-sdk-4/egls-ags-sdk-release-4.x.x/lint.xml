@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ExtraTranslation" severity="ignore" />
+    <issue id="InlinedApi">
+        <ignore path="src/com/eglsgame/share/lib/views/EGLSShareView.java" />
+    </issue>
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/com/eglsgame/share/lib/TestActivity.java" />
+        <ignore path="src/com/eglsgame/share/lib/views/EGLSShareView.java" />
+    </issue>
+</lint>

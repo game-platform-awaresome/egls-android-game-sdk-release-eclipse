@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_240"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_dp_32"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_bindemail_icon"
+                android:layout_width="@dimen/egls_agp_dp_24"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/egls_agp_dp_4"
+                android:contentDescription="@null"
+                android:padding="@dimen/egls_agp_dp_1"
+                android:scaleType="fitXY"
+                android:src="@drawable/xi_35_1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_bindemail_icon"
+                android:text="@string/egls_agp_bindemail_text_1"
+                android:textColor="#464646"
+                android:textSize="@dimen/egls_agp_sp_14" />
+
+            <ImageButton
+                android:id="@+id/ib_bindemail_return"
+                android:layout_width="@dimen/egls_agp_dp_24"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/egls_agp_dp_4"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/egls_agp_dp_2"
+                android:scaleType="fitXY"
+                android:src="@drawable/xi_12" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_always_dp_1"
+            android:layout_marginLeft="@dimen/egls_agp_dp_4"
+            android:layout_marginRight="@dimen/egls_agp_dp_4"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:layout_marginTop="@dimen/egls_agp_dp_12"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_bindemail_input"
+                    android:layout_width="@dimen/egls_agp_dp_32"
+                    android:layout_height="@dimen/egls_agp_dp_32"
+                    android:background="@drawable/kr_10"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:id="@+id/tv_bindemail_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/egls_agp_dp_20"
+                    android:layout_marginTop="@dimen/egls_agp_dp_2"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_bindemail_text_2"
+                    android:textColor="#E3820E"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_bindemail_verify"
+                    android:layout_width="@dimen/egls_agp_dp_32"
+                    android:layout_height="@dimen/egls_agp_dp_32"
+                    android:background="@drawable/kr_08"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:id="@+id/tv_bindemail_verify"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/egls_agp_dp_20"
+                    android:layout_marginTop="@dimen/egls_agp_dp_2"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_bindemail_text_3"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_bindemail_finish"
+                    android:layout_width="@dimen/egls_agp_dp_32"
+                    android:layout_height="@dimen/egls_agp_dp_32"
+                    android:background="@drawable/kr_09"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:id="@+id/tv_bindemail_finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/egls_agp_dp_20"
+                    android:layout_marginTop="@dimen/egls_agp_dp_2"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_bindemail_text_4"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:layout_marginTop="@dimen/egls_agp_dp_2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" >
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/egls_agp_dp_4"
+                    android:layout_weight="0.5"
+                    android:background="@null" />
+
+                <ImageView
+                    android:id="@+id/iv_bindemail_progress1"
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/egls_agp_dp_4"
+                    android:layout_weight="1"
+                    android:background="#999999" />
+
+                <ImageView
+                    android:id="@+id/iv_bindemail_progress2"
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/egls_agp_dp_4"
+                    android:layout_weight="1"
+                    android:background="#999999" />
+
+                <ImageView
+                    android:layout_width="0dip"
+                    android:layout_height="@dimen/egls_agp_dp_4"
+                    android:layout_weight="0.5"
+                    android:background="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/iv_bindemail_inputdot"
+                        android:layout_width="@dimen/egls_agp_dp_12"
+                        android:layout_height="@dimen/egls_agp_dp_12"
+                        android:background="@drawable/kr_15"
+                        android:contentDescription="@null" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/iv_bindemail_verifydot"
+                        android:layout_width="@dimen/egls_agp_dp_12"
+                        android:layout_height="@dimen/egls_agp_dp_12"
+                        android:background="@drawable/kr_15"
+                        android:contentDescription="@null" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/iv_bindemail_finishdot"
+                        android:layout_width="@dimen/egls_agp_dp_12"
+                        android:layout_height="@dimen/egls_agp_dp_12"
+                        android:background="@drawable/kr_15"
+                        android:contentDescription="@null" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_bindemail_tip"
+                style="@style/egls_agp_tip_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/egls_agp_bindemail_text_8"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/ll_bindemail_input"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:background="@drawable/kr_04"
+                android:gravity="center_vertical" >
+
+                <ImageView
+                    android:id="@+id/iv_bindemail_account"
+                    android:layout_width="@dimen/egls_agp_dp_28"
+                    android:layout_height="@dimen/egls_agp_dp_28"
+                    android:contentDescription="@null"
+                    android:padding="@dimen/egls_agp_dp_8"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/kr_53" />
+
+                <EditText
+                    android:id="@+id/et_bindemail_input"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/egls_agp_dp_28"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/egls_agp_bindemail_hint_1"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_bindemail_send"
+                style="@style/egls_agp_button_text_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:background="@null"
+                android:text="@string/egls_agp_bindemail_text_7"
+                android:textColor="#E3820E"
+                android:visibility="invisible" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/egls_agp_dp_12"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_bindemail_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:clickable="false"
+                android:text="@string/egls_agp_bindemail_text_6"
+                android:textColor="#E3820E"
+                android:textSize="@dimen/egls_agp_sp_14"
+                android:visibility="invisible" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_bindemail_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:text="@string/egls_agp_bindemail_text_5"
+                android:textColor="#E3820E"
+                android:textSize="@dimen/egls_agp_sp_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_usercenter_main"
+        android:layout_width="@dimen/egls_agp_dp_390"
+        android:layout_height="@dimen/egls_agp_dp_256"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/ll_usercenter_left"
+            android:layout_width="@dimen/egls_agp_dp_80"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" >
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_agp_dp_72"
+                android:layout_height="match_parent"
+                android:background="#464646"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_usercenter_head"
+                android:layout_width="@dimen/egls_agp_dp_72"
+                android:layout_height="@dimen/egls_agp_dp_72"
+                android:background="@android:color/transparent"
+                android:contentDescription="@null"
+                android:padding="@dimen/egls_agp_dp_6"
+                android:scaleType="fitXY"
+                android:src="@drawable/xi_21" />
+
+            <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                android:id="@+id/asmstv_usercenter_index"
+                android:layout_width="@dimen/egls_agp_dp_74"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:layout_below="@+id/iv_usercenter_head"
+                android:background="@android:color/transparent"
+                android:contentDescription="egls_agp_sp_8"
+                android:gravity="center"
+                android:paddingLeft="@dimen/egls_agp_dp_2"
+                android:paddingRight="@dimen/egls_agp_dp_4"
+                android:text="@string/egls_agp_usercenter_text_1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_10"
+                android:visibility="gone" />
+
+            <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                android:id="@+id/asmstv_usercenter_security"
+                android:layout_width="@dimen/egls_agp_dp_74"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:layout_below="@+id/asmstv_usercenter_index"
+                android:background="@android:color/transparent"
+                android:contentDescription="egls_agp_sp_8"
+                android:gravity="center"
+                android:paddingLeft="@dimen/egls_agp_dp_2"
+                android:paddingRight="@dimen/egls_agp_dp_4"
+                android:text="@string/egls_agp_usercenter_text_2"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                android:id="@+id/asmstv_usercenter_rechargerecord"
+                android:layout_width="@dimen/egls_agp_dp_74"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:layout_below="@+id/asmstv_usercenter_security"
+                android:background="@android:color/transparent"
+                android:contentDescription="egls_agp_sp_8"
+                android:gravity="center"
+                android:paddingLeft="@dimen/egls_agp_dp_2"
+                android:paddingRight="@dimen/egls_agp_dp_4"
+                android:text="@string/egls_agp_usercenter_text_3"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                android:id="@+id/asmstv_usercenter_gameforum"
+                android:layout_width="@dimen/egls_agp_dp_74"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:layout_below="@+id/asmstv_usercenter_rechargerecord"
+                android:background="@android:color/transparent"
+                android:contentDescription="egls_agp_sp_8"
+                android:gravity="center"
+                android:paddingLeft="@dimen/egls_agp_dp_2"
+                android:paddingRight="@dimen/egls_agp_dp_4"
+                android:text="@string/egls_agp_usercenter_text_4"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_10"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_usercenter_right"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/egls_agp_dp_8"
+            android:paddingRight="@dimen/egls_agp_dp_8"
+            android:paddingTop="@dimen/egls_agp_dp_8" >
+
+            <RelativeLayout
+                android:id="@+id/rl_usercenter_tite"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/egls_agp_dp_40"
+                android:background="@android:color/transparent" >
+
+                <TextView
+                    android:id="@+id/tv_usercenter_nickname"
+                    android:layout_width="@dimen/egls_agp_dp_280"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="NickName"
+                    android:textColor="#363636"
+                    android:textSize="@dimen/egls_agp_sp_14"
+                    android:textStyle="italic|bold" />
+
+                <TextView
+                    android:id="@+id/tv_usercenter_introduction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="introduction"
+                    android:textColor="#696969"
+                    android:textSize="@dimen/egls_agp_sp_8"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@android:color/transparent"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:layout_width="@dimen/egls_agp_dp_20"
+                        android:layout_height="@dimen/egls_agp_dp_20"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/xi_11"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="@dimen/egls_agp_dp_4"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/ib_usercenter_return"
+                        android:layout_width="@dimen/egls_agp_dp_20"
+                        android:layout_height="@dimen/egls_agp_dp_20"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/xi_12" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_usercenter_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_text_mission"
+                    android:textColor="#9c9c9c"
+                    android:textSize="@dimen/egls_agp_sp_8"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/egls_agp_always_dp_1"
+                android:layout_marginTop="@dimen/egls_agp_always_dp_1"
+                android:background="#cfcfcf" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:background="@android:color/transparent" >
+
+                <!-- 个人主页相关的view begin -->
+
+                <RelativeLayout
+                    android:id="@+id/rl_usercenter_index"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical"
+                    android:visibility="gone" >
+
+                    <com.egls.platform.views.AGPHorizontalListView
+                        android:id="@+id/hlv_usercenter_mission"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/egls_agp_dp_160"
+                        android:background="#ffffff" >
+                    </com.egls.platform.views.AGPHorizontalListView>
+
+                    <com.egls.platform.views.AGPHorizontalListView
+                        android:id="@+id/hlv_usercenter_recommend"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/egls_agp_dp_160"
+                        android:background="#ffffff"
+                        android:visibility="gone" >
+                    </com.egls.platform.views.AGPHorizontalListView>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/egls_agp_dp_160"
+                        android:background="@android:color/transparent" >
+
+                        <ImageButton
+                            android:id="@+id/ib_usercenter_recommend"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:background="@android:color/transparent"
+                            android:padding="@dimen/egls_agp_dp_4"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_16" />
+
+                        <ImageButton
+                            android:id="@+id/ib_usercenter_mission"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_alignParentBottom="true"
+                            android:layout_toLeftOf="@+id/ib_usercenter_recommend"
+                            android:background="@android:color/transparent"
+                            android:padding="@dimen/egls_agp_dp_6"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_66" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!-- 个人主页相关的view end -->
+
+
+                <!-- 安全中心相关的view begin -->
+
+                <RelativeLayout
+                    android:id="@+id/rl_usercenter_security"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:visibility="gone" >
+
+                    <RelativeLayout
+                        android:id="@+id/rl_usercenter_bind_moblie"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/egls_agp_dp_36"
+                        android:layout_marginTop="@dimen/egls_agp_dp_2"
+                        android:background="#66cccccc"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/iv_usercenter_security_image1"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@null"
+                            android:padding="@dimen/egls_agp_dp_8"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_22" />
+
+                        <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                            android:id="@+id/tv_usercenter_security_info1"
+                            android:layout_width="@dimen/egls_agp_dp_64"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_toRightOf="@+id/iv_usercenter_security_image1"
+                            android:contentDescription="egls_agp_sp_6"
+                            android:gravity="center"
+                            android:text="@string/egls_agp_usercenter_text_5"
+                            android:textColor="#696969"
+                            android:textSize="@dimen/egls_agp_sp_10" />
+
+                        <ImageButton
+                            android:id="@+id/ib_usercenter_security_bindmobile"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_alignParentRight="true"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@null"
+                            android:padding="@dimen/egls_agp_dp_8"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_25" />
+
+                        <TextView
+                            android:id="@+id/tv_usercenter_security_bindmobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_toLeftOf="@+id/ib_usercenter_security_bindmobile"
+                            android:layout_toRightOf="@+id/tv_usercenter_security_info1"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical|left"
+                            android:textColor="#696969"
+                            android:textSize="@dimen/egls_agp_sp_10" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_usercenter_bind_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/egls_agp_dp_36"
+                        android:layout_below="@+id/rl_usercenter_bind_moblie"
+                        android:layout_marginTop="@dimen/egls_agp_dp_4"
+                        android:background="#66cccccc"
+                        android:gravity="center_vertical" >
+
+                        <ImageView
+                            android:id="@+id/iv_usercenter_security_image2"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@null"
+                            android:padding="@dimen/egls_agp_dp_8"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_23" />
+
+                        <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                            android:id="@+id/tv_usercenter_security_info2"
+                            android:layout_width="@dimen/egls_agp_dp_64"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_toRightOf="@+id/iv_usercenter_security_image2"
+                            android:contentDescription="egls_agp_sp_6"
+                            android:gravity="center"
+                            android:text="@string/egls_agp_usercenter_text_6"
+                            android:textColor="#696969"
+                            android:textSize="@dimen/egls_agp_sp_10" />
+
+                        <ImageButton
+                            android:id="@+id/ib_usercenter_security_bindemail"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_alignParentRight="true"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@null"
+                            android:padding="@dimen/egls_agp_dp_8"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_25" />
+
+                        <TextView
+                            android:id="@+id/tv_usercenter_security_bindemail"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:layout_toLeftOf="@+id/ib_usercenter_security_bindemail"
+                            android:layout_toRightOf="@+id/tv_usercenter_security_info2"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical|left"
+                            android:textColor="#696969"
+                            android:textSize="@dimen/egls_agp_sp_10" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@android:color/transparent"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/egls_agp_usercenter_text_7"
+                            android:textColor="#696969"
+                            android:textSize="@dimen/egls_agp_sp_10" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/egls_agp_always_dp_1"
+                            android:layout_marginTop="@dimen/egls_agp_always_dp_1"
+                            android:background="#cfcfcf" />
+
+                        <ImageButton
+                            android:id="@+id/ib_usercenter_security_modify"
+                            android:layout_width="@dimen/egls_agp_dp_36"
+                            android:layout_height="@dimen/egls_agp_dp_36"
+                            android:background="@android:color/transparent"
+                            android:contentDescription="@null"
+                            android:padding="@dimen/egls_agp_dp_8"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/xi_31" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <!-- 安全中心相关的view end -->
+
+
+                <!-- 充值记录相关的view begin -->
+
+                <RelativeLayout
+                    android:id="@+id/rl_usercenter_rechargerecord"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:visibility="visible" >
+
+                    <LinearLayout
+                        android:id="@+id/ll_usercenter_rechargerecord_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:background="@android:color/transparent"
+                        android:gravity="right"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/egls_agp_usercenter_text_8"
+                            android:textColor="#696969"
+                            android:textSize="@dimen/egls_agp_sp_10" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/egls_agp_always_dp_1"
+                            android:layout_marginTop="@dimen/egls_agp_always_dp_1"
+                            android:background="#cfcfcf" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@android:color/transparent"
+                            android:gravity="center"
+                            android:orientation="horizontal" >
+
+                            <ImageButton
+                                android:id="@+id/ib_usercenter_rechargerecord_mobile"
+                                android:layout_width="@dimen/egls_agp_dp_36"
+                                android:layout_height="@dimen/egls_agp_dp_36"
+                                android:background="@android:color/transparent"
+                                android:contentDescription="@null"
+                                android:padding="@dimen/egls_agp_dp_8"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/xi_45" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@+id/ll_usercenter_rechargerecord_contact"
+                        android:layout_marginBottom="@dimen/egls_agp_dp_4"
+                        android:layout_marginTop="@dimen/egls_agp_dp_2"
+                        android:background="@android:color/transparent" >
+
+                        <ListView
+                            android:id="@+id/lv_usercenter_rechargerecord"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:cacheColorHint="@android:color/transparent"
+                            android:divider="#e7e7e7"
+                            android:dividerHeight="1px"
+                            android:scrollbars="none"
+                            android:scrollingCache="false"
+                            android:visibility="visible" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!-- 充值记录相关的view end -->
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,332 @@
+<resources>
+
+    <!-- AccountLogin begin -->
+    <string name="egls_agp_accountLogin_hint_1">"请输入账号"</string>
+    <string name="egls_agp_accountLogin_hint_2">"请输入密码"</string>
+    <string name="egls_agp_accountLogin_text_1">"确认"</string>
+    <string name="egls_agp_accountLogin_text_2">"忘记密码？"</string>
+    <!-- AccountLogin end -->
+
+
+    <!-- Agreement begin -->
+    <string name="egls_agp_agreement_text_1">"EGLS用户服务协议"</string>
+    <string name="egls_agp_agreement_text_2">"\n     请务必认真阅读和理解本《EGLS用户服务协议》（以下简称《协议》）中规定的所有权利和限制。除非您接受本《协议》条款，否则您无权注册、登录或使用本协议所涉及的相关服务。您一旦注册、登录、使用或以任何方式使用本《协议》所涉及的相关服务的行为将视为对本《协议》的接受，即表示您同意接受本《协议》各项条款的约束。如果您不同意本《协议》中的条款，请不要注册、登录或使用本《协议》相关服务。 本《协议》是用户与艾格拉斯科技（北京）有限公司（下称“EGLS”）之间的法律协议。\n\n服务内容 \n1.1 EGLS为EGLS网络平台的所有者及经营者，提供基于互联网以及移动互联网的相关服务（以下简称“网络服务”）。EGLS账户服务的具体内容由EGLS根据实际情况提供，包括但不限于《英雄战魂Online》、《格斗刀魂Online》、《旧约之战》、《空城计》等。 \n1.2 您一旦注册成功成为用户，您将得到一个密码和账号，您需要对自己在账户中的所有活动和事件负全责。如果由于您的过失导致您的账号和密码脱离您的控制，则由此导致的针对您、EGLS或任何第三方造成的损害，您将承担全部责任。\n1.3 用户应输入账号和密码登录EGLS账户。\n1.4 用户理解并接受，EGLS仅提供相关的网络服务，除此之外与相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动互联网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均应由用户自行负担。\n\n用户使用规则 \n2.1  用户不应将其账号、密码转让、出借或以任何脱离用户控制的形式交由他人使用。如用户发现其账号遭他人非法使用，应立即通知EGLS。因黑客行为或用户的保管疏忽导致账号、密码遭他人非法使用，EGLS不承担任何责任。\n2.2 用户应当为自身注册账户下的一切行为负责，因用户行为而导致的用户自身或其他任何第三方的任何损失或损害，EGLS不承担责任。\n2.3 用户在使用EGLS网络服务过程中，必须遵循以下原则：\n2.3.1 遵守中国有关的法律和法规；\n2.3.2 遵守所有与网络服务有关的网络协议、规定和程序；\n2.3.3 不得为任何非法目的而使用网络服务系统；\n2.3.4 不得利用EGLS网络服务系统进行任何可能对互联网或移动网正常运转造成不利影响的行为；\n2.3.5 不得利用EGLS提供的网络服务上传、展示或传播任何虚假的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料；\n2.3.6 不得侵犯EGLS和其他任何第三方的专利权、著作权、商标权、名誉权或其他任何合法权益；\n2.3.7 不得利用EGLS网络服务系统进行任何不利于EGLS的行为；\n2.3.8 如发现任何非法使用用户账号或账号出现安全漏洞的情况，应立即通告EGLS。\n2.4 如用户在使用网络服务时违反任何上述规定，EGLS或其授权的人有权要求用户改正或直接采取一切必要的措施（包括但不限于暂停或终止用户使用网络服务的权利）以减轻用户不当行为造成的影响。\n\n3. 服务变更、中断或终止 \n3.1 鉴于网络服务的特殊性，用户同意EGLS有权根据业务发展情况随时变更、中断或终止部分或全部的网络服务而无需通知用户，也无需对任何用户或任何第三方承担任何责任；\n3.2 用户理解，EGLS需要定期或不定期地对提供网络服务的平台（如互联网网站、移动网络等）或相关的设备进行检修或者维护，如因此类情况而造成网络服务在合理时间内的中断，EGLS无需为此承担任何责任，但EGLS应尽可能事先进行通告。用户充值的游戏内货币有使用期限，有效期为游戏货币到账日起延续至180天止。 \n3.3 如发生下列任何一种情形，EGLS有权随时中断或终止向用户提供本《协议》项下的网络服务（包括收费网络服务）而无需对用户或任何第三方承担任何责任：\n3.3.1 用户提供的信息不真实；\n3.3.2 用户违反本《协议》中规定的使用规则。\n\n4. 知识产权 \n4.1 EGLS提供的网络服务中包含的任何文本、图片、图形、音频和/或视频资料均受版权、商标和/或其它财产所有权法律的保护，未经相关权利人同意，上述资料均不得用于任何商业目的。\n4.2 EGLS为提供网络服务而使用的任何软件（包括但不限于软件中所含的任何图像、照片、动画、录像、录音、音乐、文字和附加程序、随附的帮助材料）的一切权利均属于该软件的著作权人，未经该软件的著作权人许可，用户不得对该软件进行反向工程（reverse engineer）、反向编译（decompile）或反汇编（disassemble）。\n\n5. 隐私保护 \n5.1 保护用户隐私是EGLS的一项基本政策，EGLS保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在EGLS的非公开内容，但下列情况除外：\n5.1.1 事先获得用户的明确授权；\n5.1.2 根据有关的法律法规要求；\n5.1.3 按照相关政府主管部门的要求；\n5.1.4 为维护社会公众的利益；\n5.1.5 为维护EGLS的合法权益。\n5.2 EGLS可能会与第三方合作向用户提供相关的网络服务，在此情况下，如该第三方同意承担与EGLS同等的保护用户隐私的责任，则EGLS有权将用户的注册资料等提供给该第三方。 \n5.3 在不透露单个用户隐私资料的前提下，EGLS有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。 \n5.4 EGLS制定了以下四项隐私权保护原则，指导我们如何来处理产品中涉及到用户隐私权和用户信息等方面的问题：\n（1） 利用我们收集的信息为用户提供有价值的产品和服务。\n（2） 开发符合隐私权标准和隐私权惯例的产品。\n（3） 将个人信息的收集透明化，并由权威第三方监督。\n（4） 尽最大的努力保护我们掌握的信息。\n\n6. 免责声明 \n6.1 EGLS不担保网络服务一定能满足用户的要求，也不担保网络服务不会中断，对网络服务的及时性、安全性、准确性也都不作担保。\n6.2 EGLS不保证为向用户提供便利而设置的外部链接的准确性和完整性，同时，对于该等外部链接指向的不由EGLS实际控制的任何网页上的内容，EGLS不承担任何责任。\n6.3 对于因电信系统或互联网网络故障、计算机故障或病毒、信息损坏或丢失、计算机系统问题或其它任何不可抗力原因而产生损失，EGLS不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。\n\n7. 法律及争议解决 \n7.1 本协议适用中华人民共和国法律。\n7.2 因本协议引起的或与本协议有关的任何争议，各方应友好协商解决；协商不成的，任何一方均可将有关争议提交至北京仲裁委员会并按照其届时有效的仲裁规则仲裁；仲裁裁决是终局的，对各方均有约束力。\n\n8. 其他条款 \n8.1 如果本协议中的任何条款无论因何种原因完全或部分无效或不具有执行力，或违反任何适用的法律，则该条款被视为删除，但本协议的其余条款仍应有效并且有约束力。\n8.2 EGLS有权随时根据有关法律、法规的变化以及公司经营状况和经营策略的调整等修改本协议，而无需另行单独通知用户。修改后的协议会在EGLS网站（www.EGLS.cn）上公布。用户可随时通过EGLS网站浏览最新服务协议条款。当发生有关争议时，以最新的协议文本为准。如果不同意EGLS对本协议相关条款所做的修改，用户有权停止使用网络服务。如果用户继续使用网络服务，则视为用户接受EGLS对本协议相关条款所做的修改。\n8.3 EGLS在法律允许最大范围对本协议拥有解释权与修改权。\n\n\n"</string>
+    <!-- Agreement end -->
+
+
+    <!-- AlreadyLogin begin -->
+    <string name="egls_agp_alreadylogin_text_1">"进入游戏"</string>
+    <string name="egls_agp_alreadylogin_text_2">"其他账号"</string>
+    <string name="egls_agp_alreadylogin_text_3">"账号注册"</string>
+    <string name="egls_agp_alreadylogin_text_4">"请选择登录方式"</string>
+    <!-- AlreadyLogin end -->
+
+
+    <!-- BindAccount begin -->
+    <string name="egls_agp_bindaccount_text_1">"账号绑定"</string>
+    <string name="egls_agp_bindaccount_text_2">"您必须绑定账号才能充值及使用用户中心的功能。为了您的账号安全，请尽快绑定！"</string>
+    <!-- BindAccount end -->
+
+
+    <!-- BindEmail begin -->
+    <string name="egls_agp_bindemail_text_1">"绑定邮箱"</string>
+    <string name="egls_agp_bindemail_text_2">"输入邮箱"</string>
+    <string name="egls_agp_bindemail_text_3">"输入验证码"</string>
+    <string name="egls_agp_bindemail_text_4">"绑定成功"</string>
+    <string name="egls_agp_bindemail_text_5">"下一步&gt;&gt;"</string>
+    <string name="egls_agp_bindemail_text_6">"&lt;&lt;上一步"</string>
+    <string name="egls_agp_bindemail_text_7">"获取验证码"</string>
+    <string name="egls_agp_bindemail_text_8">"恭喜，您已经成功使用该邮箱绑定您的账号！"</string>
+    <string name="egls_agp_bindemail_hint_1">"请输入您要绑定的邮箱"</string>
+    <string name="egls_agp_bindemail_hint_2">"请输入验证码"</string>
+    <!-- BindEmail end -->
+
+
+    <!-- BindMobile begin -->
+    <string name="egls_agp_bindemobile_text_1">"绑定手机"</string>
+    <string name="egls_agp_bindemobile_text_2">"输入手机号"</string>
+    <string name="egls_agp_bindemobile_text_3">"输入验证码"</string>
+    <string name="egls_agp_bindemobile_text_4">"绑定成功"</string>
+    <string name="egls_agp_bindemobile_text_5">"下一步&gt;&gt;"</string>
+    <string name="egls_agp_bindemobile_text_6">"&lt;&lt;上一步"</string>
+    <string name="egls_agp_bindemobile_text_7">"获取验证码"</string>
+    <string name="egls_agp_bindemobile_text_8">"恭喜，您已经成功使用该手机绑定您的账号！"</string>
+    <string name="egls_agp_bindemobile_hint_1">"请输入手机号码"</string>
+    <string name="egls_agp_bindemobile_hint_2">"请输入验证码"</string>
+    <!-- BindMobile end -->
+
+
+    <!-- Dialog begin -->
+    <string name="egls_agp_dialog_text_1">"提示"</string>
+    <string name="egls_agp_dialog_text_2">"确认"</string>
+    <string name="egls_agp_dialog_text_3">"取消"</string>
+    <!-- Dialog end -->
+
+
+    <!-- Floate begin -->
+    <string name="egls_agp_floate_text_1">"用户中心"</string>
+    <string name="egls_agp_floate_text_2">"用户协议"</string>
+    <string name="egls_agp_floate_text_3">"运营政策"</string>
+    <string name="egls_agp_floate_text_4">"Naver Cafe"</string>
+    <!-- Floate end -->
+
+
+    <!-- Find begin -->
+    <string name="egls_agp_find_text_1">"密码找回"</string>
+    <string name="egls_agp_find_text_2">"获取验证码"</string>
+    <string name="egls_agp_find_text_3">"确认"</string>
+    <string name="egls_agp_find_hint_1">"请输入您要找回密码的的账号"</string>
+    <string name="egls_agp_find_hint_2">"请输入验证码"</string>
+    <!-- Find end -->
+
+
+    <!-- Forget begin -->
+    <string name="egls_agp_forget_text_1">"密码找回"</string>
+    <string name="egls_agp_forget_text_2">"完成绑定后，您可以通过绑定的邮箱或设备找回密码 ，也可以联系我们的客服人员，提供账户信息来找回"</string>
+    <string name="egls_agp_forget_text_3">"通过邮箱"</string>
+    <string name="egls_agp_forget_text_4">"通过客服"</string>
+    <string name="egls_agp_forget_text_5">"通过手机"</string>
+    <!-- Forget end -->
+
+
+    <!-- Forget Customer begin -->
+    <string name="egls_agp_forgetcustomer_text_1">"密码找回"</string>
+    <string name="egls_agp_forgetcustomer_text_2">"客服热线"</string>
+    <string name="egls_agp_forgetcustomer_text_3">"客服邮箱"</string>
+    <string name="egls_agp_forgetcustomer_text_4">"4009952288"</string>
+    <string name="egls_agp_forgetcustomer_text_5">"zh@egls.cn"</string>
+    <string name="egls_agp_forgetcustomer_text_6">"请添加您要找回密码的账号"</string>
+    <!-- Forget Customer end -->
+
+
+    <!-- Forget Email begin -->
+    <string name="egls_agp_forgetemail_text_1">"密码找回"</string>
+    <string name="egls_agp_forgetemail_text_2">"输入账号"</string>
+    <string name="egls_agp_forgetemail_text_3">"输入验证码"</string>
+    <string name="egls_agp_forgetemail_text_4">"完成找回"</string>
+    <string name="egls_agp_forgetemail_text_5">"下一步&gt;&gt;"</string>
+    <string name="egls_agp_forgetemail_text_6">"&lt;&lt;上一步"</string>
+    <string name="egls_agp_forgetemail_text_7">"获取验证码"</string>
+    <string name="egls_agp_forgetemail_text_8">"完成啦，密码已发送到绑定的邮箱，请注意查收！"</string>
+    <string name="egls_agp_forgetemail_hint_1">"请输入您要找回密码的的账号"</string>
+    <string name="egls_agp_forgetemail_hint_2">"请输入验证码"</string>
+    <!-- Forget Email end -->
+
+
+    <!-- Forget Mobile begin -->
+    <string name="egls_agp_forgetmobile_text_1">"密码找回"</string>
+    <string name="egls_agp_forgetmobile_text_2">"输入账号"</string>
+    <string name="egls_agp_forgetmobile_text_3">"输入验证码"</string>
+    <string name="egls_agp_forgetmobile_text_4">"完成找回"</string>
+    <string name="egls_agp_forgetmobile_text_5">"下一步&gt;&gt;"</string>
+    <string name="egls_agp_forgetmobile_text_6">"&lt;&lt;上一步"</string>
+    <string name="egls_agp_forgetmobile_text_7">"获取验证码"</string>
+    <string name="egls_agp_forgetmobile_text_8">"完成啦，密码已发送到绑定的手机号，请注意查收！"</string>
+    <string name="egls_agp_forgetmobile_hint_1">"请输入您要找回密码的的账号"</string>
+    <string name="egls_agp_forgetmobile_hint_2">"请输入验证码"</string>
+    <!-- Forget Mobile end -->
+
+
+    <!-- Index begin -->
+    <string name="egls_agp_index_text_1">"游戏试玩"</string>
+    <string name="egls_agp_index_text_2">"账号登录"</string>
+    <string name="egls_agp_index_text_3">"账号注册"</string>
+    <string name="egls_agp_index_text_4">"请选择登录方式"</string>
+    <string name="egls_agp_index_text_5">"或"</string>
+    <!-- Index end -->
+
+
+    <!-- Modify begin -->
+    <string name="egls_agp_modify_text_1">"修改密码"</string>
+    <string name="egls_agp_modify_text_2">"密码格式为6至16个字符，请使用数字、英文字母区分大小写"</string>
+    <string name="egls_agp_modify_text_3">"确认"</string>
+    <string name="egls_agp_modify_hint_1">"请输入原密码"</string>
+    <string name="egls_agp_modify_hint_2">"请输入新密码"</string>
+    <string name="egls_agp_modify_hint_3">"请确认新密码"</string>
+    <!-- Modify end -->
+
+
+    <!-- New Account begin -->
+    <string name="egls_agp_newaccount_text_1">"手机绑定"</string>
+    <string name="egls_agp_newaccount_text_2">"邮箱绑定"</string>
+    <string name="egls_agp_newaccount_text_3">"获取验证码"</string>
+    <string name="egls_agp_newaccount_text_4">"我已仔细阅读并同意“"</string>
+    <string name="egls_agp_newaccount_text_5">"EGLS用户服务协议"</string>
+    <string name="egls_agp_newaccount_text_6">"”"</string>
+    <string name="egls_agp_newaccount_text_7">"确认"</string>
+    <string name="egls_agp_newaccount_text_8">"您可以选择："</string>
+    <string name="egls_agp_newaccount_text_9">"手机注册"</string>
+    <string name="egls_agp_newaccount_text_10">"邮箱注册"</string>
+    <string name="egls_agp_newaccount_hint_1">"请输入手机号码"</string>
+    <string name="egls_agp_newaccount_hint_2">"请输入验证码"</string>
+    <string name="egls_agp_newaccount_hint_3">"请输入密码"</string>
+    <string name="egls_agp_newaccount_hint_4">"请输入邮箱"</string>
+    <!-- New Account end -->
+
+
+    <!-- Payment begin -->
+    <string name="egls_agp_payment_text_1">"充值"</string>
+    <string name="egls_agp_payment_text_2">"您当前的充值金额为："</string>
+    <string name="egls_agp_payment_text_3">"请选择充值方式"</string>
+    <!-- Payment end -->
+
+
+    <!-- Payment Card begin -->
+    <string name="egls_agp_paymentcard_text_1">"充值"</string>
+    <string name="egls_agp_paymentcard_text_2">"请正确选择充值卡面额，如果充值卡面额与充值金额不符将导致交易失败，造成充值卡失效，并可能无法找回！"</string>
+    <string name="egls_agp_paymentcard_text_3">"支付"</string>
+    <string name="egls_agp_paymentcard_hint_1">"请输入充值卡号"</string>
+    <string name="egls_agp_paymentcard_hint_2">"请输入充值卡密码"</string>
+    <!-- Payment Card end -->
+
+
+    <!-- Register begin -->
+    <string name="egls_agp_register_text_1">"账号注册"</string>
+    <string name="egls_agp_register_text_2">"密码格式为6至16个字符，请使用数字、英文字母区分大小写"</string>
+    <string name="egls_agp_register_text_3">"我同意并遵守《EGLS用户服务协议》"</string>
+    <string name="egls_agp_register_text_4">"注册"</string>
+    <string name="egls_agp_register_hint_1">"请输入邮箱"</string>
+    <string name="egls_agp_register_hint_2">"请输入密码"</string>
+    <string name="egls_agp_register_hint_3">"请确认密码"</string>
+    <!-- Register end -->
+
+
+    <!-- Usercenter begin -->
+    <string name="egls_agp_usercenter_text_1">"个人主页"</string>
+    <string name="egls_agp_usercenter_text_2">"安全中心"</string>
+    <string name="egls_agp_usercenter_text_3">"充值记录"</string>
+    <string name="egls_agp_usercenter_text_4">"游戏社交"</string>
+    <string name="egls_agp_usercenter_text_5">"绑定手机"</string>
+    <string name="egls_agp_usercenter_text_6">"绑定邮箱"</string>
+    <string name="egls_agp_usercenter_text_7">"其他操作"</string>
+    <string name="egls_agp_usercenter_text_8">"联系客服"</string>
+    <string name="egls_agp_usercenter_text_9">"任务开始"</string>
+    <!-- Usercenter end -->
+
+
+    <!-- Authentication begin -->
+    <string name="egls_agp_authentication_text_1">"实名认证"</string>
+    <string name="egls_agp_authentication_text_2">"确认"</string>
+    <string name="egls_agp_authentication_hint_1">"请输入您的姓名"</string>
+    <string name="egls_agp_authentication_hint_2">"请输入您的身份证号"</string>
+    <!-- Authentication end -->
+
+
+    <!-- Mission begin -->
+    <string name="egls_agp_mission_name_bindmobile">"绑定手机"</string>
+    <string name="egls_agp_mission_info_bindmobile">"绑定手机可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindemail">"绑定邮箱"</string>
+    <string name="egls_agp_mission_info_bindemail">"绑定邮箱可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindaccount">"绑定账号"</string>
+    <string name="egls_agp_mission_info_bindaccount">"绑定账号可以提高你的账号安全性，降低盗号风险"</string>
+    <!-- Mission end -->
+
+
+    <!-- Permission begin -->
+    <string name="egls_agp_permission_warning">"暂未开启本次操作所需的相关权限，您的本次操作需要在开启此权限后才能有效。您确定不开启此权限吗？"</string>
+    <string name="egls_agp_permission_closed">"此权限关闭了…"</string>
+    <string name="egls_agp_permission_active">"此权限已开启！"</string>
+    <string name="egls_agp_permission_nolonger">"如果您要使用此功能，请在应用权限管理中开启相关权限。"</string>
+    <string name="egls_agp_permission_nolonger_exit">"由于您未开启相关必要权限，游戏即将关闭。为了保证游戏正常运行，请在应用权限管理中开启相关必要权限。"</string>
+    <string name="egls_agp_permission_warning_getaccounts">"您尚未开启相关权限，这将导致您无法使用Google账号登录。您确定不开启此权限吗（点击“取消”进行权限设置，点击“确认”放弃开启）？"</string>
+    <string name="egls_agp_permission_request_getaccounts">""</string>
+    <string name="egls_agp_permission_warning_systemalertwindow">"您尚未开启相关权限，这将导致“悬浮窗”功能无法为您提供服务。当然该功能并不影响您正常进行游戏，您可以在系统应用权限设置里去打开该权限。您确定不开启此权限吗（点击“取消”进行权限设置，点击“确认”放弃开启）？"</string>
+    <string name="egls_agp_permission_request_systemalertwindow">"“悬浮窗”功能需要开启相关权限，您确定要申请权限吗？"</string>
+    <string name="egls_agp_permission_warning_writeexternalstorage">"您尚未开启必要权限，这将导致游戏无法正常初始化（请申请权限，否则关闭游戏）。"</string>
+    <string name="egls_agp_permission_request_writeexternalstorage">""</string>
+    <string name="egls_agp_permission_warning_nec_perms">"您尚未开启必要权限，这将导致游戏无法正常初始化（请申请权限，否则关闭游戏）。"</string>
+    <string name="egls_agp_permission_request_nec_perms">""</string>
+    <string name="egls_agp_permission_dialog_tip">"提示"</string>
+    <string name="egls_agp_permission_dialog_ok">"确认"</string>
+    <string name="egls_agp_permission_dialog_cancel">"取消"</string>
+    <string name="egls_agp_permission_dialog_close">"关闭游戏"</string>
+    <string name="egls_agp_permission_dialog_request">"权限申请"</string>
+    <string name="egls_agp_permission_dialog_default_message">"\n• 游戏初始化过程中可能会使用额外的存储空间或其他功能\n\n•  请确认同意相关权限要求，以便游戏完成初始化。"</string>
+    <!-- Permission end -->
+
+
+    <!-- tip begin -->
+    <string name="egls_agp_sys_tip_1">"请输入账号"</string>
+    <string name="egls_agp_sys_tip_2">"请输入密码"</string>
+    <string name="egls_agp_sys_tip_3">"您当前的"</string>
+    <string name="egls_agp_sys_tip_4">"账号验证时效已过期，请重新尝试登录"</string>
+    <string name="egls_agp_sys_tip_5">"网络连接失败，请稍后重试…"</string>
+    <string name="egls_agp_sys_tip_6">"账号登录成功"</string>
+    <string name="egls_agp_sys_tip_7">"账号token失效"</string>
+    <string name="egls_agp_sys_tip_8">"账号信息获取成功"</string>
+    <string name="egls_agp_sys_tip_9">"您的账号密码已修改，请重新登录"</string>
+    <string name="egls_agp_sys_tip_10">"请输入您要找回密码的的账号"</string>
+    <string name="egls_agp_sys_tip_11">"请输入验证码"</string>
+    <string name="egls_agp_sys_tip_12">"获取邮箱验证码成功"</string>
+    <string name="egls_agp_sys_tip_13">"重置密码成功"</string>
+    <string name="egls_agp_sys_tip_14">"验证码已发送，"</string>
+    <string name="egls_agp_sys_tip_15">"秒后可重新获取"</string>
+    <string name="egls_agp_sys_tip_16">"获取手机验证码成功"</string>
+    <string name="egls_agp_sys_tip_17">"请输入您想要注册的手机号码"</string>
+    <string name="egls_agp_sys_tip_18">"请输入您想要注册的邮箱"</string>
+    <string name="egls_agp_sys_tip_19">"请输入您想要绑定的手机号码"</string>
+    <string name="egls_agp_sys_tip_20">"请输入您想要绑定的邮箱"</string>
+    <string name="egls_agp_sys_tip_21">"手机号码格式错误，请重新输入"</string>
+    <string name="egls_agp_sys_tip_22">"邮箱格式错误，请重新输入"</string>
+    <string name="egls_agp_sys_tip_23">"请输入您想要注册的手机号码"</string>
+    <string name="egls_agp_sys_tip_24">"请输入您想要注册的邮箱"</string>
+    <string name="egls_agp_sys_tip_25">"请输入您想要绑定的手机号码"</string>
+    <string name="egls_agp_sys_tip_26">"请输入您想要绑定的邮箱"</string>
+    <string name="egls_agp_sys_tip_27">"请同意并遵守《EGLS用户服务协议》"</string>
+    <string name="egls_agp_sys_tip_28">"账号注册成功"</string>
+    <string name="egls_agp_sys_tip_29">"绑定成功"</string>
+    <string name="egls_agp_sys_tip_30">"您选择的EGLS账号已被绑定，请直接使用该账号登录，或使用其他账号进行绑定。"</string>
+    <string name="egls_agp_sys_tip_31">"您选择的Google账号已被绑定，请直接使用该账号登录，或使用其他账号进行绑定。"</string>
+    <string name="egls_agp_sys_tip_32">"您选择的Facebook账号已被绑定，请直接使用该账号登录，或使用其他账号进行绑定。"</string>
+    <string name="egls_agp_sys_tip_33">"您选择的EGLS账号已被注册，请直接使用该账号登录，或使用其他账号进行注册。"</string>
+    <string name="egls_agp_sys_tip_34">"等待("</string>
+    <string name="egls_agp_sys_tip_35">"s)"</string>
+    <string name="egls_agp_sys_tip_36">"您必须绑定账号才能充值及使用用户中心的功能。为了您的账号安全，请尽快绑定！"</string>
+    <string name="egls_agp_sys_tip_37">""</string>
+    <string name="egls_agp_sys_tip_38">"正在初始化，请稍后…"</string>
+    <string name="egls_agp_sys_tip_39">"初始化成功"</string>
+    <string name="egls_agp_sys_tip_40">"初始化失败"</string>
+    <string name="egls_agp_sys_tip_41">"服务启动"</string>
+    <string name="egls_agp_sys_tip_42">"发送数据"</string>
+    <string name="egls_agp_sys_tip_43">"正在提交数据，请稍后…"</string>
+    <string name="egls_agp_sys_tip_44">"抱歉，您选择的充值卡不支持当前充值金额"</string>
+    <string name="egls_agp_sys_tip_45">"支付数据错误"</string>
+    <string name="egls_agp_sys_tip_46">"请输入充值卡号"</string>
+    <string name="egls_agp_sys_tip_47">"请输入充值卡密码"</string>
+    <string name="egls_agp_sys_tip_48">"您当前的充值金额为："</string>
+    <string name="egls_agp_sys_tip_49">"请输入原密码"</string>
+    <string name="egls_agp_sys_tip_50">"请输入新密码"</string>
+    <string name="egls_agp_sys_tip_51">"请确认密码"</string>
+    <string name="egls_agp_sys_tip_52">"请确认新密码"</string>
+    <string name="egls_agp_sys_tip_53">"修改密码成功，请重新登录"</string>
+    <string name="egls_agp_sys_tip_54">"密码不一致，请重新输入"</string>
+    <string name="egls_agp_sys_tip_55">"原密码错误,请重新输入"</string>
+    <string name="egls_agp_sys_tip_56">"新密码不一致，请重新输入"</string>
+    <string name="egls_agp_sys_tip_57">"修改密码成功"</string>
+    <string name="egls_agp_sys_tip_58">"账单信息获取成功"</string>
+    <string name="egls_agp_sys_tip_59">"暂无充值记录"</string>
+    <string name="egls_agp_sys_tip_60">"您选择的WeChat账号已被绑定，请直接使用该账号登录，或使用其他账号进行绑定。"</string>
+    <!-- tip end -->
+
+
+    <!-- Public begin -->
+    <string name="egls_agp_line">" - "</string>
+    <string name="egls_agp_text_guest">"游客"</string>
+    <string name="egls_agp_text_egls">"EGLS"</string>
+    <string name="egls_agp_text_wechat">"WeChat"</string>
+    <string name="egls_agp_text_google">"Google"</string>
+    <string name="egls_agp_text_facebook">"Facebook"</string>
+    <string name="egls_agp_text_alipay">"支付宝"</string>
+    <string name="egls_agp_text_chinamobile">"中国移动"</string>
+    <string name="egls_agp_text_chinaunicom">"中国联通"</string>
+    <string name="egls_agp_text_chinatelecom">"中国电信"</string>
+    <string name="egls_agp_text_jcard">"骏网一卡通"</string>
+    <string name="egls_agp_text_finish">"完成找回"</string>
+    <string name="egls_agp_text_end">"结束"</string>
+    <string name="egls_agp_text_operation_finish">"操作完成！"</string>
+    <string name="egls_agp_text_mission">"任务"</string>
+    <string name="egls_agp_text_recommend">"推荐"</string>
+    <string name="egls_agp_text_unbind">"未绑定"</string>
+    <!-- Public end -->
+
+</resources>

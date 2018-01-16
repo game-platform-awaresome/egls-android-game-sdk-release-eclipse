@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_240"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_dp_32"
+            android:background="@android:color/transparent" >
+
+            <ImageView
+                android:id="@+id/iv_modify_lock"
+                android:layout_width="@dimen/egls_agp_dp_24"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/egls_agp_dp_4"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/xi_57" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_modify_lock"
+                android:text="@string/egls_agp_modify_text_1"
+                android:textColor="#464646"
+                android:textSize="@dimen/egls_agp_sp_14" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/ib_modify_return"
+                android:layout_width="@dimen/egls_agp_dp_24"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/egls_agp_dp_4"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/egls_agp_dp_2"
+                android:scaleType="fitXY"
+                android:src="@drawable/xi_12" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_always_dp_1"
+            android:layout_marginLeft="@dimen/egls_agp_dp_4"
+            android:layout_marginRight="@dimen/egls_agp_dp_4"
+            android:background="#cfcfcf" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/egls_agp_dp_24"
+            android:paddingRight="@dimen/egls_agp_dp_24" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/egls_agp_dp_16"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_modify_old_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/egls_agp_dp_28"
+                    android:background="@drawable/kr_04"
+                    android:gravity="center"
+                    android:hint="@string/egls_agp_modify_hint_1"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_modify_new_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/egls_agp_dp_28"
+                    android:background="@drawable/kr_04"
+                    android:gravity="center"
+                    android:hint="@string/egls_agp_modify_hint_2"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_modify_confirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/egls_agp_dp_28"
+                    android:background="@drawable/kr_04"
+                    android:gravity="center"
+                    android:hint="@string/egls_agp_modify_hint_3"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:textColor="#000"
+                    android:textSize="@dimen/egls_agp_sp_12" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="@style/egls_agp_tip_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:layout_marginTop="@dimen/egls_agp_dp_2"
+            android:text="@string/egls_agp_modify_text_2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/egls_agp_dp_6"
+            android:paddingTop="@dimen/egls_agp_dp_6" >
+
+            <Button
+                android:id="@+id/btn_modify_submit"
+                style="@style/egls_agp_button_common"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/egls_agp_dp_32"
+                android:layout_marginLeft="@dimen/egls_agp_dp_32"
+                android:layout_marginRight="@dimen/egls_agp_dp_32"
+                android:background="@drawable/egls_agp_xi_06_selector"
+                android:text="@string/egls_agp_modify_text_3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

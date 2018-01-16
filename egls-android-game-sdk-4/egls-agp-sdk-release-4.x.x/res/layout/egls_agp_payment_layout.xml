@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_payment_main"
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_240"
+        android:background="#e7e7e7"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_dp_32"
+            android:background="#333333"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/egls_agp_payment_text_1"
+                android:textColor="#fff"
+                android:textSize="@dimen/egls_agp_sp_14" />
+
+            <Button
+                android:id="@+id/btn_payment_return"
+                android:layout_width="@dimen/egls_agp_dp_24"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/egls_agp_dp_4"
+                android:background="@drawable/kr_48" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_always_dp_1"
+            android:layout_marginBottom="@dimen/egls_agp_dp_4"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:layout_marginTop="@dimen/egls_agp_dp_4"
+            android:background="#999999"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/egls_agp_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/egls_agp_payment_text_2"
+                android:textColor="#333333" />
+
+            <TextView
+                android:id="@+id/tv_payment_amount"
+                style="@style/egls_agp_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#E3820E" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/egls_agp_dp_8"
+            android:layout_marginLeft="@dimen/egls_agp_dp_24"
+            android:layout_marginRight="@dimen/egls_agp_dp_24"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                style="@style/egls_agp_tip_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/egls_agp_payment_text_3"
+                android:textColor="#696969"
+                android:textSize="@dimen/egls_agp_sp_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_box1"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_payment_alipay"
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ts_08" />
+
+                    <TextView
+                        style="@style/egls_agp_tip_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/egls_agp_text_alipay"
+                        android:textColor="#696969"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_box2"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_payment_mobile"
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ts_09" />
+
+                    <TextView
+                        style="@style/egls_agp_tip_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/egls_agp_text_chinamobile"
+                        android:textColor="#696969"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_box3"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_payment_unicom"
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ts_10" />
+
+                    <TextView
+                        style="@style/egls_agp_tip_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/egls_agp_text_chinaunicom"
+                        android:textColor="#696969"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_payment_row2"
+                android:layout_width="match_parent"
+                android:layout_height="0dip"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_box4"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_payment_telecom"
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ts_07" />
+
+                    <TextView
+                        style="@style/egls_agp_tip_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/egls_agp_text_chinatelecom"
+                        android:textColor="#696969"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_box5"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:id="@+id/ib_payment_jcard"
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ts_06" />
+
+                    <TextView
+                        style="@style/egls_agp_tip_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/egls_agp_text_jcard"
+                        android:textColor="#696969"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_payment_box6"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageButton
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@null"
+                        android:scaleType="fitXY"
+                        android:src="@null" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

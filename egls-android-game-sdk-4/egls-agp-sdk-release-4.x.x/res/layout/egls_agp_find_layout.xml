@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_220"
+        android:background="@drawable/kr_116"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include layout="@layout/egls_agp_login_head_merge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/egls_agp_dp_28"
+            android:text="@string/egls_agp_find_text_1"
+            android:textColor="#ff6600"
+            android:textSize="@dimen/egls_agp_sp_12" />
+
+        <!-- 验证码页面 -->
+
+        <LinearLayout
+            android:id="@+id/ll_findpassword_verify"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_32"
+                android:background="@drawable/kr_115_1"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/et_find_account"
+                    android:layout_width="@dimen/egls_agp_dp_180"
+                    android:layout_height="@dimen/egls_agp_dp_24"
+                    android:layout_marginTop="@dimen/egls_agp_dp_3"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|left"
+                    android:hint="@string/egls_agp_find_hint_1"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="#666666"
+                    android:textColorHint="#999999"
+                    android:textSize="@dimen/egls_agp_sp_10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_32"
+                android:layout_marginTop="@dimen/egls_agp_dp_2"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="@dimen/egls_agp_dp_160"
+                    android:layout_height="@dimen/egls_agp_dp_32"
+                    android:background="@drawable/kr_112_1"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/et_find_verify"
+                        android:layout_width="@dimen/egls_agp_dp_100"
+                        android:layout_height="@dimen/egls_agp_dp_24"
+                        android:layout_marginTop="@dimen/egls_agp_dp_3"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical|left"
+                        android:hint="@string/egls_agp_find_hint_2"
+                        android:inputType="textPassword"
+                        android:singleLine="true"
+                        android:textColor="#666666"
+                        android:textColorHint="#999999"
+                        android:textSize="@dimen/egls_agp_sp_10" />
+                </LinearLayout>
+
+                <com.egls.platform.views.AGPAutoScaleMinSizeTextView
+                    android:id="@+id/asstv_find_verify"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/egls_agp_dp_24"
+                    android:layout_marginLeft="@dimen/egls_agp_dp_3"
+                    android:layout_marginTop="@dimen/egls_agp_dp_3"
+                    android:background="@drawable/kr_103_3"
+                    android:contentDescription="egls_agp_sp_8"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_find_text_2"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_agp_sp_10" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_find_confirm"
+                style="@style/egls_agp_button_common"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:layout_marginTop="@dimen/egls_agp_dp_28"
+                android:background="@drawable/egls_agp_kr_103_2_selector"
+                android:text="@string/egls_agp_find_text_3"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_12" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

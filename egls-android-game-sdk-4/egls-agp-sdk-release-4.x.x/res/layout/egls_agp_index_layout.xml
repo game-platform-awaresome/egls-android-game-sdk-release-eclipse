@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_220"
+        android:background="@drawable/kr_116"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include layout="@layout/egls_agp_login_head_merge" />
+
+        <View
+            android:layout_width="@dimen/egls_agp_dp_240"
+            android:layout_height="@dimen/egls_agp_dp_32" />
+
+        <RelativeLayout
+            android:id="@+id/rl_index_account_channel"
+            android:layout_width="@dimen/egls_agp_dp_240"
+            android:layout_height="@dimen/egls_agp_dp_96" >
+
+            <TextView
+                android:id="@+id/tv_index_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="@dimen/egls_agp_dp_1"
+                android:text="@string/egls_agp_alreadylogin_text_4"
+                android:textColor="#999999"
+                android:textSize="@dimen/egls_agp_sp_10"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_index_channel_googleplus"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_48"
+                android:background="@drawable/egls_agp_kr_70_3_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_index_channel_facebook"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_48"
+                android:layout_below="@+id/ll_index_channel_googleplus"
+                android:background="@drawable/egls_agp_kr_69_3_selector"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_96"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ll_index_channel_egls"
+                    android:layout_width="@dimen/egls_agp_dp_120"
+                    android:layout_height="@dimen/egls_agp_dp_96"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@drawable/kr_75"
+                        android:contentDescription="@null" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_index_channel_wechat"
+                    android:layout_width="@dimen/egls_agp_dp_120"
+                    android:layout_height="@dimen/egls_agp_dp_96"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:layout_width="@dimen/egls_agp_dp_48"
+                        android:layout_height="@dimen/egls_agp_dp_48"
+                        android:background="@drawable/kr_111"
+                        android:contentDescription="@null" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_index_line"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/egls_agp_dp_48"
+                android:paddingRight="@dimen/egls_agp_dp_48"
+                android:visibility="gone" >
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="1px"
+                    android:layout_weight="4"
+                    android:background="#999999" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/egls_agp_index_text_5"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/egls_agp_sp_10"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="0dip"
+                    android:layout_height="1px"
+                    android:layout_weight="4"
+                    android:background="#999999" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_index_quick_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_dp_28"
+            android:layout_marginLeft="@dimen/egls_agp_dp_48"
+            android:layout_marginRight="@dimen/egls_agp_dp_48"
+            android:layout_marginTop="@dimen/egls_agp_dp_4"
+            android:background="@drawable/egls_agp_kr_103_2_selector"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="@dimen/egls_agp_dp_20"
+                android:layout_height="@dimen/egls_agp_dp_20"
+                android:background="@drawable/kr_119" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/egls_agp_dp_28"
+                android:gravity="center"
+                android:padding="@dimen/egls_agp_dp_4"
+                android:text="@string/egls_agp_index_text_1"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_index_bottom_square"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/btn_index_account_login"
+                style="@style/egls_agp_button_text_black"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/egls_agp_dp_20"
+                android:text="@string/egls_agp_index_text_2"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <TextView
+                style="egls_agp_button_text_black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/egls_agp_line"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_10" />
+
+            <Button
+                android:id="@+id/btn_index_register"
+                style="@style/egls_agp_button_text_black"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/egls_agp_dp_20"
+                android:text="@string/egls_agp_index_text_3"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_10" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

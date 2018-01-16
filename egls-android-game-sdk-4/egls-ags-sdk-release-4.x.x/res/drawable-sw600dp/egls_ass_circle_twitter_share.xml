@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false" >
+
+    <solid android:color="#ff0000" />
+
+    <padding
+        android:bottom="@dimen/egls_ags_dp_2"
+        android:left="@dimen/egls_ags_dp_2"
+        android:right="@dimen/egls_ags_dp_2"
+        android:top="@dimen/egls_ags_dp_2" />
+
+    <solid android:color="#3399ff" />
+
+    <stroke
+        android:width="@dimen/egls_ags_dp_8"
+        android:color="#ffffff" />
+
+    <size
+        android:height="@dimen/egls_ags_dp_16"
+        android:width="@dimen/egls_ags_dp_16" />
+
+</shape>

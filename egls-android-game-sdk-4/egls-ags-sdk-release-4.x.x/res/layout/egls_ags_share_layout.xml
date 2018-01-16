@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef121212" >
+
+    <LinearLayout
+        android:id="@+id/ll_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/ibDoShare"
+            android:layout_width="@dimen/egls_ags_dp_64"
+            android:layout_height="@dimen/egls_ags_dp_64"
+            android:background="@drawable/egls_ass_circle_weixin_share"
+            android:contentDescription="@null"
+            android:visibility="gone" />
+
+        <ImageView
+            android:layout_width="@dimen/egls_ags_dp_32"
+            android:layout_height="@dimen/egls_ags_dp_32"
+            android:background="@null" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/egls_ags_dp_320"
+            android:layout_height="@dimen/egls_ags_dp_200"
+            android:layout_marginTop="@dimen/egls_ags_dp_4"
+            android:background="#66ffffff"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imgOverView"
+                android:layout_width="@dimen/egls_ags_dp_320"
+                android:layout_height="@dimen/egls_ags_dp_200"
+                android:background="#9c9c9c"
+                android:contentDescription="@null"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:layout_width="@dimen/egls_ags_dp_320"
+                android:layout_height="@dimen/egls_ags_dp_200"
+                android:contentDescription="@null"
+                android:scaleType="fitXY"
+                android:src="@drawable/egls_ags_share_border" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/egls_ags_dp_4"
+            android:background="@drawable/egls_ags_share_channel"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/egls_ags_dp_40"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/ibWXShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_webchat"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <ImageButton
+                    android:id="@+id/ibQQShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_qq"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <ImageButton
+                    android:id="@+id/ibWBShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_weibo"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <ImageButton
+                    android:id="@+id/ibFBShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_facebook"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <ImageButton
+                    android:id="@+id/ibLNShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_line"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <ImageButton
+                    android:id="@+id/ibTWShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_twitter"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+
+                <ImageButton
+                    android:id="@+id/ibNVShare"
+                    android:layout_width="@dimen/egls_ags_dp_40"
+                    android:layout_height="@dimen/egls_ags_dp_40"
+                    android:background="@android:color/transparent"
+                    android:padding="@dimen/egls_ags_dp_1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/egls_ags_icon_navercafe"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/egls_ags_sp_14" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/egls_ags_dp_120"
+        android:layout_height="@dimen/egls_ags_dp_32"
+        android:layout_alignTop="@+id/ll_center"
+        android:layout_marginTop="@dimen/egls_ags_dp_48"
+        android:background="@null" >
+
+        <ImageView
+            android:id="@+id/iv_title"
+            android:layout_width="@dimen/egls_ags_dp_32"
+            android:layout_height="@dimen/egls_ags_dp_32"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/egls_ags_share_title" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_ags_dp_32"
+            android:layout_toLeftOf="@+id/iv_title"
+            android:background="@drawable/egls_ags_share_title_block"
+            android:gravity="center_vertical|right"
+            android:text="@string/egls_ags_share_title"
+            android:textColor="#464646"
+            android:textSize="@dimen/egls_ags_sp_12" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/ibClose"
+        android:layout_width="@dimen/egls_ags_dp_32"
+        android:layout_height="@dimen/egls_ags_dp_32"
+        android:layout_alignBottom="@+id/ll_center"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/egls_ags_dp_56"
+        android:background="@drawable/egls_ags_share_close" />
+
+    <ImageButton
+        android:id="@+id/ibSave"
+        android:layout_width="@dimen/egls_ags_dp_32"
+        android:layout_height="@dimen/egls_ags_dp_32"
+        android:layout_alignBottom="@+id/ll_center"
+        android:layout_marginBottom="@dimen/egls_ags_dp_56"
+        android:layout_marginRight="@dimen/egls_ags_dp_4"
+        android:layout_toLeftOf="@+id/ll_center"
+        android:background="@null"
+        android:padding="@dimen/egls_ags_dp_1"
+        android:scaleType="fitXY"
+        android:src="@drawable/egls_ags_share_save" />
+
+</RelativeLayout>

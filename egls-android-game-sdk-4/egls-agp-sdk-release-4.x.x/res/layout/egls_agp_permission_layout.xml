@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:id="@+id/nd3_account_login_layout_land" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_280"
+        android:layout_height="@dimen/egls_agp_dp_220"
+        android:background="#ffffff"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/egls_agp_dp_8" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_dp_48"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_permission_app_icon"
+                android:layout_width="@dimen/egls_agp_dp_48"
+                android:layout_height="@dimen/egls_agp_dp_48"
+                android:contentDescription="@null"
+                android:padding="@dimen/egls_agp_dp_2"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_permission_app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/egls_agp_dp_2"
+                    android:paddingRight="@dimen/egls_agp_dp_2"
+                    android:singleLine="true"
+                    android:text="新三生三世十里桃花"
+                    android:textColor="#464646"
+                    android:textSize="@dimen/egls_agp_sp_18"
+                    android:textStyle="italic" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#cccccc" />
+
+                <TextView
+                    android:id="@+id/tv_permission_version_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/egls_agp_dp_2"
+                    android:paddingRight="@dimen/egls_agp_dp_2"
+                    android:singleLine="true"
+                    android:text="VersionName"
+                    android:textColor="#999999"
+                    android:textSize="@dimen/egls_agp_sp_10"
+                    android:textStyle="italic" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/egls_agp_dp_120"
+            android:background="@null"
+            android:scrollbars="none" >
+
+            <TextView
+                android:id="@+id/tv_permission_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/egls_agp_dp_8"
+                android:text="@string/egls_agp_permission_dialog_default_message"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_10" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_permission_ok"
+                android:layout_width="@dimen/egls_agp_dp_180"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:background="@drawable/egls_agp_kr_103_1_selector"
+                android:text="@string/egls_agp_dialog_text_2"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/egls_agp_sp_12" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

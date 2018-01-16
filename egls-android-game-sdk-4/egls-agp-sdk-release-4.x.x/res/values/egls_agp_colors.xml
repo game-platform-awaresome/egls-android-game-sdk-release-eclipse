@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="egls_agp_color_grey">#999999</color>
+    <color name="egls_agp_color_black">#000000</color>
+    <color name="egls_agp_color_white">#FFFFFF</color>
+    <color name="egls_agp_color_transparent">#0000</color>
+
+</resources>

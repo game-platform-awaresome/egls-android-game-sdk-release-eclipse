@@ -1,0 +1,332 @@
+<resources>
+
+    <!-- AccountLogin begin -->
+    <string name="egls_agp_accountLogin_hint_1">"Аккаунт"</string>
+    <string name="egls_agp_accountLogin_hint_2">"Пароль"</string>
+    <string name="egls_agp_accountLogin_text_1">"ОК"</string>
+    <string name="egls_agp_accountLogin_text_2">"Забыли пароль?"</string>
+    <!-- AccountLogin end -->
+
+
+    <!-- Agreement begin -->
+    <string name="egls_agp_agreement_text_1">"Пользовательское соглашение"</string>
+    <string name="egls_agp_agreement_text_2">"IMPORTANT: PLEASE READ THE TERMS AND CONDITIONS OF THIS LICENSE AGREEMENT CAREFULLY BEFORE CONTINUING WITH THIS PROGRAM.\n\nBefore registering, logging in or using the Service, you must agree to these terms of the End-User License Agreement. By registering, logging in or using the Service or any other ways that use the related service, you agree to these terms of the Service. If you do not agree with all of the terms of this agreement, you may not register, login and use the service. This End-User License Agreement ("EULA") is a legal agreement between you as an individual and EGLS Technology (Beijing) Co., Ltd. ("EGLS").\n1. Service Contents\n1.1 EGLS is the owner and operator of EGLS network platform, providing internet-based and mobile internet-based services (hereinafter “network service”). The specific contents of EGLS account are provided by EGLS in accordance with actual situations, including but not limited to Armed Heroes Online, Epic Sabre Online and Overloads of War and so forth.\n1.2 After registration, you will receive a password and an account and should be liable for all activities and events of your account. You will be fully responsible for any damage to you, EGLS or any third party caused by the out-of-control of your account and password by your own mistakes.\n1.3 User shall enter account and password to log in EGLS account.\n1.4 User understands and accepts network services provided only by EGLS. Besides the network services, devices (such as personal computer, mobile phone or any other devices connected with networks or mobile networks) and expenses (phone charges for connecting networks, internet fees and mobile phone fees for the use of mobile network) shall be borne by the user.\n\n2. License Limitations\n2.1 User shall not transfer and lend account and password or any other forms that are out of user’s control. If finding that the account is illegally used by others, you should immediately inform EGLS. If the account and password are illegally used by others due to hack or your carelessness, EGLS shall not be liable for any obligation.\n2.2 User shall be fully liable for all behaviors of self-registered account. EGLS shall not bear any obligation for self-losses or damage or any other third party because of user’s behaviors. \n2.3 Shall abide by the following principles by using EGLS network services,\n2.3.1 Shall not violate any laws or regulations of the people’s republic of China;\n2.3.2 Shall not violate any network protocol, regulation and procedure of network services;\n2.3.3 Shall only use network services system with legal purposes;\n2.3.4 Shall not conduct any action that adversely affects the internet or mobile network with EGLS network service system;\n2.3.5 Shall not upload, display or spread such information as false, harassing, slanderous, abusive, intimidating, and vulgar and any other illegal one;\n2.3.6 Shall not infringe the patents, copyrights, trademarks, reputation or any other legal interest of EGLS and any other third party;\n2.3.7 Shall not conduct any illegal actions with EGLS network service system; \n2.3.8 Shall notify EGLS immediately once user account being used illegally or account security vulnerability.\n2.6 EGLS or authorized person reserves the right to demand user to rectify or take all necessary actions (including but not limited to the suspension or termination of user’s right to use internet service) to reduce the negative influence caused by user’s misconduct if the user violates the above mentioned regulations when utilizing internet services.\n\n3. Modification, Suspension and Termination of Service\n3.1 In the light of particularity of network services, user agrees that EGLS reserves the right to modify, suspend or terminate in part or the whole network services at any time without notification to user or responsibility bearing to user or third party in accordance with EGLS business development;\n3.2 User understands that EGLS shall repair or maintain platform (such as internet website, mobile network and so forth) or relevant devices on a regular or irregular basis. EGLS shall not bear any obligation for network disconnection within a reasonable period of time, but EGLS will try to notify first.\n3.3 EGLS reserves the right to suspend or terminate network services (including paid network services) of the EULA to user at any time and shall not bear any obligation for user or any third-party if each of the following is happened:\n3.3.1 False information provided by user;\n3.3.2 Violation of the regulated using principles in EULA.\n\n4. Intellectual Property\n4.1 Text, image, graphics, audio and/or video of network service provided by EGLS are protected by copyright, trademarks or any law of property; and shall not be used for any business purpose without the consent of related rights.\n4.2 All rights of any utilized software (including but not limited to any image, photograph, animation, video, recording, texts, adds-on and guiding materials) provided by EGLS for network services shall belong to the copyrighter of the software. Without the permission of the copyrighter of the software, user shall not reverse engineer, decompile or disassemble the software.\n\n5. Privacy Policy\n5.1 Protecting user privacy is the basic policy of EGLS. EGLS warrants that it does not disclose or provide third parties with registration information for individual users and non-public contents stored in EGLS when using network services. The following cases are excluding:\n5.1.1 Authorization from user in advance;\n5.1.2 Demanded by relevant laws and regulations;\n5.1.3 Demanded by the relevant government authorities;\n5.1.4 Protection for the interest of the public;\n5.1.5 Protection for the legal rights and interests of EGLS.\n5.2 EGLS may cooperate with third parties to provide relevant network services to users. In this case, if the third party agrees to assume the same responsibility for protecting user privacy as EGLS, EGLS shall reserve the right to provide the user's registration information to the third party.\n5.3 EGLS reserves the right to analyze the entire user database and to make commercial use of the user database without disclosing the privacy of individual users.\n5.4 EGLS has developed the following four privacy principles to guide us on how to deal with issues related to user privacy and user information in the product:\n(1) Utilization of the information collected to provide users with valuable products and services.\n(2) Develop products that comply with privacy standards and privacy practices.\n(3) Make the collection of personal information transparent, and supervised by the authoritative third parties.\n(4) Make the greatest efforts to protect the information obtained.\n\n6. Disclaimer of Warranties\n6.1 EGLS does not warrant that you will be able to access or use the service at the times or locations of your choosing; that the service will be uninterrupted or error-free; that defects will be corrected or the game or the service are free of viruses or other harmful components.\n6.2 EGLS does not warrant that the accuracy and completeness of external links for the convenience of users and shall not be liable to any content on any web pages that are not controlled by EGLS.\n6.3 EGLS shall not be liable to any losses caused by telecommunications or internet network failure, computer failure or virus, information corruption or loss, computer system issues and any other force majeure, but will endeavor to reduce the losses and negative influence.\n\n7. Law and Dispute Resolution\n7.1 The EULA is applicable for the laws and regulations of the People’s Republic of China;\n7.2 If a dispute arises between you and EGLS, both party shall resolve harmoniously. If failed, each party shall reserve the right to submit the dispute to the Beijing Arbitration Commission and arbitrate in accordance with the effective rules. The arbitral results are bound to each party.\n\n8. General\n8.1 If the terms of this Agreement are, for any reason, in whole or in part, invalid or non-enforceable, or in violation of any applicable law, the terms are deemed to be deleted, but the rest terms of this Agreement shall remain in force and binding.\n8.2 EGLS may assign or delegate the EULA, in whole or in part, to any person or entity at any time with or without your consent. The Agreement will be published in EGLS website (www.EGLS.cn). User can browse the latest terms of services on EGLS website. When a dispute arises, it shall be accorded with the latest contents. If user does not agree to the modified contents of the relevant terms, users shall reserve the right to terminate the use of network service. If users continue to use network services, the user is deemed to accept EGLS's modifications to the terms of this Agreement. \n8.3 EGLS shall reserve the right to interpret and modify the Agreement to the maximum extent permitted by law.\n\n\n"</string>
+    <!-- Agreement end -->
+
+
+    <!-- AlreadyLogin begin -->
+    <string name="egls_agp_alreadylogin_text_1">"Вход"</string>
+    <string name="egls_agp_alreadylogin_text_2">"другие"</string>
+    <string name="egls_agp_alreadylogin_text_3">"Регистрация"</string>
+    <string name="egls_agp_alreadylogin_text_4">"Выберите способ входа"</string>
+    <!-- AlreadyLogin end -->
+
+
+    <!-- BindAccount begin -->
+    <string name="egls_agp_bindaccount_text_1">"Привязка аккаунта"</string>
+    <string name="egls_agp_bindaccount_text_2">"В целях безопасности вашего аккаунта, функции пополнения и личного кабинета доступны только после привязки вашего аккаунта."</string>
+    <!-- BindAccount end -->
+
+
+    <!-- BindEmail begin -->
+    <string name="egls_agp_bindemail_text_1">"Привязать email"</string>
+    <string name="egls_agp_bindemail_text_2">"Email"</string>
+    <string name="egls_agp_bindemail_text_3">"Код подтверждения"</string>
+    <string name="egls_agp_bindemail_text_4">"Успех"</string>
+    <string name="egls_agp_bindemail_text_5">"Далее&gt;&gt;"</string>
+    <string name="egls_agp_bindemail_text_6">"&lt;&lt;Назад"</string>
+    <string name="egls_agp_bindemail_text_7">"Получить код подтверждения"</string>
+    <string name="egls_agp_bindemail_text_8">"Поздравляем, вы успешно привязали ваш аккаунт к этому email"</string>
+    <string name="egls_agp_bindemail_hint_1">"Email"</string>
+    <string name="egls_agp_bindemail_hint_2">"Код подтверждения"</string>
+    <!-- BindEmail end -->
+
+
+    <!-- BindMobile begin -->
+    <string name="egls_agp_bindemobile_text_1">"Привязать номер телефона"</string>
+    <string name="egls_agp_bindemobile_text_2">"Номер телефона"</string>
+    <string name="egls_agp_bindemobile_text_3">"Код подтверждения"</string>
+    <string name="egls_agp_bindemobile_text_4">"Успех"</string>
+    <string name="egls_agp_bindemobile_text_5">"Далее&gt;&gt;"</string>
+    <string name="egls_agp_bindemobile_text_6">"&lt;&lt;Назад"</string>
+    <string name="egls_agp_bindemobile_text_7">"Получить код подтверждения"</string>
+    <string name="egls_agp_bindemobile_text_8">"Поздравляем, вы успешно привязали ваш аккаунт к этому номеру телефона"</string>
+    <string name="egls_agp_bindemobile_hint_1">"Номер телефона"</string>
+    <string name="egls_agp_bindemobile_hint_2">"Код подтверждения"</string>
+    <!-- BindMobile end -->
+
+
+    <!-- Dialog begin -->
+    <string name="egls_agp_dialog_text_1">"Подсказки"</string>
+    <string name="egls_agp_dialog_text_2">"ОК"</string>
+    <string name="egls_agp_dialog_text_3">"Отмена"</string>
+    <!-- Dialog end -->
+
+
+    <!-- Floate begin -->
+    <string name="egls_agp_floate_text_1">"用户中心"</string>
+    <string name="egls_agp_floate_text_2">"用户协议"</string>
+    <string name="egls_agp_floate_text_3">"运营政策"</string>
+    <string name="egls_agp_floate_text_4">"Naver Cafe"</string>
+    <!-- Floate end -->
+
+
+    <!-- Find begin -->
+    <string name="egls_agp_find_text_1">"Восстановить пароль"</string>
+    <string name="egls_agp_find_text_2">"Получить код подтверждения"</string>
+    <string name="egls_agp_find_text_3">"ОК"</string>
+    <string name="egls_agp_find_hint_1">"Аккаунт"</string>
+    <string name="egls_agp_find_hint_2">"Код подтверждения"</string>
+    <!-- Find end -->
+
+
+    <!-- Forget begin -->
+    <string name="egls_agp_forget_text_1">"Восстановить пароль"</string>
+    <string name="egls_agp_forget_text_2">"После привязки, вы сможете восстановить пароль с помощью привязанного email, вы также можете связаться с сотрудником Службы поддержки и предоставить ему информацию о вашем аккаунте для восстановления необходимых данных"</string>
+    <string name="egls_agp_forget_text_3">"Email"</string>
+    <string name="egls_agp_forget_text_4">"Служба поддержки"</string>
+    <string name="egls_agp_forget_text_5">"Через номер телефон"</string>
+    <!-- Forget end -->
+
+
+    <!-- Forget Customer begin -->
+    <string name="egls_agp_forgetcustomer_text_1">"Восстановить пароль"</string>
+    <string name="egls_agp_forgetcustomer_text_2">"Горячая линия Службы поддержки"</string>
+    <string name="egls_agp_forgetcustomer_text_3">"Email Службы поддержки"</string>
+    <string name="egls_agp_forgetcustomer_text_4">"4009952288"</string>
+    <string name="egls_agp_forgetcustomer_text_5">"zh@egls.cn"</string>
+    <string name="egls_agp_forgetcustomer_text_6">"Аккаунт"</string>
+    <!-- Forget Customer end -->
+
+
+    <!-- Forget Email begin -->
+    <string name="egls_agp_forgetemail_text_1">"Восстановить пароль"</string>
+    <string name="egls_agp_forgetemail_text_2">"Аккаунт"</string>
+    <string name="egls_agp_forgetemail_text_3">"Код подтверждения"</string>
+    <string name="egls_agp_forgetemail_text_4">"Вы успешно восстановили пароль"</string>
+    <string name="egls_agp_forgetemail_text_5">"Далее&gt;&gt;"</string>
+    <string name="egls_agp_forgetemail_text_6">"&lt;&lt;Назад"</string>
+    <string name="egls_agp_forgetemail_text_7">"Получить код подтверждения"</string>
+    <string name="egls_agp_forgetemail_text_8">"Пароль был отправлен вам на ваш привязанный email. Пожалуйста, проверьте"</string>
+    <string name="egls_agp_forgetemail_hint_1">"Аккаунт"</string>
+    <string name="egls_agp_forgetemail_hint_2">"Код подтверждения"</string>
+    <!-- Forget Email end -->
+
+
+    <!-- Forget Mobile begin -->
+    <string name="egls_agp_forgetmobile_text_1">""Восстановить пароль"</string>
+    <string name="egls_agp_forgetmobile_text_2">"Аккаунт"</string>
+    <string name="egls_agp_forgetmobile_text_3">"Код подтверждения"</string>
+    <string name="egls_agp_forgetmobile_text_4">"Вы успешно восстановили пароль"</string>
+    <string name="egls_agp_forgetmobile_text_5">"Далее&gt;&gt;"</string>
+    <string name="egls_agp_forgetmobile_text_6">"&lt;&lt;Назад"</string>
+    <string name="egls_agp_forgetmobile_text_7">"Получить код подтверждения"</string>
+    <string name="egls_agp_forgetmobile_text_8">"Пароль был отправлен вам на ваш привязанный номер телефона. Пожалуйста, проверьте"</string>
+    <string name="egls_agp_forgetmobile_hint_1">"Аккаунт"</string>
+    <string name="egls_agp_forgetmobile_hint_2">"Код подтверждения"</string>
+    <!-- Forget Mobile end -->
+
+
+    <!-- Index begin -->
+    <string name="egls_agp_index_text_1">"Играть"</string>
+    <string name="egls_agp_index_text_2">"Вход"</string>
+    <string name="egls_agp_index_text_3">"Регистрация"</string>
+    <string name="egls_agp_index_text_4">"Выберите способ входа"</string>
+    <string name="egls_agp_index_text_5">"OR"</string>
+    <!-- Index end -->
+
+
+    <!-- Modify begin -->
+    <string name="egls_agp_modify_text_1">"Изменить пароль"</string>
+    <string name="egls_agp_modify_text_2">"Длина 6-16 символов. Допускаются только буквы латиницы и цифры. Учитывается регистр"</string>
+    <string name="egls_agp_modify_text_3">"ОК"</string>
+    <string name="egls_agp_modify_hint_1">"Текущий пароль"</string>
+    <string name="egls_agp_modify_hint_2">"Новый пароль"</string>
+    <string name="egls_agp_modify_hint_3">"Подтвердите новый пароль"</string>
+    <!-- Modify end -->
+
+
+    <!-- New Account begin -->
+    <string name="egls_agp_newaccount_text_1">"Привязать номер телефона"</string>
+    <string name="egls_agp_newaccount_text_2">"Привязать email"</string>
+    <string name="egls_agp_newaccount_text_3">"Получить код подтверждения"</string>
+    <string name="egls_agp_newaccount_text_4">"Прочитал и согласен с ""</string>
+    <string name="egls_agp_newaccount_text_5">"Пользовательское соглашение"</string>
+    <string name="egls_agp_newaccount_text_6">"""</string>
+    <string name="egls_agp_newaccount_text_7">"ОК"</string>
+    <string name="egls_agp_newaccount_text_8">"Вы можете выбрать: "</string>
+    <string name="egls_agp_newaccount_text_9">"Регистрация через номер телефона"</string>
+    <string name="egls_agp_newaccount_text_10">"Регистрация через email"</string>
+    <string name="egls_agp_newaccount_hint_1">"Номер телефона"</string>
+    <string name="egls_agp_newaccount_hint_2">"Код подтверждения"</string>
+    <string name="egls_agp_newaccount_hint_3">"Пароль"</string>
+    <string name="egls_agp_newaccount_hint_4">"Email"</string>
+    <!-- New Account end -->
+
+
+    <!-- Payment begin -->
+    <string name="egls_agp_payment_text_1">"Пополнение"</string>
+    <string name="egls_agp_payment_text_2">"Вы пополнили: "</string>
+    <string name="egls_agp_payment_text_3">"Пожалуйста, выберите способ пополнения: "</string>
+    <!-- Payment end -->
+
+
+    <!-- Payment Card begin -->
+    <string name="egls_agp_paymentcard_text_1">"Пополнение"</string>
+    <string name="egls_agp_paymentcard_text_2">"Пожалуйста выберите правильный номинал. Если номинал карты не совпадёт с суммой пополнения, то операция не пройдёт, а карта будет утрачена безвозвратно!"</string>
+    <string name="egls_agp_paymentcard_text_3">"Оплатить"</string>
+    <string name="egls_agp_paymentcard_hint_1">"Пожалуйста, введите номер карты"</string>
+    <string name="egls_agp_paymentcard_hint_2">"Пожалуйста, введите пароль карты"</string>
+    <!-- Payment Card end -->
+
+
+    <!-- Register begin -->
+    <string name="egls_agp_register_text_1">"Регистрация"</string>
+    <string name="egls_agp_register_text_2">"Длина 6-16 символов. Допускаются только буквы латиницы и цифры. Учитывается регистр"</string>
+    <string name="egls_agp_register_text_3">"Я принимаю лицензионное соглашение EGLS для конечного пользователя"</string>
+    <string name="egls_agp_register_text_4">"Регистрация"</string>
+    <string name="egls_agp_register_hint_1">"Email"</string>
+    <string name="egls_agp_register_hint_2">"Пароль"</string>
+    <string name="egls_agp_register_hint_3">"Подтвердите пароль"</string>
+    <!-- Register end -->
+
+
+    <!-- Usercenter begin -->
+    <string name="egls_agp_usercenter_text_1">"个人主页"</string>
+    <string name="egls_agp_usercenter_text_2">"安全中心"</string>
+    <string name="egls_agp_usercenter_text_3">"充值记录"</string>
+    <string name="egls_agp_usercenter_text_4">"游戏社交"</string>
+    <string name="egls_agp_usercenter_text_5">"绑定手机"</string>
+    <string name="egls_agp_usercenter_text_6">"绑定邮箱"</string>
+    <string name="egls_agp_usercenter_text_7">"其他操作"</string>
+    <string name="egls_agp_usercenter_text_8">"联系客服"</string>
+    <string name="egls_agp_usercenter_text_9">"任务开始"</string>
+    <!-- Usercenter end -->
+
+
+    <!-- Authentication begin -->
+    <string name="egls_agp_authentication_text_1">"实名认证"</string>
+    <string name="egls_agp_authentication_text_2">"确认"</string>
+    <string name="egls_agp_authentication_hint_1">"请输入您的姓名"</string>
+    <string name="egls_agp_authentication_hint_2">"请输入您的身份证号"</string>
+    <!-- Authentication end -->
+
+
+    <!-- Mission begin -->
+    <string name="egls_agp_mission_name_bindmobile">"绑定手机"</string>
+    <string name="egls_agp_mission_info_bindmobile">"绑定手机可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindemail">"绑定邮箱"</string>
+    <string name="egls_agp_mission_info_bindemail">"绑定邮箱可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindaccount">"绑定账号"</string>
+    <string name="egls_agp_mission_info_bindaccount">"绑定账号可以提高你的账号安全性，降低盗号风险"</string>
+    <!-- Mission end -->
+
+
+    <!-- Permission begin -->
+    <string name="egls_agp_permission_warning">"Не включено необходимое разрешение. Операция возможна только, если это разрешение включено. Вы уверены, что не хотите активировать это разрешение?"</string>
+    <string name="egls_agp_permission_closed">"Это разрешение отключено"</string>
+    <string name="egls_agp_permission_active">"Это разрешение включено"</string>
+    <string name="egls_agp_permission_nolonger">"Если вы хотите использовать эту функцию, то вам нужно включить соответствующие разрешения в настройках разрешений приложения."</string>
+    <string name="egls_agp_permission_nolonger_exit">"Не включено соответствующее разрешение. Запуск игры невозможен. Чтобы игра работала корректно, вам необходимо включить соответствующее разрешение в настройках разрешений приложения."</string>
+    <string name="egls_agp_permission_warning_getaccounts">"Не включено соответствующее разрешение. Невозможно авторизоваться через Google. Вы уверены, что не хотите активировать это разрешение? (Нажмите "Отмена", чтобы продолжить. Нажмите "ОК", чтобы отказаться.)"</string>
+    <string name="egls_agp_permission_request_getaccounts">""</string>
+    <string name="egls_agp_permission_warning_systemalertwindow">"Не включено соответствующее разрешение. Невозможно активировать функцию "Плавающего окна". Это не повлияет на процесс игры. Вы можете включить это разрешение позднее. Вы уверены, что не хотите активировать это разрешение? (Нажмите "Отмена", чтобы продолжить. Нажмите "ОК", чтобы отказаться.)"</string>
+    <string name="egls_agp_permission_request_systemalertwindow">"Плавающее окно" требует соответствующего разрешения. Вы уверены, что хотите включить данное разрешение?"</string>
+    <string name="egls_agp_permission_warning_writeexternalstorage">"Не включено соответствующее разрешение. Игра не может быть инициализирована. Вы уверены, что не хотите активировать это разрешение? (Нажмите "Отмена", чтобы продолжить. Нажмите "ОК", чтобы выйти.)"</string>
+    <string name="egls_agp_permission_request_writeexternalstorage">""</string>
+    <string name="egls_agp_permission_warning_nec_perms">"Не включено соответствующее разрешение. Игра не может быть инициализирована. Вы уверены, что не хотите активировать это разрешение? (Нажмите "Отмена", чтобы продолжить. Нажмите "ОК", чтобы выйти.)"</string>
+    <string name="egls_agp_permission_request_nec_perms">""</string>
+    <string name="egls_agp_permission_dialog_tip">"提示"</string>
+    <string name="egls_agp_permission_dialog_ok">"确认"</string>
+    <string name="egls_agp_permission_dialog_cancel">"取消"</string>
+    <string name="egls_agp_permission_dialog_close">"关闭游戏"</string>
+    <string name="egls_agp_permission_dialog_request">"权限申请"</string>
+    <string name="egls_agp_permission_dialog_default_message">"\n• Additional storage space or other functions may be used when initializing\n\n• Please confirm to agree related permissions to finish initializing."</string>
+    <!-- Permission end -->
+
+
+    <!-- tip begin -->
+    <string name="egls_agp_sys_tip_1">"Аккаунт"</string>
+    <string name="egls_agp_sys_tip_2">"Пароль"</string>
+    <string name="egls_agp_sys_tip_3">"Ваш текущий "</string>
+    <string name="egls_agp_sys_tip_4">"Сессия истекла. Пожалуйста, зайдите повторно"</string>
+    <string name="egls_agp_sys_tip_5">"Ошибка подключения к сети. Пожалуйста, повторите попытку позже"</string>
+    <string name="egls_agp_sys_tip_6">"Успешный вход"</string>
+    <string name="egls_agp_sys_tip_7">"Недействительный Token"</string>
+    <string name="egls_agp_sys_tip_8">"Получены данные аккаунта"</string>
+    <string name="egls_agp_sys_tip_9">"Пароль изменён. Пожалуйста, зайдите повторно"</string>
+    <string name="egls_agp_sys_tip_10">"Аккаунт"</string>
+    <string name="egls_agp_sys_tip_11">"Код подтверждения"</string>
+    <string name="egls_agp_sys_tip_12">"Код подтверждения отправлен на ваш email"</string>
+    <string name="egls_agp_sys_tip_13">"Успешный сброс пароля"</string>
+    <string name="egls_agp_sys_tip_14">"Код подтверждения отправлен, повтор через "</string>
+    <string name="egls_agp_sys_tip_15">" сек."</string>
+    <string name="egls_agp_sys_tip_16">"获取手机验证码成功"</string>
+    <string name="egls_agp_sys_tip_17">"请输入您想要注册的手机号码"</string>
+    <string name="egls_agp_sys_tip_18">"请输入您想要注册的邮箱"</string>
+    <string name="egls_agp_sys_tip_19">"请输入您想要绑定的手机号码"</string>
+    <string name="egls_agp_sys_tip_20">"请输入您想要绑定的邮箱"</string>
+    <string name="egls_agp_sys_tip_21">"Ошибка формата номера телефона"</string>
+    <string name="egls_agp_sys_tip_22">"Ошибка email формата"</string>
+    <string name="egls_agp_sys_tip_23">"请输入您想要注册的手机号码"</string>
+    <string name="egls_agp_sys_tip_24">"请输入您想要注册的邮箱"</string>
+    <string name="egls_agp_sys_tip_25">"请输入您想要绑定的手机号码"</string>
+    <string name="egls_agp_sys_tip_26">"请输入您想要绑定的邮箱"</string>
+    <string name="egls_agp_sys_tip_27">"Пожалуйста, примите лицензионное соглашение EGLS для конечного пользователя"</string>
+    <string name="egls_agp_sys_tip_28">"Успешная регистрация"</string>
+    <string name="egls_agp_sys_tip_29">"Успех"</string>
+    <string name="egls_agp_sys_tip_30">"Этот EGLS аккаунт уже использовался для привязки. Пожалуйста войдите или попробуйте другой."</string>
+    <string name="egls_agp_sys_tip_31">"Этот Google аккаунт уже использовался для привязки. Пожалуйста войдите или попробуйте другой."</string>
+    <string name="egls_agp_sys_tip_32">"Этот Facebook аккаунт уже использовался для привязки. Пожалуйста войдите или попробуйте другой."</string>
+    <string name="egls_agp_sys_tip_33">"您选择的EGLS账号已被注册，请直接使用该账号登录，或使用其他账号进行注册。"</string>
+    <string name="egls_agp_sys_tip_34">"Пожалуйста, ждите ("</string>
+    <string name="egls_agp_sys_tip_35">"s)"</string>
+    <string name="egls_agp_sys_tip_36">"В целях безопасности вашего аккаунта, функции пополнения и личного кабинета доступны только после привязки вашего аккаунта."</string>
+    <string name="egls_agp_sys_tip_37">""</string>
+    <string name="egls_agp_sys_tip_38">"Инициализация... Пожалуйста, ждите..."</string>
+    <string name="egls_agp_sys_tip_39">Успешная инициализация"</string>
+    <string name="egls_agp_sys_tip_40">"Неудачная инициализация"</string>
+    <string name="egls_agp_sys_tip_41">"Запуск сервиса"</string>
+    <string name="egls_agp_sys_tip_42">"Передача данных"</string>
+    <string name="egls_agp_sys_tip_43">"Обновление... Пожалуйста, ждите.."</string>
+    <string name="egls_agp_sys_tip_44">"Извините, карта, которую вы выбрали не поддерживает пополение на текущую сумму"</string>
+    <string name="egls_agp_sys_tip_45">"Ошибка данных платежа"</string>
+    <string name="egls_agp_sys_tip_46">"Пожалуйста, введите номер карты"</string>
+    <string name="egls_agp_sys_tip_47">"Пожалуйста, введите пароль карты"</string>
+    <string name="egls_agp_sys_tip_48">"Вы пополнили: "</string>
+    <string name="egls_agp_sys_tip_49">"请输入原密码"</string>
+    <string name="egls_agp_sys_tip_50">"请输入新密码"</string>
+    <string name="egls_agp_sys_tip_51">"请确认密码"</string>
+    <string name="egls_agp_sys_tip_52">"请确认新密码"</string>
+    <string name="egls_agp_sys_tip_53">"Вы успешно изменили пароль. Пожалуйста, зайдите повторно"</string>
+    <string name="egls_agp_sys_tip_54">Несоответствие пароля"</string>
+    <string name="egls_agp_sys_tip_55">"Неверный пароль. Пожалуйста, попробуйте снова"</string>
+    <string name="egls_agp_sys_tip_56">"新密码不一致，请重新输入"</string>
+    <string name="egls_agp_sys_tip_57">"Пароль успешно изменён"</string>
+    <string name="egls_agp_sys_tip_58">"Получены платёжные данные"</string>
+    <string name="egls_agp_sys_tip_59">"Пополнений пока не было"</string>
+    <string name="egls_agp_sys_tip_60">"Этот WeChat аккаунт уже использовался для привязки. Пожалуйста войдите или попробуйте другой."</string>
+    <!-- tip end -->
+
+
+    <!-- Public begin -->
+    <string name="egls_agp_line">" - "</string>
+    <string name="egls_agp_text_guest">"Гость"</string>
+    <string name="egls_agp_text_egls">"EGLS"</string>
+    <string name="egls_agp_text_wechat">"WeChat"</string>
+    <string name="egls_agp_text_google">"Google"</string>
+    <string name="egls_agp_text_facebook">"Facebook"</string>
+    <string name="egls_agp_text_alipay">"Alipay"</string>
+    <string name="egls_agp_text_chinamobile">"China Mobile"</string>
+    <string name="egls_agp_text_chinaunicom">"China Unicom"</string>
+    <string name="egls_agp_text_chinatelecom">"China Telecom"</string>
+    <string name="egls_agp_text_jcard">"JCard"</string>
+    <string name="egls_agp_text_finish">"Завершить"</string>
+    <string name="egls_agp_text_end">"Закончить"</string>
+    <string name="egls_agp_text_operation_finish">"Операция завершена"</string>
+    <string name="egls_agp_text_mission">"任务"</string>
+    <string name="egls_agp_text_recommend">"推荐"</string>
+    <string name="egls_agp_text_unbind">"Не привязан"</string>
+    <!-- Public end -->
+
+</resources>

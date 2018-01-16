@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_220"
+        android:background="@drawable/kr_116"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <include layout="@layout/egls_agp_login_head_merge" />
+
+        <LinearLayout
+            android:id="@+id/ll_alreadylogin_otheraccount"
+            android:layout_width="@dimen/egls_agp_dp_320"
+            android:layout_height="@dimen/egls_agp_dp_96"
+            android:layout_marginTop="@dimen/egls_agp_dp_36"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll_alreadylogin_googleplus"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_48"
+                android:background="@drawable/egls_agp_kr_70_3_selector"
+                android:gravity="center"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_alreadylogin_facebook"
+                android:layout_width="@dimen/egls_agp_dp_240"
+                android:layout_height="@dimen/egls_agp_dp_48"
+                android:background="@drawable/egls_agp_kr_69_3_selector"
+                android:gravity="center"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_alreadylogin_guest"
+            android:layout_width="@dimen/egls_agp_dp_100"
+            android:layout_height="@dimen/egls_agp_dp_24"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="@dimen/egls_agp_dp_100"
+                android:layout_height="@dimen/egls_agp_dp_24"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="게스트 로그인>"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_12"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/v_alreadylogin_bottom_line"
+            android:layout_width="@dimen/egls_agp_dp_280"
+            android:layout_height="@dimen/egls_agp_dp_2"
+            android:background="@drawable/kr_72" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/tv_alreadylogin_warning"
+                style="@style/egls_agp_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="위 계정으로 로그인하여 게임 데이터를 안전하게 지키세요!"
+                android:textColor="#696969"
+                android:textSize="@dimen/egls_agp_sp_10" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

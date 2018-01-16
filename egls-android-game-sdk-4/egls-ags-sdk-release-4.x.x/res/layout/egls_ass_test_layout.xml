@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnST"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="share text" />
+
+    <Button
+        android:id="@+id/btnSI"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="share image" />
+
+    <Button
+        android:id="@+id/btnSTAI"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="share text &amp; image" />
+
+</LinearLayout>

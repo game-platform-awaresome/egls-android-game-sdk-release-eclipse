@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- android:id="@+id/nd3_account_login_layout_land" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#33000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="@dimen/egls_agp_dp_320"
+        android:layout_height="@dimen/egls_agp_dp_240"
+        android:background="@drawable/kr_116_1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/egls_agp_dp_8"
+        android:paddingLeft="@dimen/egls_agp_dp_8"
+        android:paddingRight="@dimen/egls_agp_dp_8" >
+
+        <include layout="@layout/egls_agp_login_head_merge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/egls_agp_dp_28"
+            android:text="이용약관 및 운영정책"
+            android:textColor="#ff6600"
+            android:textSize="@dimen/egls_agp_sp_12" >
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/egls_agp_dp_4"
+            android:background="@null"
+            android:scrollbars="none" >
+
+            <TextView
+                android:id="@+id/agreement_main_textview_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/egls_agp_intelligence_text_ko"
+                android:textColor="#666666"
+                android:textSize="@dimen/egls_agp_sp_10" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

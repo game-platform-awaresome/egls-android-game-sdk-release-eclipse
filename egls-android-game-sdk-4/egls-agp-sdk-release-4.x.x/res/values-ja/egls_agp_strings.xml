@@ -1,0 +1,332 @@
+<resources>
+
+    <!-- AccountLogin begin -->
+    <string name="egls_agp_accountLogin_hint_1">"アカウントを入力してください"</string>
+    <string name="egls_agp_accountLogin_hint_2">"パスワードを入力してください"</string>
+    <string name="egls_agp_accountLogin_text_1">"確認"</string>
+    <string name="egls_agp_accountLogin_text_2">"パスワードを忘れた？"</string>
+    <!-- AccountLogin end -->
+
+
+    <!-- Agreement begin -->
+    <string name="egls_agp_agreement_text_1">"EGLS利用規約"</string>
+    <string name="egls_agp_agreement_text_2">"\n     この利用規約（以下「本規約」）は、株式会社当社はてな（以下「当社」）が提供する全てのサービス（以下「本サービス」）における利用条件を定めるものです。ユーザーのみなさま（以下「ユーザー」）には、本規約に従い本サービスをご利用いただきます。\n\n第1条【サービス内容及び利用規約の承諾】\n1.本サービスは多岐にわたるため、追加規定または特定の製品についての条件（年齢制限を含みます）が適用されることがあります。 \n2.ユーザー登録を行ったユーザーは、メインアカウントとサブアカウントを保有できるものとします。\n3.本アプリを使用するために必要なソフトウェア・プログラム、携帯端末、通信機器、通信手段などは、利用者の費用と責任で備えるものとします。\n\n第2条【本サービスのご利用】\n1.ご自身の有するユーザー名とパスワードの管理は自己の責任で行うこととします。ユーザー名やパスワードは、個人用であり、いかなる場合も譲渡または貸与することを禁止します。\n2.ユーザー名やパスワードが第三者に漏洩した場合、または第三者に利用された場合はただちに当社にご連絡ください。なお、ユーザーの行為を原因として不正なユーザー名やパスワードが使用され発生した損失、損害について、当社では一切責任を負わず、賠償はいたしかねます。\n3.当社は、ユーザーの行為が、以下に掲げる行為（以下、「禁止行為」といいます）に該当するか、そのおそれがあると判断した場合、ユーザーへの通知および承諾なしに直ちに本サービスの提供をあらかじめ拒否し、あるいは途中で停止し、または利用者の本サービスの使用を終了させることができるものとします。\n3.1法令に違反する、またはそのおそれのある行為、あるいはそれに類似する行為。\n3.2犯罪行為、犯罪行為をそそのかしもしくは容易にさせる行為、またはそれらのおそれのある行為。\n3.3第三者の通信に支障を与える方法あるいは態様において本アプリを利用する行為、あるいはそのおそれのある行為。\n3.4当社あるいは第三者を差別もしくは誹謗中傷し、またはその名誉、信用、プライバシー等の人格的・財産的権利を侵害する 行為、またはそのおそれのある行為。\n3.5当社や第三者の著作権・著作隣接権等の知的財産権を侵害する行為もしくはそのおそれのある行為\n\n第3条【本サービスの変更または終了】\n1.当社は、利用者の事前の承諾を得ることなく、いつでも本アプリの内容の全部又は一部を適宜変更、追加改良できるものとします。\n2.ユーザーが保有するゲーム内通貨については、当該ユーザーが本サービスにて実際にゲーム内通貨の支払いもしくは受け取りを行った最終利用日から180日を有効期間とし、180日を経過したポイントについては無効になるものとします。\n3.当社は、ユーザーが次の各号のいずれかに該当すると判断した場合、事前に通知・勧告することなく、本サービスの利用の停止、投稿内容の削除、利用登録の抹消等の措置を取ることができます。\n3.1アカウント情報が不正確であった場合  \n3.2本規約に違反した場合\n\n第4条【知的財産権】\n1.本サービスで表示される情報（文書・映像・音声・写真・画像、その他編集された全ての内容）に関する知的財産権（著作権、特許権、実用新案権、意匠権、商標権、ノウハウ等を含みますがこれらに限定されません。以下同じ）は、当社又は第三者が保有します。\n2.本サービス又はその複製物（プログラム・画像・ドキュメント等を含む）に関する著作権、特許権、商標権を含む一切の知的財産権は当社または当社に対する許諾者（以下「原権利者」といいます。）に属するものであることを了解し同意するものとします。\n\n第5条【プライバシーポリシー】\n1.当社は以下の場合を除いて個人情報を第三者に開示することはありません。\n1.1個人情報の開示にユーザー本人の同意がある場合。\n1.2令状に基づき開示を求められた場合や、特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律 （プロバイダ責任制限法）に基づく発信者情報開示請求を受けた場合など、個人情報を開示すべき法的義務を当社が負っている場合。\n1.3ユーザーまたは第三者の生命、身体および財産等に対する差し迫った危険性があり、緊急の必要性がある場合で、本人の同 意を得ることが困難な場合。\n1.4ユーザーが利用規約に反したとする合理的な疑いがあり、当社の権利、財産やサービス等を保護するため、必要と認められる場合。\n2.当社は個人情報を以下の場合に利用します。\n2.1メールを受け取ったり、人力検索はてなで回答するなど、ユーザーが本サービスを利用する場合。\n2.2ユーザーが興味があると思われる情報を掲示するなど、各ユーザーに最適化した情報を本サービス上に表示する場合。\n2.3当社のサービスを向上させることを目的として、サービスの利用状況を分析する場合。\n2.4ユーザーまたは第三者に本サービスについて説明するため、ユーザーの統計情報を用いる場合。\n2.5ユーザーまたは第三者への連絡を行ったり、本人確認、規約違反行為の調査および対応、問い合わせ内容の調査、商品発送手続きなど、個別の処理や業務に必要である場合。\n\n第6条【免責条項】\n1.当社は、本サービスがユーザーの皆様に役立つよう最大限の努力を行いますが、本サービスの内容において、欠陥、一時停止、一部削除、変更、終了及びそれらが原因で発生したユーザーまたは他者の損害に対し、故意または重大な過失があるときを除き、一切責任を負いません。\n2.当社は、本サービスにおいて開示された情報及び同情報のリンク先が提供するサービスの合法性、道徳性、著作権の許諾の有無、信頼性、正確性について責任を負いません。\n3.当社は、通信機器、端末等の障害もしくは回線の不通等の障害により本サービスの提供が一時中断・不能等となった場合、当社による送信情報に誤り・脱落等が生じた場合、又はデータが消失した場合等に起因するユーザーの損害について、一切責任を負いません。アクセス過多、その他予期せぬ要因で表示速度の低下や障害等が生じた場合も同様とします。\n\n第7条【準拠法及び管轄】\n1.本規約の準拠法は、【中华人民共和国法律】とします。\n2.本規約又は本サービスに関連して生じたすべての紛争については、【北京仲裁委员会】とします。\n\n第8条【その他】\n1.本規約の条項のいずれかが、管轄権を有する裁判所によって違法または無効と判断された場合であっても、本規約の残りの条項はなお有効であるものとします。\n2.当社は変更した本利用規約を当社公式WEBサイト「www.当社.cn」に掲載することにより、本利用規約を随時変更することができます。ユーザーの皆様に個別通知することは致しかねますので、ご利用の際には、随時、最新の利用規約を参照ください。本サービスに関する修正された規定に同意しないユーザーは、本サービスの利用を停止してください。\n\n\n"</string>
+    <!-- Agreement end -->
+
+
+    <!-- AlreadyLogin begin -->
+    <string name="egls_agp_alreadylogin_text_1">"ゲームログイン"</string>
+    <string name="egls_agp_alreadylogin_text_2">"他のアカウント"</string>
+    <string name="egls_agp_alreadylogin_text_3">"アカウント登録"</string>
+    <string name="egls_agp_alreadylogin_text_4">"ログイン方式を選択ください"</string>
+    <!-- AlreadyLogin end -->
+
+
+    <!-- BindAccount begin -->
+    <string name="egls_agp_bindaccount_text_1">"アカウント関連付け"</string>
+    <string name="egls_agp_bindaccount_text_2">"関連付けられたアカウントはチャージとユーザーセンターの機能を利用できます。アカウントを安全に保つために、関連付けてください。"</string>
+    <!-- BindAccount end -->
+
+
+    <!-- BindEmail begin -->
+    <string name="egls_agp_bindemail_text_1">"関連付けられたメールアトレス"</string>
+    <string name="egls_agp_bindemail_text_2">"メールアドレスを入力してください"</string>
+    <string name="egls_agp_bindemail_text_3">"認証コードを入力してください"</string>
+    <string name="egls_agp_bindemail_text_4">"関連付け成功"</string>
+    <string name="egls_agp_bindemail_text_5">"次へ&gt;&gt;"</string>
+    <string name="egls_agp_bindemail_text_6">"&lt;&lt;前へ"</string>
+    <string name="egls_agp_bindemail_text_7">"認証コード取得"</string>
+    <string name="egls_agp_bindemail_text_8">"おめでとう、関連付けに成功しました"</string>
+    <string name="egls_agp_bindemail_hint_1">"関連付け用メールアドレスを入力してください"</string>
+    <string name="egls_agp_bindemail_hint_2">"認証コードを入力してください"</string>
+    <!-- BindEmail end -->
+
+
+    <!-- BindMobile begin -->
+    <string name="egls_agp_bindemobile_text_1">"携帯番号を関連付け"</string>
+    <string name="egls_agp_bindemobile_text_2">"携帯番号を通じて"</string>
+    <string name="egls_agp_bindemobile_text_3">"認証コードを入力してください"</string>
+    <string name="egls_agp_bindemobile_text_4">"関連付け成功"</string>
+    <string name="egls_agp_bindemobile_text_5">"次へ&gt;&gt;"</string>
+    <string name="egls_agp_bindemobile_text_6">"&lt;&lt;前へ"</string>
+    <string name="egls_agp_bindemobile_text_7">"認証コード取得"</string>
+    <string name="egls_agp_bindemobile_text_8">"おめでとう、関連付けに成功しました"</string>
+    <string name="egls_agp_bindemobile_hint_1">"携帯番号を入力してください"</string>
+    <string name="egls_agp_bindemobile_hint_2">"認証コードを入力してください"</string>
+    <!-- BindMobile end -->
+
+
+    <!-- Dialog begin -->
+    <string name="egls_agp_dialog_text_1">"ヒント"</string>
+    <string name="egls_agp_dialog_text_2">"確認"</string>
+    <string name="egls_agp_dialog_text_3">"キャンセル"</string>
+    <!-- Dialog end -->
+
+
+    <!-- Floate begin -->
+    <string name="egls_agp_floate_text_1">"ユーザー センター"</string>
+    <string name="egls_agp_floate_text_2">"ユーザー契約"</string>
+    <string name="egls_agp_floate_text_3">"運営ポリシー"</string>
+    <string name="egls_agp_floate_text_4">"Naver Cafe"</string>
+    <!-- Floate end -->
+
+
+    <!-- Find begin -->
+    <string name="egls_agp_find_text_1">"パスワード再発行"</string>
+    <string name="egls_agp_find_text_2">"認証コード取得"</string>
+    <string name="egls_agp_find_text_3">"確認"</string>
+    <string name="egls_agp_find_hint_1">"パスワードをリセットするため、アカウントを入力してください"</string>
+    <string name="egls_agp_find_hint_2">"認証コードを入力してください"</string>
+    <!-- Find end -->
+
+
+    <!-- Forget begin -->
+    <string name="egls_agp_forget_text_1">"パスワード再発行"</string>
+    <string name="egls_agp_forget_text_2">"関連付けられたメールアトレスを利用して、パースワードを再発行することができます。"</string>
+    <string name="egls_agp_forget_text_3">"メールアドレスを通じて"</string>
+    <string name="egls_agp_forget_text_4">"GMを通じて"</string>
+    <string name="egls_agp_forget_text_5">"携帯を通じて"</string>
+    <!-- Forget end -->
+
+
+    <!-- Forget Customer begin -->
+    <string name="egls_agp_forgetcustomer_text_1">"パスワード再発行"</string>
+    <string name="egls_agp_forgetcustomer_text_2">"サポート連絡"</string>
+    <string name="egls_agp_forgetcustomer_text_3">"メールサポート"</string>
+    <string name="egls_agp_forgetcustomer_text_4">"4009952288"</string>
+    <string name="egls_agp_forgetcustomer_text_5">"zh@egls.cn"</string>
+    <string name="egls_agp_forgetcustomer_text_6">"パスワードをリセットするため、アカウントを入力してください"</string>
+    <!-- Forget Customer end -->
+
+
+    <!-- Forget Email begin -->
+    <string name="egls_agp_forgetemail_text_1">"パスワード再発行"</string>
+    <string name="egls_agp_forgetemail_text_2">"アカウントを入力してください"</string>
+    <string name="egls_agp_forgetemail_text_3">"認証コードを入力してください"</string>
+    <string name="egls_agp_forgetemail_text_4">"パスワード再発行"</string>
+    <string name="egls_agp_forgetemail_text_5">"次へ&gt;&gt;"</string>
+    <string name="egls_agp_forgetemail_text_6">"&lt;&lt;前へ"</string>
+    <string name="egls_agp_forgetemail_text_7">"認証コード取得"</string>
+    <string name="egls_agp_forgetemail_text_8">"パスワードは関連付けされたメールアトレスに送信します"</string>
+    <string name="egls_agp_forgetemail_hint_1">"パスワードをリセットするため、アカウントを入力してください"</string>
+    <string name="egls_agp_forgetemail_hint_2">"認証コードを入力してください"</string>
+    <!-- Forget Email end -->
+
+
+    <!-- Forget Mobile begin -->
+    <string name="egls_agp_forgetmobile_text_1">"パスワード再発行"</string>
+    <string name="egls_agp_forgetmobile_text_2">"アカウントを入力してください"</string>
+    <string name="egls_agp_forgetmobile_text_3">"認証コードを入力してください"</string>
+    <string name="egls_agp_forgetmobile_text_4">"パスワード再発行"</string>
+    <string name="egls_agp_forgetmobile_text_5">"次へ&gt;&gt;"</string>
+    <string name="egls_agp_forgetmobile_text_6">"&lt;&lt;前へ"</string>
+    <string name="egls_agp_forgetmobile_text_7">"認証コード取得"</string>
+    <string name="egls_agp_forgetmobile_text_8">"パスワードは関連付けされた携帯に送信します"</string>
+    <string name="egls_agp_forgetmobile_hint_1">"パスワードをリセットするため、アカウントを入力してください"</string>
+    <string name="egls_agp_forgetmobile_hint_2">"認証コードを入力してください"</string>
+    <!-- Forget Mobile end -->
+
+
+    <!-- Index begin -->
+    <string name="egls_agp_index_text_1">"登録なしログイン"</string>
+    <string name="egls_agp_index_text_2">"アカウントログイン"</string>
+    <string name="egls_agp_index_text_3">"アカウント登録"</string>
+    <string name="egls_agp_index_text_4">"ログイン方式を選択ください"</string>
+    <string name="egls_agp_index_text_5">"OR"</string>
+    <!-- Index end -->
+
+
+    <!-- Modify begin -->
+    <string name="egls_agp_modify_text_1">"パスワード変更"</string>
+    <string name="egls_agp_modify_text_2">"パスワード文字列は6文字以上16文字以下、英数字の大文字・小文字の間違いにご注意ください"</string>
+    <string name="egls_agp_modify_text_3">"確認"</string>
+    <string name="egls_agp_modify_hint_1">"古いパスワードを入力してください"</string>
+    <string name="egls_agp_modify_hint_2">"新しいパスワードを入力してください"</string>
+    <string name="egls_agp_modify_hint_3">"新しいパスワードを確認"</string>
+    <!-- Modify end -->
+
+
+    <!-- New Account begin -->
+    <string name="egls_agp_newaccount_text_1">"携帯番号関連付け"</string>
+    <string name="egls_agp_newaccount_text_2">"メールアトレス関連付け"</string>
+    <string name="egls_agp_newaccount_text_3">"認証コード取得"</string>
+    <string name="egls_agp_newaccount_text_4">"を閲覧のうえご同意ください「"</string>
+    <string name="egls_agp_newaccount_text_5">"EGLS利用規約"</string>
+    <string name="egls_agp_newaccount_text_6">"」"</string>
+    <string name="egls_agp_newaccount_text_7">"確認"</string>
+    <string name="egls_agp_newaccount_text_8">"選択："</string>
+    <string name="egls_agp_newaccount_text_9">"携帯番号登録"</string>
+    <string name="egls_agp_newaccount_text_10">"メールアトレス登録"</string>
+    <string name="egls_agp_newaccount_hint_1">"携帯番号を入力してください"</string>
+    <string name="egls_agp_newaccount_hint_2">"認証コードを入力してください"</string>
+    <string name="egls_agp_newaccount_hint_3">"パスワードを入力してください"</string>
+    <string name="egls_agp_newaccount_hint_4">"メールアドレスを入力してください"</string>
+    <!-- New Account end -->
+
+
+    <!-- Payment begin -->
+    <string name="egls_agp_payment_text_1">"チャージ"</string>
+    <string name="egls_agp_payment_text_2">"今回のチャージ金額："</string>
+    <string name="egls_agp_payment_text_3">"チャージタイプを選択してください"</string>
+    <!-- Payment end -->
+
+
+    <!-- Payment Card begin -->
+    <string name="egls_agp_paymentcard_text_1">"チャージ"</string>
+    <string name="egls_agp_paymentcard_text_2">"プリペイドカードの額面を正しく選択してください。額面が正しくないとプリペイドカードが失効となり、利用できなくなる可能性があります。"</string>
+    <string name="egls_agp_paymentcard_text_3">"支払"</string>
+    <string name="egls_agp_paymentcard_hint_1">"プリペイドカード番号を入力してください"</string>
+    <string name="egls_agp_paymentcard_hint_2">"プリペイドカードパスワードを入力してください"</string>
+    <!-- Payment Card end -->
+
+
+    <!-- Register begin -->
+    <string name="egls_agp_register_text_1">"アカウント登録"</string>
+    <string name="egls_agp_register_text_2">"パスワード文字列は6文字以上16文字以下、英数字の大文字・小文字の間違いにご注意ください"</string>
+    <string name="egls_agp_register_text_3">"「EGLS利用規約」を閲覧のうえご同意ください"</string>
+    <string name="egls_agp_register_text_4">"登録"</string>
+    <string name="egls_agp_register_hint_1">"メールアドレスを入力してください"</string>
+    <string name="egls_agp_register_hint_2">"パスワードを入力してください"</string>
+    <string name="egls_agp_register_hint_3">"パスワードを確認"</string>
+    <!-- Register end -->
+
+
+    <!-- Usercenter begin -->
+    <string name="egls_agp_usercenter_text_1">"个人主页"</string>
+    <string name="egls_agp_usercenter_text_2">"安全中心"</string>
+    <string name="egls_agp_usercenter_text_3">"充值记录"</string>
+    <string name="egls_agp_usercenter_text_4">"游戏社交"</string>
+    <string name="egls_agp_usercenter_text_5">"绑定手机"</string>
+    <string name="egls_agp_usercenter_text_6">"绑定邮箱"</string>
+    <string name="egls_agp_usercenter_text_7">"其他操作"</string>
+    <string name="egls_agp_usercenter_text_8">"联系客服"</string>
+    <string name="egls_agp_usercenter_text_9">"任务开始"</string>
+    <!-- Usercenter end -->
+
+
+    <!-- Authentication begin -->
+    <string name="egls_agp_authentication_text_1">"实名认证"</string>
+    <string name="egls_agp_authentication_text_2">"确认"</string>
+    <string name="egls_agp_authentication_hint_1">"请输入您的姓名"</string>
+    <string name="egls_agp_authentication_hint_2">"请输入您的身份证号"</string>
+    <!-- Authentication end -->
+
+
+    <!-- Mission begin -->
+    <string name="egls_agp_mission_name_bindmobile">"绑定手机"</string>
+    <string name="egls_agp_mission_info_bindmobile">"绑定手机可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindemail">"绑定邮箱"</string>
+    <string name="egls_agp_mission_info_bindemail">"绑定邮箱可以提高你的账号安全性，降低盗号风险"</string>
+    <string name="egls_agp_mission_name_bindaccount">"绑定账号"</string>
+    <string name="egls_agp_mission_info_bindaccount">"绑定账号可以提高你的账号安全性，降低盗号风险"</string>
+    <!-- Mission end -->
+
+
+    <!-- Permission begin -->
+    <string name="egls_agp_permission_warning">"権限はまだ開いていない、操作はできません。権限を開けないですか？"</string>
+    <string name="egls_agp_permission_closed">"権限を取り消します"</string>
+    <string name="egls_agp_permission_active">"権限を開いている"</string>
+    <string name="egls_agp_permission_nolonger">"この機能を利用すれば、権限管理中に関連権限を開いてください。"</string>
+    <string name="egls_agp_permission_nolonger_exit">"ゲームはまもなく閉じる。ゲームが正常に運行するため、権限管理中に関連権限を開いてください。"</string>
+    <string name="egls_agp_permission_warning_getaccounts">"権限はまだ開いていない、Googleアカウントを使用することはできません。権限を開けないですか？（「キャンセル」で権限を設定、「確認」でを権限を開けない）"</string>
+    <string name="egls_agp_permission_request_getaccounts">""</string>
+    <string name="egls_agp_permission_warning_systemalertwindow">"権限はまだ開いていない、「フローティングウィンドウ」を利用することはできません。権限を開けないですか？（「キャンセル」で権限を設定、「確認」でを権限を開けない）"</string>
+    <string name="egls_agp_permission_request_systemalertwindow">"「フローティングウィンドウ」機能は関連する権限を開いて必要がありますので、権限を開くことしますか？"</string>
+    <string name="egls_agp_permission_warning_writeexternalstorage">"権限はまだ開いていない、ゲームが正常に初期化することはできません。権限を開けないですか？（「キャンセル」で権限を設定、「確認」でを権限を開けない）"</string>
+    <string name="egls_agp_permission_request_writeexternalstorage">""</string>
+    <string name="egls_agp_permission_warning_nec_perms">"権限はまだ開いていない、ゲームが正常に初期化することはできません。権限を開けないですか？（「キャンセル」で権限を設定、「確認」でを権限を開けない）"</string>
+    <string name="egls_agp_permission_request_nec_perms">""</string>
+    <string name="egls_agp_permission_dialog_tip">"ヒント"</string>
+    <string name="egls_agp_permission_dialog_ok">"確認"</string>
+    <string name="egls_agp_permission_dialog_cancel">"キャンセル"</string>
+    <string name="egls_agp_permission_dialog_close">"終了する"</string>
+    <string name="egls_agp_permission_dialog_request">"権限を申請する"</string>
+    <string name="egls_agp_permission_dialog_default_message">"\n• Additional storage space or other functions may be used when initializing\n\n• Please confirm to agree related permissions to finish initializing."</string>
+    <!-- Permission end -->
+
+
+    <!-- tip begin -->
+    <string name="egls_agp_sys_tip_1">"アカウントを入力してください"</string>
+    <string name="egls_agp_sys_tip_2">"パスワードを入力してください"</string>
+    <string name="egls_agp_sys_tip_3">"現在の"</string>
+    <string name="egls_agp_sys_tip_4">"アカウント認証の有効期限切れました、再度ログインしてください"</string>
+    <string name="egls_agp_sys_tip_5">"ネットワーク接続に失敗、しばらくしてから試してください"</string>
+    <string name="egls_agp_sys_tip_6">"アカウントログイン成功"</string>
+    <string name="egls_agp_sys_tip_7">"アカウントtoken失効しました"</string>
+    <string name="egls_agp_sys_tip_8">"アカウント情報取得成功"</string>
+    <string name="egls_agp_sys_tip_9">"アカウントとパスワードは変更しました、再度ログインしてください。"</string>
+    <string name="egls_agp_sys_tip_10">"パスワードをリセットするため、アカウントを入力してください"</string>
+    <string name="egls_agp_sys_tip_11">"認証コードを入力してください"</string>
+    <string name="egls_agp_sys_tip_12">"認証コード取得が成功しました"</string>
+    <string name="egls_agp_sys_tip_13">"パスワード変更は成功しました"</string>
+    <string name="egls_agp_sys_tip_14">"認証コードが送信しました"</string>
+    <string name="egls_agp_sys_tip_15">"秒後に再取得"</string>
+    <string name="egls_agp_sys_tip_16">"認証コード取得が成功しました"</string>
+    <string name="egls_agp_sys_tip_17">"登録携帯番号を入力してください"</string>
+    <string name="egls_agp_sys_tip_18">"登録メールアドレスを入力してください"</string>
+    <string name="egls_agp_sys_tip_19">"関連付け用携帯番号を入力してください"</string>
+    <string name="egls_agp_sys_tip_20">"関連付け用メールアドレスを入力してください"</string>
+    <string name="egls_agp_sys_tip_21">"正しく携帯番号を入力してください"</string>
+    <string name="egls_agp_sys_tip_22">"正しくメールアドレスを入力してください"</string>
+    <string name="egls_agp_sys_tip_23">"登録携帯番号を入力してください"</string>
+    <string name="egls_agp_sys_tip_24">"登録メールアドレスを入力してください"</string>
+    <string name="egls_agp_sys_tip_25">"関連付け用携帯番号を入力してください"</string>
+    <string name="egls_agp_sys_tip_26">"関連付け用メールアドレスを入力してください"</string>
+    <string name="egls_agp_sys_tip_27">"「利用規約」を閲覧のうえご同意ください"</string>
+    <string name="egls_agp_sys_tip_28">"アカウント登録成功"</string>
+    <string name="egls_agp_sys_tip_29">"関連付け成功"</string>
+    <string name="egls_agp_sys_tip_30">"選択したEGLSアカウントはすでに関連付けられます。"</string>
+    <string name="egls_agp_sys_tip_31">"選択したGoogleアカウントはすでに関連付けられます。"</string>
+    <string name="egls_agp_sys_tip_32">"選択したFacebookアカウントはすでに関連付けられます。"</string>
+    <string name="egls_agp_sys_tip_33">"入力されたEGLSアカウントはすでに登録されています。直接ログインして下さい。"</string>
+    <string name="egls_agp_sys_tip_34">"（"</string>
+    <string name="egls_agp_sys_tip_35">"s）を待つ"</string>
+    <string name="egls_agp_sys_tip_36">"関連付けられたアカウントはチャージとユーザーセンターの機能を利用できます。アカウントを安全に保つために、関連付けてください。"</string>
+    <string name="egls_agp_sys_tip_37">""</string>
+    <string name="egls_agp_sys_tip_38">"初期化中、少々お待ちください"</string>
+    <string name="egls_agp_sys_tip_39">"初期化成功しました"</string>
+    <string name="egls_agp_sys_tip_40">"初期化失敗しました"</string>
+    <string name="egls_agp_sys_tip_41">"サービス開始"</string>
+    <string name="egls_agp_sys_tip_42">"データ発信"</string>
+    <string name="egls_agp_sys_tip_43">"データ処理中、少々お待ちください"</string>
+    <string name="egls_agp_sys_tip_44">"選択したプリペイドカードは現在のチャージ金額を支持しない"</string>
+    <string name="egls_agp_sys_tip_45">"支払データエラー"</string>
+    <string name="egls_agp_sys_tip_46">"プリペイドカード番号を入力してください"</string>
+    <string name="egls_agp_sys_tip_47">"プリペイドカードパスワードを入力してください"</string>
+    <string name="egls_agp_sys_tip_48">"今回のチャージ金額："</string>
+    <string name="egls_agp_sys_tip_49">"古いパスワードを入力してください"</string>
+    <string name="egls_agp_sys_tip_50">"新しいパスワードを入力してください"</string>
+    <string name="egls_agp_sys_tip_51">"パスワードを確認"</string>
+    <string name="egls_agp_sys_tip_52">"新しいパスワードを確認"</string>
+    <string name="egls_agp_sys_tip_53">"パスワード変更が成功しました、再度ログインしてください"</string>
+    <string name="egls_agp_sys_tip_54">"二度入力されたパスワードが一致しない"</string>
+    <string name="egls_agp_sys_tip_55">"古いパスワードが正しくありません、もう一度入力してください"</string>
+    <string name="egls_agp_sys_tip_56">"二度入力された新しいパスワードが一致しない"</string>
+    <string name="egls_agp_sys_tip_57">"パスワード変更は成功しました"</string>
+    <string name="egls_agp_sys_tip_58">"勘定情報取得成功"</string>
+    <string name="egls_agp_sys_tip_59">"チャージ履歴なし"</string>
+    <string name="egls_agp_sys_tip_60">"選択したWeChatアカウントはすでに関連付けられます。"</string>
+    <!-- tip end -->
+
+
+    <!-- Public begin -->
+    <string name="egls_agp_line">" - "</string>
+    <string name="egls_agp_text_guest">"ゲスト"</string>
+    <string name="egls_agp_text_egls">"EGLS"</string>
+    <string name="egls_agp_text_wechat">"WeChat"</string>
+    <string name="egls_agp_text_google">"Google"</string>
+    <string name="egls_agp_text_facebook">"Facebook"</string>
+    <string name="egls_agp_text_alipay">"Alipay"</string>
+    <string name="egls_agp_text_chinamobile">"China Mobile"</string>
+    <string name="egls_agp_text_chinaunicom">"China Unicom"</string>
+    <string name="egls_agp_text_chinatelecom">"China Telecom"</string>
+    <string name="egls_agp_text_jcard">"JCard"</string>
+    <string name="egls_agp_text_finish">"完成"</string>
+    <string name="egls_agp_text_end">"終了"</string>
+    <string name="egls_agp_text_operation_finish">"操作完成"</string>
+    <string name="egls_agp_text_mission">"任务"</string>
+    <string name="egls_agp_text_recommend">"推荐"</string>
+    <string name="egls_agp_text_unbind">"関連付けない"</string>
+    <!-- Public end -->
+
+</resources>
