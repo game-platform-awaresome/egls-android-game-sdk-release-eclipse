@@ -17,10 +17,10 @@
 如上图所示：假设Demo为SDK对接完毕的安卓游戏工程，那么Demo引入“egls-agp-sdk-release”（以下简称AGP）；而AGP引入“egls-ags-sdk-release”（以下简称为AGS）；而AGS要引入“google-android-gms-sdk-release-11.0.1”。
 #### 3.2 AGP lib 选择
 针对于在港台地区发行的游戏，我们只需要如下图红框所示的lib文件：<br/>
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3TW/blob/master/res/S4TW001.png)
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/tw/S4TW001.png)
 #### 3.3 AGS lib 选择
 针对于在港台地区发行的游戏，我们只需要如下图红框所示的lib文件：<br/>
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3TW/blob/master/res/S4TW002.png)<br/>
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/tw/S4TW002.png)<br/>
 MyCardPaySDK.jar -> 用于Mycard支付;<br/>
 clientsdk_product_v2.jar -> 用于Gash支付。<br/>
 #### 3.4 关于Unity的SDK接入
