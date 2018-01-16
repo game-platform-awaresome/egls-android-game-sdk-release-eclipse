@@ -655,10 +655,10 @@ String contentText = "文本内容";// 文本内容
 String contentImage = "分享图像文件地址";//分享本地图像文件的绝对地址
 String contentUrl = null; //分享的链接url
 Bundle shareBundle = new Bundle();
-shareBundle.putString(AGPConstants.KEY_CONTENT_TITLE, contentTitle);
-shareBundle.putString(AGPConstants.KEY_CONTENT_TEXT, contentText);
-shareBundle.putString(AGPConstants.KEY_CONTENT_IMAGE, contentImage);
-shareBundle.putString(AGPConstants.KEY_CONTENT_URL, contentUrl);
+shareBundle.putString(Key.CONTENT_TITLE, contentTitle);
+shareBundle.putString(Key.CONTENT_TEXT, contentText);
+shareBundle.putString(Key.CONTENT_IMAGE, contentImage);
+shareBundle.putString(Key.CONTENT_URL, contentUrl);
 AGPManager.shareInKR(true, true, shareBundle);
 ```
 ### 11. IGAW数据统计（必接）
