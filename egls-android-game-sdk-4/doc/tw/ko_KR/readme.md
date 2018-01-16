@@ -711,10 +711,10 @@ String contentText = "텍스트내용";// 텍스트내용
 String contentImage = "공유이미지";// 공유 이미지 파일의주소
 String contentUrl = null; //공유링크url
 Bundle shareBundle = new Bundle();
-shareBundle.putString(AGPConstants.KEY_CONTENT_TITLE, contentTitle);
-shareBundle.putString(AGPConstants.KEY_CONTENT_TEXT, contentText);
-shareBundle.putString(AGPConstants.KEY_CONTENT_IMAGE, contentImage);
-shareBundle.putString(AGPConstants.KEY_CONTENT_URL, contentUrl);
+shareBundle.putString(Key.ONTENT_TITLE, contentTitle);
+shareBundle.putString(Key.CONTENT_TEXT, contentText);
+shareBundle.putString(Key.CONTENT_IMAGE, contentImage);
+shareBundle.putString(Key.CONTENT_URL, contentUrl);
 AGPManager.shareInTW(true, true, shareBundle);
 ```
 ### 11. 其他注意事项
