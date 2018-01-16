@@ -663,7 +663,7 @@ AGPManager.shareInKR(true, true, shareBundle);
 ```
 ### 11. IGAW数据统计（必接）
 IGAW主要用于韩服地区发行的游戏的数据统计，启用该功能的做法，首先要按照上面所提到的，在AndroidManifest.xml文件中打开对应的配置。对于IGAW统计功能的相关接口调用，其相关初始化部分的逻辑已经嵌入进SDK当中，因此开发者无需关心较为复杂的初始化步骤，只需根据需求，调用对应的接口即可。
-![image](https://github.com/sonicdjgh/EGLS-Android-Game-SDK-S3KR/blob/master/res/S3KR100.png)<br/>
+![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/S3KR100.png)<br/>
 #### 11.1 eventIgawSplashImage()（根据情况接入）
     如果游戏有闪屏动画（或首次启动的游戏动画），请在开始播放动画时调用该方法
 #### 11.2 eventIgawCharacterSelect()（必接）
