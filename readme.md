@@ -1,4 +1,6 @@
 # egls-android-game-sdk-release-eclipse
+### Version: 4.1.4
+修复Facebook分享异常问题。<br /><br />
 ### Version: 4.1.3
 修复IgawHelper类中的接口被误混淆的问题。<br /><br />
 ### Version: 4.1.2
