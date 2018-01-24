@@ -1,7 +1,7 @@
 # egls-android-game-sdk-release-eclipse
 ### Version: 4.1.5
 1. 修改权限弹窗提示功能，即：在首次运行时，当targetSdkVersion>=23且deviceSdkVersion>=23时，才会弹出；
-2. 添加“AGPManager.addPermissionContgent()”接口；
+2. 添加“AGPManager.addPermissionContent()”接口；
 3. 修复台湾发行区游戏在支付时引起的缺失jar异常；
 4. 修改sdk的后台服务设置。<br /><br />
 ### Version: 4.1.4
