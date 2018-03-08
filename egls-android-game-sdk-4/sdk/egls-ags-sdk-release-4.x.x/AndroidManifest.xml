@@ -95,8 +95,6 @@
             android:screenOrientation="landscape"
             android:theme="@style/AGSTheme.Translucent.NoTitleBar.Fullscreen.NoAnimation" >
         </activity>
-        <activity android:name="com.android.browser.BrowserActivity" >
-        </activity>
 
         <!-- Google begin -->
         <!-- 替换“MY_PUBLIC_KEY”字样为Google Play后台配置的publicKey -->
