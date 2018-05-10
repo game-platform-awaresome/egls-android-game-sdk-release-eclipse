@@ -1,16 +1,16 @@
-# EGLS-Android-Game-SDK-TW-4.X.X(Client-zhCN)
+# EGLS-Android-Game-SDK-CN-4.X.X(Client-zhCN)
 ### 1. 简介
-欢迎使用 EGLS Android Game SDK，这篇SDK对接文档说明适用于在**港台**地区发行的游戏。<br/><br/>
+欢迎使用 EGLS Android Game SDK，这篇SDK对接文档说明适用于在**中国大陆**地区发行的游戏。<br/><br/>
 注：从4.x.x版本起，我们采用了新的账号体系，所以并不兼容旧版（即同一个账号在登录后返回的uid与3.x.x版本的不一致）。如果您的游戏曾经接过旧版本的SDK，并且将要使用4.x.x版本的SDK时，请配合我们做游戏的强更及其他必要的更新操作（详情请咨询我方运营）。
 ### 2. 所需参数
-#### 2.1 eglsAppId
-由我方给游戏分配的应用id，一个游戏对应一个。
-#### 2.2 CHANNEL_GOOGLE_PUBLIC_KEY
-在Goole Play后台生成的支付公钥。
-#### 2.3 CHANNEL_SERVER_CLIENT_ID
-在Google API后台“OAuth 2.0 客户端 ID”配置的列表中，关于“Web Client”项对应的“Client ID”参数值。
-#### 2.4 com.facebook.sdk.ApplicationId
-在Facebook后台生成的应用id。
+#### 2.1 EGLS_APP_ID
+由我方给游戏分配的应用id，一个游戏对应一个
+#### 2.2 wx_app_id
+在微信平台上分配的应用标识，用于微信登录及分享
+#### 2.3 wx_secret
+在微信平台上分配的秘钥，用于获取微信用户昵称
+#### 2.4 alipay_app_id
+在支付宝平台上分配的应用标识，用于支付宝支付
 ### 3. 环境搭建
 #### 3.1 依赖关系
 ![image](https://github.com/sonicdjgh/egls-android-game-sdk-release-eclipse/blob/master/res/tw/S4TW000.png)<br/>
@@ -48,65 +48,30 @@ minSdkVersion = 14，targetSdkVersion >= 23
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
-<!-- AppsFlyer begin -->
-<!-- AppsFlyer为港台地区所使用的内嵌统计功能 -->
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<!-- 如果现在接入的安卓包是针对除Google Play以外的其他应用商店，那么此权限一定需要声明，否则要删除该权限声明 -->
-<!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
-<!-- AppsFlyer end -->
 <!-- EGLS Android Game Platform SDK end -->
 ```
 #### 4.2 AGS Permission 配置
 ```Xml
 <!-- EGLS Android Game Socialization SDK begin -->
-<!-- Google Play begin -->
-<!-- 如果使用Google Play支付功能，请打开以下配置 -->
+<!-- 微信 begin -->
+<!-- 如果使用微信登录或微信分享功能，请打开以下配置 -->
 <!--
-<uses-permission android:name="com.android.vending.BILLING" />
-<uses-feature
-    android:name="android.hardware.camera"
-    android:required="false" />
-<uses-feature
-    android:name="android.hardware.camera.autofocus"
-    android:required="false" />
-<uses-feature
-    android:name="android.hardware.telephony"
-    android:required="false" />
-<uses-feature
-    android:name="android.hardware.microphone"
-    android:required="false" />
--->
-<!-- Google Play end -->
-
-
-<!-- FaceBook begin -->
 <uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<!-- FaceBook end -->
-
-
-<!-- Mycard begin -->
-<!-- 如果使用Mycard支付，请打开以下配置 -->
-<!--
-<uses-permission android:name="android.permission.CAMERA" />
-<uses-permission android:name="android.permission.VIBRATE" />
-<uses-permission android:name="android.permission.FLASHLIGHT" />
-<uses-permission android:name="android.permission.READ_PHONE_STATE" />
-<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-<uses-permission android:name="android.permission.READ_LOGS" />
-<uses-feature android:name="android.hardware.camera" />
-<uses-feature android:name="android.hardware.camera.autofocus" />
 -->
-<!-- Mycard end -->
+<!-- 微信 end -->
+
+
+<!-- 支付宝 begin -->
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<!-- 支付宝 end -->
 <!-- EGLS Android Game Socialization SDK end -->
 ```
 请注意：以上 Permission 配置中只打开了SDK基础功能相关的配置，如果使用到其他功能，请打开对应的 Permission 配置！
@@ -128,20 +93,6 @@ minSdkVersion = 14，targetSdkVersion >= 23
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
-        <!-- DeepLink begin -->
-        <!-- DeepLink配置为台湾地区LINE积分墙功能所使用 -->
-        <!-- 替换“MY_PACKAGE_NAME”字样为正式包名 -->
-        <intent-filter>
-            <data
-                android:host="MY_PACKAGE_NAME"
-                android:scheme="egls" />
-
-            <action android:name="android.intent.action.VIEW" />
-
-            <category android:name="android.intent.category.DEFAULT" />
-            <category android:name="android.intent.category.BROWSABLE" />
-        </intent-filter>
-        <!-- DeepLink end -->
     </activity>
         
     <!-- EGLS Android Game Platform SDK begin -->
@@ -294,39 +245,47 @@ minSdkVersion = 14，targetSdkVersion >= 23
     	
     <service android:name="com.egls.platform.backend.AGPNetworkCommunicationService" >
     </service>	
-
-    <!-- AppsFlyer begin -->
-    <!-- AppsFlyer为港台地区所使用的内嵌统计功能 -->
-    <!-- 为了确保所有Install Referrer监听器可以成功监听由系统播放的referrer参数，请一定在AndroidManifest.xml中将AppsFlyer的监听器置于所有同类监听器第一位，并保证receiver tag在application tag中 -->
-    <receiver
-        android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
-        android:exported="true" >
-        <intent-filter>
-            <action android:name="com.android.vending.INSTALL_REFERRER" />
-        </intent-filter>
-    </receiver>
-    <!-- AppsFlyer end -->
     
     <!-- 替换"MY_APP_ID"字样为SDK初始化所需的eglsAppId -->
     <meta-data 
         android:name="EGLS_APP_ID"
         android:value="\0MY_APP_ID"/>
+	
     <!-- 替换"MY_SERVER_TYPE"字样为对应的服务类别码，详见"附表 - serverType" -->
     <meta-data 
         android:name="EGLS_SERVER_TYPE"
         android:value="MY_SERVER_TYPE"/>
+	
     <!-- 替换"MY_PAY_CHANNEL"字样为对应的支付渠道码，详见"附表 - payChannel" -->
     <meta-data 
         android:name="EGLS_PAY_CHANNEL"
         android:value="MY_PAY_CHANNEL"/>
+	
     <!-- 当没有特殊要求时，“EGLS_PAY_IS_SANDBOX”的参数值为"false"即可 -->	
     <meta-data 
         android:name="EGLS_PAY_IS_SANDBOX"
         android:value="false"/>
+	
     <!-- 当没有特殊要求时，“EGLS_PAY_OTHER_PARAM”的参数值为""即可 -->
     <meta-data 
         android:name="EGLS_PAY_OTHER_PARAM"
         android:value=""/>
+	
+    <!-- 如果使用微信登录或微信分享功能，请打开以下配置 -->	
+    <!-- 替换“MY_WX_APP_ID”字样为微信平台上分配的应用标识 -->
+    <!--	
+    <meta-data
+        android:name="wx_app_id"
+        android:value="MY_WX_APP_ID" />
+    -->
+	
+    <!-- 如果使用微信登录或微信分享功能，请打开以下配置 -->	
+    <!-- 替换“MY_WX_SECRET”字样为微信平台上分配的秘钥 -->
+    <!--	
+    <meta-data
+        android:name="wx_secret"
+        android:value="MY_WX_SECRET" />
+    ->
     <!-- EGLS Android Game Platform SDK end -->
 
 
@@ -339,246 +298,25 @@ minSdkVersion = 14，targetSdkVersion >= 23
     <activity android:name="com.android.browser.BrowserActivity" >
     </activity>
 
-    <!-- Google SignIn begin -->
-    <!-- 替换“MY_SERVER_CLIENT_ID”字样为在Google API后台“OAuth 2.0 客户端 ID”配置的列表中，关于“Web Client”项对应的“Client ID”参数值 -->
+    <!-- 微信 begin -->
+    <!-- 如果使用微信登录或微信分享功能，请打开以下配置 -->
+    <!-- 替换“MY_WX_APP_ID”字样为游戏的正式包名 -->	
+    <!--	
     <activity
-        android:name="com.egls.socialization.google.signin.GoogleSignInActivity"
-        android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
-        android:screenOrientation="landscape"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-    <activity
-        android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-        android:excludeFromRecents="true"
-        android:exported="false"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-    <activity
-        android:name="com.google.android.gms.common.api.GoogleApiActivity"
-        android:exported="false"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-    <meta-data
-        android:name="com.google.android.gms.version"
-        android:value="@integer/google_play_services_version" />
-        
-    <meta-data 
-        android:name="CHANNEL_SERVER_CLIENT_ID"
-        android:value="MY_SERVER_CLIENT_ID"/>
-    <!-- Google SignIn end -->
-	
-	
-    <!-- Google Play Game begin -->
-    <!-- 如果使用Google Play Game成就功能，请打开以下配置 -->
-    <!-- 替换“MY_GAMES_APP_ID”字样为"MY_SERVER_CLIENT_ID"的第一处"-"左边的纯数字部分 -->
-    <!--
-    <meta-data
-        android:name="com.google.android.gms.games.APP_ID"
-        android:value="\0MY_GAMES_APP_ID" />
-    -->
-    <!-- Google Play Game end -->
-
-
-    <!-- Google Play begin -->
-    <!-- 如果使用Google Play支付功能，请打开以下配置 -->
-    <!-- 替换“MY_PUBLIC_KEY”字样为Google Play后台配置的publicKey -->
-    <!-- 4.1.0版本以前name属性为“com.egls.socialization.google.play.BillingActivity” -->
-    <!--
-    <activity
-        android:name="com.egls.socialization.google.play.GooglePlayActivity"
-        android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
-        android:screenOrientation="landscape"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-    <meta-data
-        android:name="CHANNEL_GOOGLE_PUBLIC_KEY"
-        android:value="MY_PUBLIC_KEY" />
-    -->
-    <!-- Google Play end -->
-    
-
-    <!-- Facebook begin -->
-    <!-- 替换“MY_APPLICATION_ID”字样为Facebook后台配置的applicationId -->
-    <activity
-        android:name="com.egls.socialization.facebook.FacebookSignInActivity"
-        android:configChanges="fontScale|orientation|keyboardHidden|locale|navigation|screenSize|uiMode"
-        android:screenOrientation="landscape"
-        android:theme="@android:style/Theme.NoTitleBar" >
-    </activity>
-    <activity
-        android:name="com.facebook.FacebookActivity"
-        android:screenOrientation="landscape"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
-
-    <provider
-        android:name="com.facebook.FacebookContentProvider"
-        android:authorities="com.facebook.app.FacebookContentProviderMY_APPLICATION_ID"
-        android:exported="true" />
-
-    <receiver android:name="com.egls.socialization.facebook.FacebookReceiver" >
-        <intent-filter>
-            <action android:name="com.facebook.platform.AppCallResultBroadcast" />
-        </intent-filter>
-    </receiver>
-
-    <meta-data
-        android:name="com.facebook.sdk.ApplicationId"
-        android:value="\0MY_APPLICATION_ID" />
-    
-    <!--如果游戏需要开启Facebook的“USER_FRIEND”权限，请打开以下配置 --> 
-    <!--
-    <meta-data
-            android:name="CNANNEL_PERMISSION_USER_FRIEND"
-            android:value="true"/>
-    -->
-    <!-- Facebook end  -->
-
-
-    <!-- Mycard begin -->
-    <!-- 如果使用Mycard支付功能，请打开以下配置 -->
-    <!--
-    <activity
-        android:name="soft_world.mycard.paymentapp.ui.SplashActivity"
-        android:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="soft_world.mycard.paymentapp.ui.MainActivity"
-        android:screenOrientation="portrait"
-        android:windowSoftInputMode="adjustPan" >
-    </activity>
-    <activity
-        android:name="soft_world.mycard.paymentapp.ui.TrainActivity"
-        android:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="com.google.zxing.CaptureActivity"
-        android:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="tw.com.mycard.paymentsdk.PSDKActivity"
-        android:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="soft_world.mycard.paymentapp.ui.billing.BillingWebViewActivity"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Dialog" >
-    </activity>
-    <activity
-        android:name="soft_world.mycard.paymentapp.Ecom.ATMMenuActivity"
-        ndroid:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="com.xmobilepay.xpaymentlibs.XCardTypeForm"
-        android:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="com.xmobilepay.xpaymentlibs.PaymentErrResultForm"
-        android:screenOrientation="portrait" >
-    </activity>
-    <activity
-        android:name="com.fet.iap.activity.FetLoginActivity"
-        android:configChanges="keyboardHidden|orientation|screenSize"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar"
-        android:windowSoftInputMode="adjustPan" >
-    </activity>
-    <activity android:name="com.cht.iap.api.ChtRegMainActivity" />
-    <activity android:name="com.cht.iap.api.ChtPhoneNumPayConfirmActivity" />
-    <activity android:name="com.cht.iap.api.ChtRegEInvoiceInfo" />
-    <activity android:name="com.cht.iap.api.ChtRegVerifyOTP" />
-    <activity android:name="com.cht.iap.api.ChtRegHNDataTabActivity" />
-    <activity android:name="com.cht.iap.api.ChtRegHNAccountActivity" />
-    <activity android:name="com.cht.iap.api.ChtRegMobileAuth" />
-    <activity android:name="com.cht.iap.api.ChtRegMobileHNData" />
-    <activity android:name="com.cht.iap.api.ChtTransactionAuth" />
-    <activity android:name="com.cht.iap.api.ChtRegVerifyMessage" />
-    <activity
-        android:name="com.softmobile.ui.PayPageActivity"
-        android:configChanges="orientation"
-        android:screenOrientation="portrait" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.TokenPayTypeCheckUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.CardTypeCheckUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-         android:name="com.payeasenet.token.lib.ui.TokenCreateUI"
-         android:screenOrientation="portrait"
-         android:theme="@android:style/Theme.Light.NoTitleBar" >
-    </activity>
-    <activity
-        android:name="com.payeasenet.token.lib.ui.TokenCreateResultUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.TokenPayUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEPayRelUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.TokenIntroductionUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" >
-    </activity>
-    <activity
-        android:name="com.payeasenet.token.lib.ui.TokenUnBindedUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" >
-    </activity>
-    <activity
-        android:name="com.payeasenet.token.lib.ui.MoreAboutUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEQuickPayUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEUpmpPayUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEVisaPayUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEVisaInfoUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEVisaBillInfoUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEDebitBillInfoUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEQuickInfoUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    <activity
-        android:name="com.payeasenet.token.lib.ui.PEUpmpInfoUI"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Light.NoTitleBar" />
-    -->
-    <!-- Mycard end -->
-    
-    
-    <!-- Gash begin -->
-    <!-- 如果使用Gash支付功能，请打开以下配置 -->
-    <!--
-    <activity
-        android:name="com.gashpoint.gpclientsdk.SdkActivity"
-	android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+        android:name="MY_PACKAGE_NAME.wxapi.WXEntryActivity"
         android:exported="true"
-        android:screenOrientation="portrait"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+        android:screenOrientation="portrait" >
     -->
-    <!-- Gash end -->
+    </activity>
+    <!-- 微信 end -->
+	
+
+    <!-- 支付宝 begin -->
+    <activity
+        android:name="com.alipay.sdk.app.H5PayActivity"
+        android:screenOrientation="portrait" >
+    </activity>
+    <!-- 支付宝 end -->
     <!-- EGLS Android Game Socialization SDK end -->
 </application>
 ```
@@ -610,9 +348,7 @@ protected void onNewIntent(Intent intent) {
 	
 @Override
 public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-    if (Build.VERSION.SDK_INT >= 23) {
-	super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-    }
+    super.onRequestPermissionsResult(requestCode, permissions, grantResults);
     AGPManager.onRequestPermissionsResult(this, requestCode, permissions, grantResults);
 }
 	
@@ -719,7 +455,18 @@ shareBundle.putString(Key.CONTENT_IMAGE, contentImage);
 shareBundle.putString(Key.CONTENT_URL, contentUrl);
 AGPManager.shareInTW(true, true, shareBundle);
 ```
-### 11. 其他注意事项
+### 11. 关于微信功能的使用
+SDK集成了“微信登录”功能及“微信分享”功能，除了添加相关的AndroidManifest.xml文件配置之外，还需要在项目工程中添加一个以“正式包名.wxapi”的package（以Demo为例，则添加的package为“com.egls.demo.wxapi”），并且在该package中添加一个名为“WXEntryActivity”的Activity类，这个类必须继承SDK中的“com.egls.socialization.wechat.WeChatEntryActivity”类，例如：
+```java
+package 正式包名.wxapi;
+
+import com.egls.socialization.wechat.WeChatEntryActivity;
+
+public class WXEntryActivity extends WeChatEntryActivity {
+
+}
+```
+### 12. 其他注意事项
 1. 凡是游戏项目工程为Android Studio工程，并且在Gradle里配置了productFlavor来控制打包流程的，请务必在调用“AGPManager.initSDK()”接口前，写上如下逻辑代码：
 ```Java
 AGPManager.addFlavorsBasePackage(BuildConfig.class.getPackage().getName());
