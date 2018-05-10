@@ -402,8 +402,7 @@ AGPManager.eglsLogin(isOpenAutoLogin, new AGPLoginProcessListener() {
 	// 登录结果回调，只有当code=0时，示为登录成功
 	// msg = "0"时，表示游客账号登录
 	// msg = "1"时，表示EGLS账号登录
-	// msg = "2"时，表示Google账号登录
-	// msg = "3"时，表示Facebook账号登录
+	// msg = "4"时，表示微信账号登录
     }
 
     @Override
