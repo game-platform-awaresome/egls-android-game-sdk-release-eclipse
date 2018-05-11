@@ -316,6 +316,11 @@ minSdkVersion = 14，targetSdkVersion >= 23
         android:name="com.alipay.sdk.app.H5PayActivity"
         android:screenOrientation="portrait" >
     </activity>
+
+    <!-- 替换“MY_ALIPAY_APP_ID”字样为支付宝平台上分配的应用标识 -->
+    <meta-data
+        android:name="alipay_app_id"
+        android:value="MY_ALIPAY_APP_ID" />
     <!-- 支付宝 end -->
     <!-- EGLS Android Game Socialization SDK end -->
 </application>
