@@ -228,9 +228,9 @@
     <string name="egls_agp_permission_active">"This permission is enabled."</string>
     <string name="egls_agp_permission_nolonger">"If you are going to use this function, you need to enable the related permission in the App Permission Management."</string>
     <string name="egls_agp_permission_nolonger_exit">"The required permission is not enabled, that makes the game is shutting down. You need to enable the related permission in the App Permission Management to make the game works properly."</string>
-    <string name="egls_agp_permission_warning_getaccounts">"The related permission is not enabled, that makes you can not login with Google account. Are you sure you don't want to enable this permission? (click "Cancel" to proceed, click "Ok" to abandon.)"</string>
+    <string name="egls_agp_permission_warning_getaccounts">"The related permission is not enabled, that makes you can not login with Google account. Are you sure you don't want to enable this permission? (click "Cancel" to proceed, click "OK" to abandon.)"</string>
     <string name="egls_agp_permission_request_getaccounts">""</string>
-    <string name="egls_agp_permission_warning_systemalertwindow">"The related permission is not enabled, that makes the function "Suspended Window" is not available. That will not affect you playing normally, you can also reenable the permission later. Are you sure you don't want to enable this permission? (click "Cancel" to proceed, click "Ok" to abandon.)"</string>
+    <string name="egls_agp_permission_warning_systemalertwindow">"The related permission is not enabled, that makes the function "Suspended Window" is not available. That will not affect you playing normally, you can also reenable the permission later. Are you sure you don't want to enable this permission? (click "Cancel" to proceed, click "OK" to abandon.)"</string>
     <string name="egls_agp_permission_request_systemalertwindow">""Suspended Window" requires related permission, are you sure you want to enable this permission?"</string>
     <string name="egls_agp_permission_warning_writeexternalstorage">"You have not activated necessary permissions yet, which may cause the game not to initialize properly. Please apply for permissions or close the game."</string>
     <string name="egls_agp_permission_request_writeexternalstorage">""</string>
@@ -306,6 +306,7 @@
     <string name="egls_agp_sys_tip_58">"Billing info achieved"</string>
     <string name="egls_agp_sys_tip_59">"No result"</string>
     <string name="egls_agp_sys_tip_60">"This WeChat account has been used to bind, please login directly, or try another one"</string>
+    <string name="egls_agp_sys_tip_61">"Hello, "</string>
     <!-- tip end -->
 
 

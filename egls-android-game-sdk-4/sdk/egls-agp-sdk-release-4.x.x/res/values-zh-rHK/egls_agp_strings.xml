@@ -306,6 +306,11 @@
     <string name="egls_agp_sys_tip_58">"帳單資訊獲取成功"</string>
     <string name="egls_agp_sys_tip_59">"暫無儲值記錄"</string>
     <string name="egls_agp_sys_tip_60">"您選擇的微信帳號已被綁定，請直接使用該帳號登入，或使用其他帳號進行綁定。"</string>
+    <string name="egls_agp_sys_tip_61">"歡迎回來，"</string>
+    <string name="egls_agp_sys_tip_62">"請輸入您的姓名"</string>
+    <string name="egls_agp_sys_tip_63">"請輸入您的身份證號"</string>
+    <string name="egls_agp_sys_tip_64">"您的姓名格式不正確"</string>
+    <string name="egls_agp_sys_tip_65">"您的身份證號不合法"</string>
     <!-- tip end -->
 
 

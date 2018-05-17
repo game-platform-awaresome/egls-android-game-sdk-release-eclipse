@@ -306,6 +306,11 @@
     <string name="egls_agp_sys_tip_58">"账单信息获取成功"</string>
     <string name="egls_agp_sys_tip_59">"暂无充值记录"</string>
     <string name="egls_agp_sys_tip_60">"您选择的WeChat账号已被绑定，请直接使用该账号登录，或使用其他账号进行绑定。"</string>
+    <string name="egls_agp_sys_tip_61">"欢迎回来，"</string>
+    <string name="egls_agp_sys_tip_62">"请输入您的姓名"</string>
+    <string name="egls_agp_sys_tip_63">"请输入您的身份证号"</string>
+    <string name="egls_agp_sys_tip_64">"您的姓名格式不正确"</string>
+    <string name="egls_agp_sys_tip_65">"您的身份证号不合法"</string>
     <!-- tip end -->
 
 
